@@ -1,0 +1,12 @@
+{
+  "Name": "Farm Extended",
+  "Author": "Forkmaster",
+  "Version": "1.1.1",
+  "Description": "Standardmap replacement",
+  "UniqueID": "Forkmaster.ExtendedFarm",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ "Nexus:3496" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
