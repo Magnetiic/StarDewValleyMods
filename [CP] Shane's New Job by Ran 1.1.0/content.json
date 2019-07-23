@@ -1,0 +1,92 @@
+{
+    "Format": "1.4",
+	"Changes": [
+		{ //ani sprite
+        "Action": "EditImage",
+        "Target": "characters/shane",
+        "FromFile": "assets/ShaneExtraAni.png",
+		"FromArea": {"X":0, "Y":0, "Width":64, "Height":64, },
+		"ToArea": {"X":0, "Y":288, "Width":64, "Height":64, },
+		"Patchmode": "replace"
+		},
+				
+		{ //sched
+        "Action": "EditData",
+        "Target": "characters/schedules/shane",
+		"Entries": {
+			"default": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 Saloon 17 17 0/1330 Saloon 13 17 0/1400 Saloon 15 17 0/1500 Saloon 17 17 0/1600 Saloon 9 18 2 shane_bar/1730 Saloon 35 7 1 shane_stock/1930 Saloon 33 6 0/2000 Saloon 9 18 2 shane_bar/2300 AnimalShop 27 4 1"
+			}
+		},
+
+		{ //ani desc
+        "Action": "EditData",
+        "Target": "data/animationdescriptions",
+		"Entries": {
+			"shane_stock": "36/36 36 36 37 37 37 37 36 36 36 36 37 37 37 37 36 36 36 36 37 37 37 37 40 40 40 40 41 41 41 41 40 40 40 40 41 41 41 41 40 40 40 40 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 42 43 43 43 43 43 43 43 43 42 42 42 42 42 42 42 42 37 37 37/37/Strings\\animationDescriptions:shane_stock",
+			"shane_bar": "0/0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 20 38 38 38 39 39 39 38 38 38 39 39 39 38 38 38 20 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0/0/Strings\\animationDescriptions:shane_bar"
+			}
+		},
+		
+		{ //ani string
+        "Action": "EditData",
+        "Target": "strings/animationdescriptions",
+        "Entries": {
+			"shane_stock": "Hey, I'm kinda busy right now.",
+			"shane_bar": "Got an order?"
+			}
+		},
+		{ //chinese
+        "Action": "EditData",
+        "Target": "strings/animationdescriptions.zh-CN",
+        "Entries": {
+			"shane_stock": "嘿，我现在有点忙。",
+			"shane_bar": "需要点单吗？"
+			}
+		},
+		{ //spanish
+		"Action": "EditData",
+        "Target": "strings/animationdescriptions.es-ES",
+        "Entries": {
+			"shane_stock": "Estoy algo ocupado en estos momentos.",
+			"shane_bar": "¿Listo para ordenar?"
+			}
+		},
+		
+		{ //dialogue
+		"Action": "EditData",
+		"Target": "characters/dialogue/shane",
+		"Entries": {
+			"Wed4": "Since JojaMart shut down, I was headed for unemployment but Gus offered to hire me. Things are looking up for once.",
+			"Fri4": "Working at the saloon's alright. I'm able to pay rent and work's actually fun... Well, sort of.#$e#Still, guess I'm pretty lucky.$6"
+			},
+		"When": {
+			"HasSeenEvent": "191393",
+			"Relationship:Shane": "Friendly,Dating,Engaged,Divorced",
+			}
+		},
+		{ //chinese
+		"Action": "EditData",
+		"Target": "characters/dialogue/shane.zh-CN",
+		"Entries": {
+			"Wed4": "JOJA超市停业后，我曾面临失业，不过格斯拯救了我，给了我一份工作。一切都在变得更好。",
+			"Fri4": "在餐吧工作是一个正确的决定。我有能力支付自己的房租，并且这份工作实际上也很有趣... 好吧，从某种程度上来说。#$e#我猜我还是挺幸运的。$6"
+			},
+		"When": {
+			"HasSeenEvent": "191393",
+			"Relationship:Shane": "Friendly,Dating,Engaged,Divorced",
+			}
+		},
+		{ //spanish
+		"Action": "EditData",
+		"Target": "characters/dialogue/shane.es-ES",
+		"Entries": {
+			"Wed4": "Cuando JojaMart cerró, iba a quedar desempleado, pero Gus me ofreció un puesto aquí. Para variar, parece que las cosas van a ir bien.",
+			"Fri4": "Trabajar en la cantina no está mal. Puedo pagar la renta y el trabajo de hecho es divertido... Bueno, algo así.#$e#De todos modos, supongo que he tenido bastante suerte.$6"
+			},
+		"When": {
+			"HasSeenEvent": "191393",
+			"Relationship:Shane": "Friendly,Dating,Engaged,Divorced",
+			}
+		}
+    ]
+}

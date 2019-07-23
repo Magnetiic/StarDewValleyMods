@@ -1,0 +1,12 @@
+{
+   "Name": "Shane's New Job by Ran",
+   "Author": "Ran",
+   "Version": "1.1.0",
+   "Description": "Give Shane a new job after Joja",
+   "UniqueID": "Ran.ShanesNewJob",
+   "MinimumApiVersion": "2.7",
+   "UpdateKeys": ["Nexus:2894"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

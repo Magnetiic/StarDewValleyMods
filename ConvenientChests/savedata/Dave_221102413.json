@@ -1,0 +1,68 @@
+{
+  "Version": "1.1",
+  "ChestEntries": [
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "3, 4"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "2, 10"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "1, 8"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "61, 15"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin772957b8-e5f5-4c13-8344-cb9197f36213",
+        "Tile": "7, 4"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin772957b8-e5f5-4c13-8344-cb9197f36213",
+        "Tile": "1, 8"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin772957b8-e5f5-4c13-8344-cb9197f36213",
+        "Tile": "2, 8"
+      },
+      "AcceptedItems": {}
+    }
+  ]
+}

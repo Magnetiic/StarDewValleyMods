@@ -1,0 +1,12 @@
+{
+  "RefuelingEnabled": false,
+  "AlternateDesertMinecart": true,
+  "AlternateFarmMinecart": true,
+  "FarmDestinationEnabled": true,
+  "DesertDestinationEnabled": true,
+  "WoodsDestinationEnabled": true,
+  "BeachDestinationEnabled": true,
+  "WizardDestinationEnabled": true,
+  "UseCustomFarmDestination": true,
+  "CustomFarmDestinationPoint": "78, 9"
+}

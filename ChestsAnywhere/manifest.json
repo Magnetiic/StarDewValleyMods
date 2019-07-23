@@ -1,0 +1,10 @@
+{
+    "Name": "Chests Anywhere",
+    "Author": "Pathoschild",
+    "Version": "1.16.1",
+    "MinimumApiVersion": "2.11.1",
+    "Description": "Access your chests from anywhere and organise them your way.",
+    "UniqueID": "Pathoschild.ChestsAnywhere",
+    "EntryDll": "ChestsAnywhere.dll",
+    "UpdateKeys": [ "Nexus:518" ]
+}

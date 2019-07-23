@@ -1,0 +1,36 @@
+SHANE'S NEW JOB by Ran
+https://www.nexusmods.com/stardewvalley/mods/2894
+
+
+Pull Shane out of unemployment after JojaMart shuts down.
+He will now work at the saloon.
+
+
+FEATURES:
+- Changes Shane’s schedule post-Joja: After seeing the community center event and saying bye to JojaMart, he will start working at the saloon instead of staying home at Marnie’s
+- New work animations
+- Removes sad jobless dialogue
+
+This only works when Shane is unmarried and Joja is gone.
+
+
+REQUIREMENTS:
+- SMAPI
+- Content Patcher
+
+
+INSTALL:
+- Install the latest version of SMAPI and Content Patcher
+- Download and unzip files
+- Place folder in “\Stardew Valley\Mods”
+- Run game with SMAPI
+
+
+CREDIT:
+http://mayorfuu.tumblr.com/
+https://www.nexusmods.com/stardewvalley/users/55710182
+Chinese translations by anonymous user
+Spanish translations by "good fren" anon
+
+Please do not reupload/redistribute
+Buy me a coffee if you like my mods! https://ko-fi.com/fuuuranz
