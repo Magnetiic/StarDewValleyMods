@@ -1,0 +1,13 @@
+{
+	"Name": "Karmylla's Immersive Maps - SVE EDITION",
+	"Author": "Karmylla & FlashShifter",
+	"Version": "2.6.6",
+	"Description": "SVE EDITION: Enjoy a more immersive SDV with more detailed maps and Dusty!",
+	"UniqueID": "Karmylla.ImmersiveMapsSVE",
+	"MinimumApiVersion": "2.5.3",
+	"UpdateKeys": [ "Nexus:1149" ],
+	"ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+    	"MinimumVersion": "1.4"
+	}
+}

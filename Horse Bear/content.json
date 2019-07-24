@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Format": "1.6",
   "Changes": [
@@ -8,4 +9,16 @@
           "FromFile": "assets/horse.png"
        }
    ]
+=======
+{
+  "Format": "1.6",
+  "Changes": [
+     
+       {
+          "Action": "Load",
+          "Target": "Animals/horse",
+          "FromFile": "assets/horse.png"
+       }
+   ]
+>>>>>>> asdfasdf
 }

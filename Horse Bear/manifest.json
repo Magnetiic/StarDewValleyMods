@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
    "Name": "HorsetoBear",
    "Author": "Jadrenaline",
@@ -8,4 +9,16 @@
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"
    }
+=======
+{
+   "Name": "HorsetoBear",
+   "Author": "Jadrenaline",
+   "Version": "1.0.0",
+   "Description": "riding Bear!",
+   "UniqueID": "Jadrenaline.horse",
+   "MinimumApiVersion": "2.6", 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+>>>>>>> asdfasdf
 }

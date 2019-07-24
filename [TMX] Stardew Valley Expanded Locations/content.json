@@ -1,0 +1,500 @@
+﻿{
+  //Custom Locations here
+  "addMaps": [
+
+    {
+      "name": "BlueMoonVineyard",
+      "file": "assets/BlueMoonVineyard.tbin"
+    },
+    {
+      "name": "TownEast",
+      "file": "assets/TownEast.tbin"
+    },
+    {
+      "name": "ForestWest",
+      "file": "assets/ForestWest.tbin"
+    },
+	 {
+      "name": "AuroraVineyard",
+      "file": "assets/AuroraVineyard.tbin"
+    },
+	   {
+      "name": "SpriteSpring",
+      "file": "assets/SpriteSpring.tbin"
+    },
+    {
+      "name": "LostWoods",
+      "file": "assets/LostWoods.tbin"
+    },
+    {
+      "name": "MarnieShed",
+      "file": "assets/MarnieShed.tbin"
+    },
+    {
+      "name": "AndyHouse",
+      "file": "assets/AndyHouse.tbin"
+    },
+    {
+      "name": "SusanHouse",
+      "file": "assets/SusanHouse.tbin"
+    },
+    {
+      "name": "JenkinsHouse",
+      "file": "assets/JenkinsHouse.tbin"
+    },
+    {
+      "name": "SophiaHouse",
+      "file": "assets/SophiaHouse.tbin"
+    },
+    {
+      "name": "SophiaCellar",
+      "file": "assets/SophiaCellar.tbin"
+    },
+    {
+      "name": "OliviaCellar",
+      "file": "assets/OliviaCellar.tbin"
+    },
+  ],
+
+  "replaceMaps": // Full vanilla map replacements 
+
+  [
+    {
+      "name": "Town", 
+      "file": "assets/Town.tbin",
+      "Conditions": "u 0"
+    },
+    {
+      "name": "Forest", 
+      "file": "assets/Forest.tbin",
+    },
+    {
+      "name": "Forest-FlowerFestival",
+      "file": "assets/Forest-FlowerFestival.tbin",
+    },
+    {
+      "name": "Forest-IceFestival", 
+      "file": "assets/Forest-IceFestival.tbin",
+    },
+    {
+      "name": "Beach", 
+      "file": "assets/Beach.tbin",
+    },
+    {
+      "name": "Beach-Luau", 
+      "file": "assets/Beach-Luau.tbin",
+    },
+    {
+      "name": "Beach-Jellies", 
+      "file": "assets/Beach-Jellies.tbin",
+    },
+    {
+      "name": "Beach-NightMarket", 
+      "file": "assets/Beach-NightMarket.tbin",
+    },
+    {
+      "name": "Backwoods", 
+      "file": "assets/Backwoods.tbin",
+    },
+    {
+      "name": "Desert", 
+      "file": "assets/Desert.tbin",
+    },
+    {
+      "name": "Mountain",
+      "file": "assets/Mountain.tbin",
+    },
+    {
+      "name": "Railroad",
+      "file": "assets/Railroad.tbin",
+    },
+    //This version has clouds -- tmx format is required for fancy stuff like this, but TMX format is better in general anyway
+    {
+      "name": "Summit",
+      "file": "assets/Summit.tmx",
+    },
+//Normal cloudless version if Routine doesn't give permission
+/*    {
+      "name": "Summit",
+      "file": "assets/Summit.tbin",
+    },*/
+    {
+      "name": "SkullCave", 
+      "file": "assets/SkullCave.tbin",
+    },
+  ],
+
+  "mergeMaps": [
+    {
+      "name": "BusStop",
+      "file": "assets/BusStop.tbin",
+      "sourceArea": [ 0, 0, 35, 24 ],
+      "position": [ 0, 0 ],
+    }
+  ],
+  "shops": [
+    {
+      "id": "Ledger",
+        "inventory": [
+          {
+              "index":348,
+              "type":"Object",
+              "Price":1000
+          },
+          {
+              "index":398,
+              "type":"Object",
+              "Price":100
+          },
+          {
+              "index":599,
+              "type":"Object",
+              "Price":1000
+          },
+          {
+              "index":621,
+              "type":"Object",
+              "Price":4000
+          },
+          {
+              "index":645,
+              "type":"Object",
+              "Price":10000
+          }
+        ],
+        "portraits":[
+          "assets/Ledger.png",
+        ],
+    },
+    {
+      "id": "GreenJunimo",
+        "inventory": [
+
+          {
+              "name":"Ancient Seeds",
+              "type":"Object",
+              "price":10000
+          },
+          {
+              "name":"Rare Seed",
+              "type":"Object",
+              "Price":1500
+          },
+          {
+              "name":"Spring Seeds",
+              "type":"Object",
+              "price":70
+          },
+          {
+              "name":"Summer Seeds",
+              "type":"Object",
+              "Price":90
+          },
+          {
+              "name":"Fall Seeds",
+              "type":"Object",
+              "price":100
+          },
+          {
+              "name":"Winter Seeds",
+              "type":"Object",
+              "Price":130
+          }
+        ],
+        "portraits":[
+          "assets/GreenJunimo.png",
+        ],
+    },
+    {
+      "id": "BlueJunimo",
+        "inventory": [
+          {
+              "name":"Legend",
+              "type":"Object",
+              "price":12000
+          },
+          {
+              "name":"Slimejack",
+              "type":"Object",
+              "Price":10000
+          },
+          {
+              "name":"Lava Eel",
+              "type":"Object",
+              "price":12000
+          },
+          {
+              "name":"Ice Pip",
+              "type":"Object",
+              "Price":6000
+          },
+          {
+              "name":"Stonefish",
+              "type":"Object",
+              "price":5000
+          },
+          {
+              "name":"Void Salmon",
+              "type":"Object",
+              "price":3000
+          }
+        ],
+        "portraits":[
+          "assets/BlueJunimo.png",
+        ],
+    },
+    {
+      "id": "RedJunimo",
+        "inventory": [
+          {
+              "index":107,
+              "type":"Object",
+              "Price":40000
+          },
+          {
+              "index":96,
+              "type":"Object",
+              "Price":4000
+          },
+          {
+              "index":97,
+              "type":"Object",
+              "Price":10000
+          },
+          {
+              "index":98,
+              "type":"Object",
+              "Price":15000
+          },
+          {
+              "index":99,
+              "type":"Object",
+              "Price":20000
+          },
+          {
+              "index":100,
+              "type":"Object",
+              "Price":5000
+          },
+          {
+              "index":101,
+              "type":"Object",
+              "Price":4000
+          },
+          {
+              "index":103,
+              "type":"Object",
+              "Price":7000
+          },
+          {
+              "index":104,
+              "type":"Object",
+              "Price":10000
+          },
+          {
+              "index":105,
+              "type":"Object",
+              "Price":2000
+          },
+          {
+              "index":106,
+              "type":"Object",
+              "Price":12000
+          },
+          {
+              "index":108,
+              "type":"Object",
+              "Price":7000
+          },
+          {
+              "index":114,
+              "type":"Object",
+              "Price":10000
+          },
+          {
+              "index":122,
+              "type":"Object",
+              "Price":12000
+          },
+          {
+              "index":124,
+              "type":"Object",
+              "Price":10000
+          },
+          {
+              "index":125,
+              "type":"Object",
+              "Price":15000
+          },
+          {
+              "index":109,
+              "type":"Object",
+              "Price":10000
+          },
+          {
+              "index":112,
+              "type":"Object",
+              "Price":15000
+          },
+          {
+              "index":111,
+              "type":"Object",
+              "Price":1000
+          },
+          {
+              "index":121,
+              "type":"Object",
+              "Price":8000
+          },
+          {
+              "index":119,
+              "type":"Object",
+              "Price":10000
+          },
+        ],
+        "portraits":[
+          "assets/RedJunimo.png",
+        ],
+    },
+    {
+      "id": "YellowJunimo",
+        "inventory": [
+          {
+              "name":"Prismatic Shard",
+              "type":"Object",
+              "price":100000
+          },
+          {
+              "name":"Diamond",
+              "type":"Object",
+              "Price":4000
+          },
+          {
+              "name":"Emerald",
+              "type":"Object",
+              "price":2000
+          },
+          {
+              "name":"Ruby",
+              "type":"Object",
+              "Price":2000
+          },
+          {
+              "name":"Aquamarine",
+              "type":"Object",
+              "price":2000
+          },
+          {
+              "name":"Topaz",
+              "type":"Object",
+              "price":1500
+          },
+          {
+              "name":"Jade",
+              "type":"Object",
+              "price":1200
+          }
+        ],
+        "portraits":[
+          "assets/YellowJunimo.png",
+        ],
+    },
+    {
+      "id": "PurpleJunimo",
+        "inventory": [
+          {
+              "name":"Stardrop",
+              "type":"Object",
+              "price":750000
+          },
+        ],
+        "portraits":[
+          "assets/PurpleJunimo.png",
+        ],
+    },
+	{
+      "id": "Bear",
+        "inventory": [
+          {
+              "name":"Honey",
+              "type":"Object",
+              "price":800
+          },
+		   {
+              "name":"Maple Syrup",
+              "type":"Object",
+              "price":2000
+          },
+		   {
+              "name":"Pine Tar",
+              "type":"Object",
+              "price":3000
+          },
+		   {
+              "name":"Oak Resin",
+              "type":"Object",
+              "price":4000
+          },
+		   {
+              "name":"Mixed Seeds",
+              "type":"Object",
+              "price":50
+          },
+		   {
+              "name":"Fiber",
+              "type":"Object",
+              "price":50
+          },
+		  {
+              "name":"Spring Onion",
+              "type":"Object",
+              "price":60
+          },
+		   {
+              "name":"Salmonberry",
+              "type":"Object",
+              "price":80
+          },
+		   {
+              "name":"Blackberry",
+              "type":"Object",
+              "price":80
+          },
+		   {
+              "name":"Spice Berry",
+              "type":"Object",
+              "price":80
+          },
+		   {
+              "name":"Wild Horseradish",
+              "type":"Object",
+              "price":90
+          },
+		   {
+              "name":"Leek",
+              "type":"Object",
+              "price":200
+          },
+		   {
+              "name":"Hazelnut",
+              "type":"Object",
+              "price":250
+          },
+		   {
+              "name":"Crystal Fruit",
+              "type":"Object",
+              "price":400
+          },
+		   {
+              "name":"Salmon",
+              "type":"Object",
+              "price":500
+          },
+        ],
+        "portraits":[
+          "assets/Bear.png",
+        ],
+    },
+
+  ],
+}

@@ -1,0 +1,18 @@
+﻿{
+  "mergeMaps": [
+    {
+      "name": "Farm",
+      "file": "assets/fixed_greenhouse.tbin",
+      "sourceArea": [ 0, 0, 7, 10 ],
+      "position": [ 41, 41 ],
+      "conditions": "Hn ccPantry",
+      "removeEmpty":"false"
+    }
+  ],
+  "addMaps": [
+    {
+      "name": "FarmShed",
+      "file": "assets/IF2Rshed.tmx",
+    }
+  ],
+}

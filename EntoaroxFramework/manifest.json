@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Name": "Entoarox Framework",
   "Author": "Entoarox",
@@ -8,3 +9,15 @@
   "MinimumApiVersion": "2.9.3",
   "UpdateKeys": [ "Nexus:2269" ]
 }
+=======
+{
+  "Name": "Entoarox Framework",
+  "Author": "Entoarox",
+  "Version": "2.4.6",
+  "Description": "A collection of APIs to make modding easier.",
+  "UniqueID": "Entoarox.EntoaroxFramework",
+  "EntryDll": "EntoaroxFramework.dll",
+  "MinimumApiVersion": "2.9.3",
+  "UpdateKeys": [ "Nexus:2269" ]
+}
+>>>>>>> asdfasdf

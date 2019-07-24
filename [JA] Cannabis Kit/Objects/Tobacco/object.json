@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Name": "Tobacco",
   "Description": "A plant that has been cultivated for smoking purposes",
@@ -7,3 +8,14 @@
   "IsColored": false,
   "Recipe": null,
 }
+=======
+{
+  "Name": "Tobacco",
+  "Description": "A plant that has been cultivated for smoking purposes",
+  "Category": "ArtisanGoods",
+  "Edibility": 	-300,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+}
+>>>>>>> asdfasdf

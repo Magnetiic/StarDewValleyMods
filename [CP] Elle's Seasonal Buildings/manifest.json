@@ -1,0 +1,12 @@
+{
+   "Name": "Elle's Seasonal Buildings",
+   "Author": "Elle/Junimods",
+   "Version": "1.1.1",
+   "Description": "A replacement for all buildings on your farm for each season!",
+   "UniqueID": "Elle.SeasonalBuildings",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:1993" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+   }

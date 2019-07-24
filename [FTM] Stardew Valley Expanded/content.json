@@ -1,0 +1,1639 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          393,
+          397
+        ],
+        "SummerItemIndex": [
+          404,
+          420
+        ],
+        "FallItemIndex": [
+          404,
+          420
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Beach forage area 1",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "86,22;66,13"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [
+            "2+"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 4
+      },
+      {
+        "SpringItemIndex": [
+          372,
+          718,
+          723
+        ],
+        "SummerItemIndex": [
+          372,
+          718,
+          723
+        ],
+        "FallItemIndex": [
+          372,
+          718,
+          723
+        ],
+        "WinterItemIndex": [
+          372,
+          718,
+          723
+        ],
+        "UniqueAreaID": "Beach forage area 2",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [
+            "2+"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 3
+      },
+      {
+        "SpringItemIndex": [
+          372
+        ],
+        "SummerItemIndex": [
+          372
+        ],
+        "FallItemIndex": [
+          372
+        ],
+        "WinterItemIndex": [
+          372
+        ],
+        "UniqueAreaID": "Beach forage area 3",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 3,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "19,19;19,19",
+          "32,20;32,20",
+          "47,24;47,24"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Town forage area 1",
+        "MapName": "Town",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [
+          "119,109;0,73",
+          "89,72;0,32",
+          "40,40;0,0",
+          "119,57;101,0",
+          "119,71;90,71"
+        ],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 5
+      },
+      {
+        "SpringItemIndex": [
+          18
+        ],
+        "SummerItemIndex": [
+          402
+        ],
+        "FallItemIndex": [
+          404
+        ],
+        "WinterItemIndex": [
+          418
+        ],
+        "UniqueAreaID": "Town forage area 2",
+        "MapName": "Town",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [
+          "110,69;92,58"
+        ],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 4
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Forest forage area 1",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [
+          "119,41;78,6",
+          "91,79;54,58",
+          "17,42;0,17"
+        ],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 3
+      },
+      {
+        "SpringItemIndex": [
+          22
+        ],
+        "SummerItemIndex": [
+          402
+        ],
+        "FallItemIndex": [
+          404
+        ],
+        "WinterItemIndex": [
+          418
+        ],
+        "UniqueAreaID": "Forest forage area 2",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 5,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "74,39;74,39",
+          "72,45;72,45",
+          "67,41;67,41",
+          "69,45;69,45",
+          "99,86;99,86"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          20
+        ],
+        "SummerItemIndex": [
+          422
+        ],
+        "FallItemIndex": [
+          281
+        ],
+        "WinterItemIndex": [
+          418
+        ],
+        "UniqueAreaID": "Forest forage area 3",
+        "MapName": "Forest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [
+          "73,45;63,38",
+          "103,88;99,84"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [
+            "2+"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "BackWoods forage area 1",
+        "MapName": "BackWoods",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [
+          "49,39;0,28",
+          "12,39;0,0",
+          "49,7;0,0"
+        ],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 5
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Summit forage area 1",
+        "MapName": "Summit",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [
+          "16,29;12,16"
+        ],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          109
+        ],
+        "SummerItemIndex": [
+          109
+        ],
+        "FallItemIndex": [
+          109
+        ],
+        "WinterItemIndex": [
+          109
+        ],
+        "UniqueAreaID": "Summit forage area 2",
+        "MapName": "Summit",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "21,25;21,25"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Mountain forage area 1",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [
+          "134,40;0,18"
+        ],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 6
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Mountain forage area 2",
+        "MapName": "Mountain",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [
+          "81,11;72,7"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [
+            "2+"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 3
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "RailRoad forage area 1",
+        "MapName": "RailRoad",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [
+          "69,61;0,37"
+        ],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 4
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "BlueMoonVineyard forage area 1",
+        "MapName": "BlueMoonVineyard",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [
+          "54,40;8,0",
+          "74,3;55,0"
+        ],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 5
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "TownEast forage area 1",
+        "MapName": "TownEast",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [
+          "18,20;11,15",
+          "39,23;0,20"
+        ],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 5
+      },
+      {
+        "SpringItemIndex": [
+          422
+        ],
+        "SummerItemIndex": [
+          422
+        ],
+        "FallItemIndex": [
+          422
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "LostWoods forage area 1",
+        "MapName": "LostWoods",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 3,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "59,16;59,16",
+          "6,67;6,67",
+          "68,38;68,38"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 80
+      },
+      {
+        "SpringItemIndex": [
+          420
+        ],
+        "SummerItemIndex": [
+          420
+        ],
+        "FallItemIndex": [
+          420
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "LostWoods forage area 2",
+        "MapName": "LostWoods",
+        "MinimumSpawnsPerDay": 6,
+        "MaximumSpawnsPerDay": 6,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "60,15;60,15",
+          "28,35;28,35",
+          "20,75;20,75",
+          "69,94;69,94",
+          "89,52;89,52",
+          "91,18;91,18"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 80
+      },
+      {
+        "SpringItemIndex": [
+          404
+        ],
+        "SummerItemIndex": [
+          404
+        ],
+        "FallItemIndex": [
+          404
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "LostWoods forage area 3",
+        "MapName": "LostWoods",
+        "MinimumSpawnsPerDay": 6,
+        "MaximumSpawnsPerDay": 6,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "91,17;91,17",
+          "87,50;87,50",
+          "88,52;88,52",
+          "58,33;58,33",
+          "29,36;29,36",
+          "61,14;61,14"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 80
+      },
+      {
+        "SpringItemIndex": [
+          104
+        ],
+        "SummerItemIndex": [
+          104
+        ],
+        "FallItemIndex": [
+          104
+        ],
+        "WinterItemIndex": [
+          104
+        ],
+        "UniqueAreaID": "LostWoods forage area 4",
+        "MapName": "LostWoods",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "22,76;22,76"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
+          454
+        ],
+        "SummerItemIndex": [
+          454
+        ],
+        "FallItemIndex": [
+          454
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "LostWoods forage area 5",
+        "MapName": "LostWoods",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 3,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "37,94;37,94",
+          "20,104;20,104",
+          "52,104;52,104"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [
+            "2+"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 80
+      },
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "LostWoods forage area 6",
+        "MapName": "LostWoods",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 6,
+        "AutoSpawnTerrainTypes": [
+          "Grass",
+          "Diggable"
+        ],
+        "IncludeAreas": [],
+        "ExcludeAreas": [
+          "70,10;0,0",
+          "93,15;79,3",
+          "41,47;32,30",
+          "27,35;18,35",
+          "31,31;5,12",
+          "26,38;10,32",
+          "13,63;6,49",
+          "28,73;16,57",
+          "16,98;0,74",
+          "28,81;17,78",
+          "84,96;75,90",
+          "71,91;70,85",
+          "89,88;87,78",
+          "82,82;74,78",
+          "70,78;62,77",
+          "61,109;14,81",
+          "46,81;33,59",
+          "85,68;77,67",
+          "69,74;65,73",
+          "73,72;69,71",
+          "76,70;73,69",
+          "90,95;86,95",
+          "73,98;67,98",
+          "75,85;72,85",
+          "66,67;64,58",
+          "85,54;70,49",
+          "89,63;87,55",
+          "93,72;92,71",
+          "57,46;50,37",
+          "61,54;30,52",
+          "51,42;42,23",
+          "57,31;51,12",
+          "95,36;87,29",
+          "58,47;51,38",
+          "66,35;61,33",
+          "84,39;72,36",
+          "88,19;82,16",
+          "84,36;75,27",
+          "74,30;58,25",
+          "61,19;58,18",
+          "47,22;41,21",
+          "77,19;69,18",
+          "35,32;33,23",
+          "32,59;9,38",
+          "74,59;58,44",
+          "69,25;55,18",
+          "57,68;37,56",
+          "49,25;23,10",
+          "82,18;64,8",
+          "91,42;79,27",
+          "36,26;22,17",
+          "62,83;58,65",
+          "94,84;77,58",
+          "76,75;59,62",
+          "65,84;60,63",
+          "52,51;35,38"
+        ],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [
+          16,
+          18,
+          20,
+          22,
+          257,
+          296,
+          404
+        ],
+        "SummerItemIndex": [
+          257,
+          259,
+          396,
+          398,
+          402,
+          404,
+          420,
+          422
+        ],
+        "FallItemIndex": [
+          257,
+          406,
+          410,
+          408,
+          281,
+          404,
+          420,
+          422
+        ],
+        "WinterItemIndex": [
+          283,
+          414,
+          418
+        ],
+        "UniqueAreaID": "Forest West forage area 1",
+        "MapName": "ForestWest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 6,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "149,132;8,35"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 4
+      },
+      {
+        "SpringItemIndex": [
+          16,
+          18,
+          20,
+          22,
+          257,
+          296,
+          404
+        ],
+        "SummerItemIndex": [
+          257,
+          259,
+          396,
+          398,
+          402,
+          404,
+          420,
+          422
+        ],
+        "FallItemIndex": [
+          257,
+          406,
+          410,
+          408,
+          281,
+          404,
+          420,
+          422
+        ],
+        "WinterItemIndex": [
+          283,
+          414,
+          418
+        ],
+        "UniqueAreaID": "Forest West forage area 2",
+        "MapName": "ForestWest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "151,37;80,9"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 4
+      },
+      {
+        "SpringItemIndex": [
+          109
+        ],
+        "SummerItemIndex": [
+          109
+        ],
+        "FallItemIndex": [
+          109
+        ],
+        "WinterItemIndex": [
+          109
+        ],
+        "UniqueAreaID": "Forest West forage area 3",
+        "MapName": "ForestWest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "76,147;76,147"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
+          109
+        ],
+        "SummerItemIndex": [
+          109
+        ],
+        "FallItemIndex": [
+          109
+        ],
+        "WinterItemIndex": [
+          109
+        ],
+        "UniqueAreaID": "Forest West forage area 4",
+        "MapName": "ForestWest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "59,147;59,147"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
+          109
+        ],
+        "SummerItemIndex": [
+          109
+        ],
+        "FallItemIndex": [
+          109
+        ],
+        "WinterItemIndex": [
+          109
+        ],
+        "UniqueAreaID": "Forest West forage area 5",
+        "MapName": "ForestWest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "61,150;61,150"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
+          16,
+          18,
+          20,
+          22,
+          257,
+          296,
+          404
+        ],
+        "SummerItemIndex": [
+          257,
+          259,
+          396,
+          398,
+          402,
+          404,
+          420,
+          422
+        ],
+        "FallItemIndex": [
+          257,
+          406,
+          410,
+          408,
+          281,
+          404,
+          420,
+          422
+        ],
+        "WinterItemIndex": [
+          283,
+          414,
+          418
+        ],
+        "UniqueAreaID": "Forest West forage area 6",
+        "MapName": "ForestWest",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "65,150;57,144",
+          "81,148;73,142"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 5
+      },
+      {
+        "SpringItemIndex": [
+          109
+        ],
+        "SummerItemIndex": [
+          109
+        ],
+        "FallItemIndex": [
+          109
+        ],
+        "WinterItemIndex": [
+          109
+        ],
+        "UniqueAreaID": "Forest West forage area 7",
+        "MapName": "ForestWest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "102,89;102,89"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
+          724
+        ],
+        "SummerItemIndex": [
+          724
+        ],
+        "FallItemIndex": [
+          724
+        ],
+        "WinterItemIndex": [
+          724
+        ],
+        "UniqueAreaID": "Forest West forage area 8",
+        "MapName": "ForestWest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "10,5;10,5"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
+          168
+        ],
+        "SummerItemIndex": [
+          168
+        ],
+        "FallItemIndex": [
+          168
+        ],
+        "WinterItemIndex": [
+          168
+        ],
+        "UniqueAreaID": "Forest West forage area 9",
+        "MapName": "ForestWest",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 3,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "64,19;64,19",
+          "47,27;47,27",
+          "70,26;70,26"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 3
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
+          167
+        ],
+        "SummerItemIndex": [
+          167
+        ],
+        "FallItemIndex": [
+          167
+        ],
+        "WinterItemIndex": [
+          167
+        ],
+        "UniqueAreaID": "Forest West forage area 10",
+        "MapName": "ForestWest",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "53,30;53,30"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
+          591,
+          597
+        ],
+        "SummerItemIndex": [
+          593,
+          421,
+          376
+        ],
+        "FallItemIndex": [
+          595,
+          421
+        ],
+        "WinterItemIndex": [
+          418
+        ],
+        "UniqueAreaID": "Sprite Spring forage area 1",
+        "MapName": "SpriteSpring",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 7,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "80,34;67,27",
+          "79,46;64,35"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 3
+      },
+      {
+        "SpringItemIndex": [
+          417,
+          454
+        ],
+        "SummerItemIndex": [
+          417,
+          454
+        ],
+        "FallItemIndex": [
+          417,
+          454
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Sprite Spring forage area 2",
+        "MapName": "SpriteSpring",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "80,34;67,27",
+          "79,46;64,35"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [
+            "3+"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 4
+      },
+      {
+        "SpringItemIndex": [
+          417,
+          454
+        ],
+        "SummerItemIndex": [
+          417,
+          454
+        ],
+        "FallItemIndex": [
+          417,
+          454
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Sprite Spring forage area 3",
+        "MapName": "SpriteSpring",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "80,34;67,27",
+          "79,46;64,35"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [
+            "4+"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [],
+        "SummerItemIndex": [
+          636
+        ],
+        "FallItemIndex": [],
+        "WinterItemIndex": [],
+        "UniqueAreaID": "Sprite Spring forage area 5",
+        "MapName": "SpriteSpring",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "73,27;68,24"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 4
+      },
+      {
+        "SpringItemIndex": [
+          103
+        ],
+        "SummerItemIndex": [
+          103
+        ],
+        "FallItemIndex": [
+          103
+        ],
+        "WinterItemIndex": [
+          103
+        ],
+        "UniqueAreaID": "Aurora Vineyard Doll",
+        "MapName": "AuroraVineyard",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "30,6;30,6"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          172
+        ],
+        "SummerItemIndex": [
+          172
+        ],
+        "FallItemIndex": [
+          172
+        ],
+        "WinterItemIndex": [
+          172
+        ],
+        "UniqueAreaID": "Aurora Vineyard Newspaper",
+        "MapName": "AuroraVineyard",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "33,35;33,35"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          454
+        ],
+        "SummerItemIndex": [
+          454
+        ],
+        "FallItemIndex": [
+          454
+        ],
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Junimo Ancient Fruit Spawns",
+        "MapName": "AuroraVineyard",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "56,105;20,94"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [
+            "2+"
+          ],
+          "Seasons": [
+            "spring",
+            "summer",
+            "fall"
+          ],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": 0
+        },
+        "DaysUntilSpawnsExpire": 7
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 2,
+    "SpringItemIndex": [
+      16,
+      18,
+      20,
+      22,
+      257,
+      296,
+      404
+    ],
+    "SummerItemIndex": [
+      257,
+      259,
+      396,
+      398,
+      402,
+      404,
+      420,
+      422
+    ],
+    "FallItemIndex": [
+      257,
+      406,
+      410,
+      408,
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [
+      283,
+      414,
+      418
+    ],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm large object area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 8,
+        "MaximumSpawnsPerDay": 8,
+        "AutoSpawnTerrainTypes": [],
+        "IncludeAreas": [
+          "99,140;99,140",
+          "101,136;101,136",
+          "102,142;102,142",
+          "107,138;107,138",
+          "106,145;106,145",
+          "110,141;110,141",
+          "115,144;115,144",
+          "119,142;119,142"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Farm ore area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 7,
+        "AutoSpawnTerrainTypes": [
+          "Quarry"
+        ],
+        "IncludeAreas": [
+          "49,153;27,137",
+          "27,148;23,137",
+          "22,144;20,137",
+          "21,144;17,137"
+        ],
+        "ExcludeAreas": [],
+        "StrictTileChecking": "High",
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 1,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 2,
+      "FrozenGeode": 5,
+      "MagmaGeode": 7,
+      "Gem": 6,
+      "Copper": 2,
+      "Iron": 5,
+      "Gold": 8,
+      "Iridium": 0,
+      "Mystic": 0
+    },
+    "StartingSpawnChance": {
+      "Stone": 60,
+      "Geode": 4,
+      "FrozenGeode": 3,
+      "MagmaGeode": 2,
+      "Gem": 3,
+      "Copper": 15,
+      "Iron": 7,
+      "Gold": 4,
+      "Iridium": 0,
+      "Mystic": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 50,
+      "Geode": 7,
+      "FrozenGeode": 4,
+      "MagmaGeode": 3,
+      "Gem": 5,
+      "Copper": 20,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 0,
+      "Mystic": 0
+    },
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [
+      "Standard"
+    ],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {},
+    "ResetMainDataFolder": true
+  }
+}

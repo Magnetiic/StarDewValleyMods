@@ -1,0 +1,154 @@
+﻿{
+    "festivalSpots": [  
+        {
+        "name": "Victor",
+        "map": "Town-EggFestival", 
+        "position": [24, 76],
+        "direction": 0
+        },
+		{
+        "name": "Olivia",
+        "map": "Town-EggFestival", 
+        "position": [30, 62],
+        "direction": 2
+        },
+		{
+        "name": "Andy",
+        "map": "Town-EggFestival", 
+        "position": [32, 70],
+        "direction": 1
+        },
+		{
+        "name": "Victor",
+        "map": "Forest-FlowerFestival", 
+        "position": [6, 38],
+        "direction": 0
+        },
+		{
+        "name": "Olivia",
+        "map": "Forest-FlowerFestival", 
+        "position": [15, 34],
+        "direction": 2
+        },
+		{
+        "name": "Andy",
+        "map": "Forest-FlowerFestival", 
+        "position": [5, 26],
+        "direction": 3
+        },
+		{
+        "name": "Victor",
+        "map": "Beach-Luau", 
+        "position": [32, 19],
+        "direction": 0
+        },
+		{
+        "name": "Olivia",
+        "map": "Beach-Luau", 
+        "position": [41, 13],
+        "direction": 0
+        },
+		{
+        "name": "Andy",
+        "map": "Beach-Luau", 
+        "position": [32, 10],
+        "direction": 0
+        },
+		{
+        "name": "Victor",
+        "map": "Beach-Jellies", 
+        "position": [35, 36],
+        "direction": 2
+        },
+		{
+        "name": "Olivia",
+        "map": "Beach-Jellies", 
+        "position": [34, 36],
+        "direction": 2
+        },
+		{
+        "name": "Andy",
+        "map": "Beach-Jellies", 
+        "position": [16, 24],
+        "direction": 2
+        },
+		{
+        "name": "Victor",
+        "map": "Town-Fair", 
+        "position": [19, 78],
+        "direction": 1
+        },
+		{
+        "name": "Olivia",
+        "map": "Town-Fair", 
+        "position": [19, 77],
+        "direction": 1
+        },
+		{
+        "name": "Andy",
+        "map": "Town-Fair", 
+        "position": [47, 60],
+        "direction": 2
+        },
+		{
+        "name": "Victor",
+        "map": "Town-Halloween", 
+        "position": [52, 35],
+        "direction": 0
+        },
+		{
+        "name": "Olivia",
+        "map": "Town-Halloween", 
+        "position": [30, 68],
+        "direction": 0
+        },
+		{
+        "name": "Andy",
+        "map": "Town-Halloween", 
+        "position": [33, 69],
+        "direction": 2
+        },
+		{
+        "name": "Victor",
+        "map": "Forest-IceFestival", 
+        "position": [47, 34],
+        "direction": 0
+        },
+		{
+        "name": "Olivia",
+        "map": "Forest-IceFestival", 
+        "position": [85, 28],
+        "direction": 0
+        },
+		{
+        "name": "Andy",
+        "map": "Forest-IceFestival", 
+        "position": [76, 48],
+        "direction": 1
+        },
+		{
+        "name": "Victor",
+        "map": "Town-Christmas", 
+        "position": [36, 60],
+        "direction": 3
+        },
+		{
+        "name": "Olivia",
+        "map": "Town-Christmas", 
+        "position": [35, 59],
+        "direction": 2
+        },
+		{
+        "name": "Andy",
+        "map": "Town-Christmas", 
+        "position": [32, 73],
+        "direction": 1
+        },
+    ],
+	"spouseRooms": [
+        {
+        "name": "Victor",
+        "file": "assets/VictorSpouseRoom.tmx",
+        }
+    ]
+}

@@ -1,0 +1,256 @@
+{
+  "Format": "1.6",
+  
+  "ConfigSchema": {
+    "Theme": {"AllowValues": "Elle, Vanilla, Starblue, Eemie"},
+	"Style": {"AllowValues": "Colorful, White, Brick"},
+	"Holiday": {"AllowValues": "False, True"},
+    "Barn": {"AllowValues": "New, Old"},
+	"Cabin": {"AllowValues": "New, Old"},
+	"Coop": {"AllowValues": "New, Old"},
+	"Greenhouse": {"AllowValues": "Wood, Stone"},
+	"Gold Clock": {"AllowValues": "New, Old, Original"},
+	"JunimoHut": {"AllowValues": "Natural, Built"},
+	"Mill": {"AllowValues": "Closed, Open"},
+	"Obelisk": {"AllowValues": "New, Old, Original"},
+	"Shed": {"AllowValues": "New, Old, Original"},
+	"Silo": {"AllowValues": "Stone, Wood"},
+	"SlimeHutch": {"AllowValues": "Sign, NoSign, Winery, Brewery"},
+	"Well": {"AllowValues": "Stone, Wood"},
+	"FenceRecolor": {"AllowValues": "False, True"},
+	},
+	
+"Changes": [
+       // Barn
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Barn",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Barn/{{Barn}}/Barn_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Big Barn
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Big Barn",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Barn/{{Barn}}/Barn Big_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Deluxe Barn
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Deluxe Barn",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Barn/{{Barn}}/Barn Deluxe_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Coop
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Coop",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Coop/{{Coop}}/Coop_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Big Coop
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Big Coop",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Coop/{{Coop}}/Coop Big_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Deluxe Coop
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Deluxe Coop",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Coop/{{Coop}}/Coop Deluxe_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Gold Clock
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Gold Clock",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Gold Clock/{{Gold Clock}}/Gold Clock_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Houses
+	   {
+          "Action": "Load",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Greenhouse/{{Greenhouse}}/houses_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Mill
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Mill",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Mill/{{Mill}}/Mill_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Shed
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Shed",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Shed/{{Shed}}/Shed_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Silo
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Silo",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Silo/{{Silo}}/Silo_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Slime Hutch
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Slime Hutch",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Slime Hutch/{{SlimeHutch}}/Slime Hutch_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Stable
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Stable",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Stable_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Well
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Well",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Well/{{Well}}/Well_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Junimo Hut
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Junimo Hut",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Junimo Hut/{{JunimoHut}}/Junimo Hut.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Shane's Coop
+	   {
+          "Action": "EditImage",
+          "Target": "Maps/{{season}}_outdoorsTileSheet",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Shane Coop_{{season}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 32 }, 
+          "ToArea": { "X": 352, "Y": 1104, "Width": 48, "Height": 32 },
+		  "Enabled": "True",
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "Maps/{{season}}_outdoorsTileSheet",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Shane Coop_{{season}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 48, "Height": 32 }, 
+          "ToArea": { "X": 240, "Y": 1216, "Width": 48, "Height": 32 },
+		  "Enabled": "True",
+       },
+	   
+	    // Earth Obelisk
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Earth Obelisk",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Obelisk/{{Obelisk}}/Earth Obelisk_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Water Obelisk
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Water Obelisk",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Obelisk/{{Obelisk}}/Water Obelisk_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Log Cabin
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Log Cabin",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Cabin/{{Cabin}}/Log Cabin_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Plank Cabin
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Plank Cabin",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Cabin/{{Cabin}}/Plank Cabin_{{season}}.png",
+		  "Enabled": "True",
+       },
+	   
+	   // Stone Cabin
+	   {
+          "Action": "Load",
+          "Target": "Buildings/Stone Cabin",
+          "FromFile": "assets/{{Theme}}/{{Style}}/Cabin/{{Cabin}}/Stone Cabin_{{season}}.png",
+		  "Enabled": "True",
+       },	   
+	   
+	   // Holiday Overlay
+	   {
+          "Action": "EditImage",
+          "Patchmode": "Overlay",
+          "Target": "Buildings/Houses",
+          "FromFile": "assets/{{Theme}}/Holiday_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Holiday": "True",
+		  }
+		},
+		
+	   // Fence Recolor
+	   {
+          "Action": "Load",
+          "Target": "LooseSprites/Fence1",
+          "FromFile": "assets/{{Theme}}/Fence1.png",
+		  "Enabled": "True",
+		  "When": {
+		  "FenceRecolor": "True",
+		  }
+		},
+		
+	   {
+          "Action": "Load",
+          "Target": "LooseSprites/Fence2",
+          "FromFile": "assets/{{Theme}}/Fence2.png",
+		  "Enabled": "True",
+		  "When": {
+		  "FenceRecolor": "True",
+		  }
+		},
+		
+	   {
+          "Action": "Load",
+          "Target": "LooseSprites/Fence3",
+          "FromFile": "assets/{{Theme}}/Fence3.png",
+		  "Enabled": "True",
+		  "When": {
+		  "FenceRecolor": "True",
+		  }
+		},
+		
+	   {
+          "Action": "Load",
+          "Target": "LooseSprites/Fence5",
+          "FromFile": "assets/{{Theme}}/Fence5.png",
+		  "Enabled": "True",
+		  "When": {
+		  "FenceRecolor": "True",
+		  }
+		},
+		
+    ]
+}

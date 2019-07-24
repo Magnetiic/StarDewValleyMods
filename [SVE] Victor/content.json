@@ -1,0 +1,326 @@
+
+{
+	"Format": "1.6",
+  "Changes": [
+    {
+
+      "LogName": "Victor's Disposition",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Victor": "teen/polite/neutral/positive/male/datable/null/Town/summer 23//JenkinsHouse 31 5/Victor"
+      }
+    },
+	{
+
+      "LogName": "Victor's Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Victor": "Oh, wow! This is absolutely incredible. Thank you very much, @! I love this!/224 787 444/You're giving this to me? This is great! Thank you, @./254 346 348 349 392 394/Oh? For me? This is... nice. Thank you, @./18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399/Uhh... I don't like this at all, @. Sorry./205 404 420 422 609 610 196 213 218 219 225 403/Thank you for the gift, @. I really appreciate this!/184 186 180 182 174 176 424 426/"
+      }
+    },
+	{
+
+      "LogName": "Victor's Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Victor_Wine1": "24/24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 27 27 27 27 27 27 27 27 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24/24",
+        "Victor_Wine2": "35/35 35 35 35 35 35 35 35 35 35 35 29 30 31 31 31 31 31 30 29 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 29 30 31 31 31 31 31 31 31 31 30 29 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 29 30 31 31 31 31 31 31 31 30 29 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35 35/35",
+        "Victor_Clipboard1": "16/16 16 17 17 18 18 17 17 16 16 17 17 18 18 18 17 17 17 16 16 17 17 18 18 17 17 16 16 16 16 16 16 16 16 16 17 17 18 18 17 17 17 16 16 16 16 17 17 18 18 17 17 16 16 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 16 16 16 16 16 18 17 18 17 18 17 18 16 16 16 16 16 16 17 17 18 18 17 17 16 16 17 17 18 18 17 17 16 16 17 18 18 17 17 16 16 17 17 18 18 17 17 17 17 17 17 17 17 16 16 17 17 18 18 17 17 16 16 17 17 18 18 17 17 16 16 17 17 18 18 18 18 18 18 18 17 16 17 17 18 18 17 17 17 17 17 17 17 17 17 17 16 16 17 18 18 17 17 16 16 17 17 18 17 17/16",
+		"Victor_Clipboard2": "20/20 20 20 20 20 20 20 20 20 20 20 20 20 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 21 21 21 21 21 21 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 22 22 22 22 22 21 22 21 22 21 22 21 22 21 22 21 21 21 21 21 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 21 21 22 22 22 21 22 21 21 22 22 21 21/20",
+		"Victor_Book1": "32/32 32 33 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 33 32/32",
+		"Victor_Book2": "36/36 36 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 37 36/36",
+		"Victor_Ponder": "40/40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 41 40 40 40 40 40 40 40 40 40 40 40 40/40",
+		"Victor_Sit": "39/39/39",
+		"Victor_Game": "23/23/23"
+
+      }
+    },
+	{
+
+      "LogName": "Victor Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Victor",
+      "FromFile": "assets/Image/Victor.png"
+
+    },
+    {
+
+      "LogName": "Victor Sprites",
+      "Action": "Load",
+      "Target": "Characters/Victor",
+      "FromFile": "assets/Image/Sprite.png"
+
+    },
+	{
+
+      "LogName": "Victor's Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Victor",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+    {
+
+      "LogName": "Victor's Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Victor",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+    {
+      "LogName": "Victor's Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueVictor",
+      "FromFile": "assets/Dialogue/marriageDialogue.json"
+    },
+	{
+
+      "LogName": "Victor's Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Victor",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+    },
+    {
+
+      "LogName": "Victor's Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Victor0": "I'm a little nervous about this? Aren't you?$4",
+        "Victor1": "To think I couldn't be anymore happier...$4"
+      }
+    },
+	
+    { 
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Victor... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and husband!$h",
+        "Utility.cs.5377": "@... Victor... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and..., well, husband!$h",
+
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Victor in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Victor in the bonds of marriage."
+      },
+      "When": {
+        "Relationship:Victor": "Engaged, Married"
+      }
+    },
+	
+	
+    { //EGG FESTIVAL
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Victor": "I think Abigail is going to stomp everyone again. She always does.$0#$e#Mayor Lewis should consider banning her. It isn't fair for Vincent and Jas.$6#$e#Same could be said about you too, @.$0"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Victor": "Hey, honey! Good luck hunting eggs today. Show those children who's boss.$1"
+      },
+      "When": {
+        "Spouse:Victor": "True"
+      }
+    },
+	
+	//FLOWER DANCE
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Victor": "Can you believe spring is almost over? I'm not looking forward to the summer heat.$0#$b#The beaches will be nice though!$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Victor": "Hi there, sweetheart! Are you looking forward to seeing the others dance?$4#$b#Oh, you want to dance with me? I don't dance haha$1#$b#If you want to dance with one of the others I wouldn't mind that!$1#$e#I can dance for you later tonight?$4"
+      },
+      "When": {
+        "Spouse:Victor": "True"
+      }
+    },
+	
+	//LUAU
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Victor": "My mother and I just threw in some of our extravagant wine. It should make the soup taste delicious.$1#$e#I don't think any of the children can have any now though. Whoops.$2"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Victor": "We should sit next to each other and eat our soup!$4#$e#We can drink some of my mother's vintage wine with it!$1"
+      },
+      "When": {
+        "Spouse:Victor": "True"
+      }
+    },
+	
+	//DANCE OF THE MOONLIGHT JELLIES
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Victor": "These moonlight jellies travel all the way from across the world.$3#$b#They were at the Fern Islands a couple months ago.$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Victor": "We should hold hands as we watch the moonlight jellies, @.$4#$e#I love you!$4"
+      },
+      "When": {
+        "Spouse:Victor": "True"
+      }
+    },
+	
+	//STARDEW VALLEY FAIR
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Victor": "That clown is only juggling one ball.$0#$e#I might go check the grange displays soon. This is getting boring.$2#$e#Have you set your display up?$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Victor": "Hey there, honey! I hope you do well in the grange display contest!$4"
+      },
+      "When": {
+        "Spouse:Victor": "True"
+      }
+    },
+	
+	//SPIRITS EVE FESTIVAL
+   {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Victor": "Uhh... there's a skeleton monster patrolling in there by those graves.$2"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Victor": "Don't go in there, boo! There's a monster!$7"
+      },
+      "When": {
+        "Spouse:Victor": "True"
+      }
+    },
+	
+	//ICE FISHING FESTIVAL
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Victor": "I must say, I do look forward to seeing Willy's fishing skills.$1#$b#You can tell how talented he is in the art of fishing. He's been doing this all of his life!$3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Victor": "Good luck in the fishing contest, sweatheart. You're going to do great!$4#$e#I'll be chearing for you!$1"
+      },
+      "When": {
+        "Spouse:Victor": "True"
+      }
+    },
+	
+	//WINTER STAR FESTIVAL
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Victor": "I wonder if I should give her the gift now? Hmm. Timing is everything.$0"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Victor": "Hey, @. Umm... I have a gift for you.$4#$b#I'll show you tonight, okay?$4"
+      },
+      "When": {
+        "Spouse:Victor": "True"
+      }
+    },
+
+	 { //VICTOR 2 HEART EVENT
+      "LogName": "Victor Event 2 hearts",
+      "Action": "EditData",
+      "Target": "Data/Events/JenkinsHouse",
+      "Entries": {
+        "2000000/f Victor 500/e 1000034/p Victor": "jaunty/-500 -500/farmer 20 34 0 Victor 24 25 2/pause 400/skippable/showFrame Victor 37/viewport 22 27 true/move farmer 0 -7 1/pause 600/emote farmer 32/pause 800/move farmer 4 0 0/pause 1500/showFrame Victor 38/pause 650/speak Victor \"Oh, sorry. I didn't see you there, @!$1\"/pause 800/showFrame Victor 37/pause 1500/showFrame Victor 38/pause 1000/speak Victor \"I'm in the middle of reading an adventurer's book about dungeons at the Fern Islands archipelago.$1#$b#There are many small islands that have caverns that lead deep under the sea where monsters reside.$3#$b#The caverns are extremely dangerous! There's huge tentacle monsters and poisonous floating jellyfish.$7\"/pause 500/emote farmer 16/pause 1000/showFrame Victor 37/pause 1750/showFrame Victor 38/pause 750/speak Victor \"The clan that protects the Fern Islands are called 'The First Slash', led by Ekon. They are distinguished by their blue cloaks and use of long spears.$1#$b#Marlon, the leader of the Adventurer's Guild, knows him.$3#$b#They're both the authors of another book somewhere here in the library.$0\"/pause 1250/question fork0 \"(What should I say?)#That's incredible! I don't know much about other guilds and clans that protect their regions. I've been focusing on protecting Stardew Valley with Marlon. The Adventurer's Guild isn't that big. Have you considered joining, Victor? Monsters interest you a lot!#There are many guilds and clans across the world that protect humanity from monsters, such as The First Slash! I want to visit them at the Fern Islands at some point. The islands are beautiful, especially during the summer season too!\"/fork 2000000_JoinGuild/pause 1250/speak Victor \"My mother and I recently took a trip to Sautine City. The beaches are quite the sight to be seen.$3#$b#I want to go back to the Fern Islands soon. My mother and I usually take a vacation or two every year.$1\"/pause 1000/emote farmer 32/pause 500/showFrame Victor 37/pause 2000/speak Victor \"I tend to get lost in my books. This collection used to be small, but over time my family has collected many of them.$3#$b#If I had to put a percentage on it, I believe I've read around 75 percent of the books in our library!$1\"/pause 500/emote farmer 16/pause 1000/showFrame Victor 38/pause 750/speak Victor \"You have my permission to read any books you fancy in the library, @.$3#$b#If you want to borrow one, be sure to let me know first.$1\"/pause 500/jump farmer/pause 1000/emote farmer 32/pause 1000/showFrame Victor 37/pause 2000/showFrame Victor 38/pause 1000/speak Victor \"I'm going to get back to reading. Have a nice day, @. We should chat again soon!$1\"/pause 500/globalFade/viewport -1000 -1000/pause 700/friendship Victor 50/end dialogue Victor \"I read more of that book I was reading! Those poisonous jellyfish are called Zinnes.$7#$b#Thankfully, the wizard at the Fern Islands has potions that cures the poison!$1\"",
+		
+		"2000000_JoinGuild": "pause 750/showFrame Victor 38/speak Victor \"!!!$7\"/pause 1250/speak Victor \"Me joining the Adventurer's Guild? Hahahaha!$1#$b#I enjoy reading and studying monsters, but certainly don't have a desire to combat them. I'll leave that to people like you, @.$3\"/pause 1200/speak Victor \"I'm thankful we have people like you who protect us. It's not an easy job and it's dangerous.$3\"/pause 500/emote farmer 32/pause 500/showFrame Victor 37/pause 1750/showFrame Victor 38/pause 1000/speak Victor \"All I do is read books all day.$1#$b#This collection of books used to be small, but over time my family has collected many of them.$3#$b#If I had to put a percentage on it, I believe I've read around 75 percent of the books in our library!$1\"/pause 500/emote farmer 16/pause 1000/showFrame Victor 38/pause 750/speak Victor \"You have my permission to read any books you fancy in the library, @.$3#$b#If you want to borrow one, be sure to let me know first.$1\"/pause 500/jump farmer/pause 1000/emote farmer 32/pause 1000/showFrame Victor 37/pause 2000/showFrame Victor 38/pause 1000/speak Victor \"I'm going to get back to reading. Have a nice day, @. We should chat again soon!$1\"/pause 500/globalFade/viewport -1000 -1000/pause 700/friendship Victor 50/end dialogue Victor \"I read more of that book I was reading! Those poisonous jellyfish are called Zinnes.$7#$b#Thankfully, the wizard at the Fern Islands has potions that cures the poison!$1\"",
+      }
+    },
+	
+    { //VICTOR 4 HEART EVENT
+      "LogName": "Victor Event 4 hearts",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "2000001/f Victor 1000/t 1030 1700/d Mon Wed Thu Sat Fri Sun/z winter/w sunny": "fall_day_ambient/-500 -500/farmer 40 95 1 Victor 45 89 3/pause 400/skippable/animate Victor false true 2250 40 40 40 41 41/viewport 46 89 true/move farmer 4 0 0/emote farmer 8/pause 500/move farmer 3 0 0/move farmer 0 -6 3/pause 2250/speak Victor \"Hi, @...$2\"/pause 2000/question fork0 \"(What should I say?)#You look a little gloomy today. Are you okay, Victor? What are you doing in the graveyard?#I was just strolling by and saw you in the graveyard. Thought I'd stop by and say hello before continuing with my errand. (Leave)\"/fork 2000001_Graveyard/pause 1250/speak Victor \"Oh. Well... it's nice of you to say hi.$2\"/pause 1500/speak Victor \"Good luck with your errands, @.$6\"/pause 500/globalFade/viewport -1000 -1000/pause 700/friendship Victor -125/end dialogue Victor \"Hi, @. Don't mind me in the graveyard earlier. It's... nothing.$2\"",
+		
+		"2000001_Graveyard": "pause 1250/speak Victor \"...$2\"/pause 1000/stopAnimation Victor/pause 1000/move Victor 0 0 1/pause 1000/showFrame Victor 43/pause 1500/playMusic echos/pause 750/speak Victor \"This is my cat's grave. His name was Dewey.$2#$b#I commissioned Robin to build this tombstone for him, in his memory.$6#$b#Dewey went missing shortly after my mother and I moved into the valley from Zuzu City.$2\"/pause 750/emote farmer 16/pause 500/emote farmer 60/pause 1500/speak Victor \"He had just turned two years old. We... don't know what happened to him.$2#$b#My mother and I, along with some others in town, tried to find him. None of us were successful.$2\"/pause 2000/speak Victor \"After three months we... knew he wasn't going to come back.$2\"/pause 1000/emote farmer 28/pause 1250/shake Victor 1500/pause 1000/speak Victor \"I should have been there for him. He must have been so scared, and he was alone.$2\"/pause 2000/speak Victor \"I hope he... finds his way home, no matter how much time it takes.$2\"/pause 1500/showFrame Victor 4/pause 1250/speak Victor \"I'll be here when he does find his way home.$6\"/pause 1250/emote farmer 28/pause 1250/move Victor 0 0 3/pause 1000/showFrame Victor 40/pause 2500/speak Victor \"I'm going to be here a little longer. I'll see you later, @.$6\"/pause 500/globalFade/viewport -1000 -1000/pause 700/friendship Victor 80/end position 47 89",
+      }
+    },
+
+	{ //VICTOR 6 HEART EVENT
+      "LogName": "Victor Event 6 hearts",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "2000002/f Victor 1500/t 1200 1700/w sunny/z winter": "spring_day_ambient/-500 -500/farmer 89 56 2 Victor 97 61 1/pause 400/skippable/showFrame Victor 43/viewport 95 62 true/move farmer 0 7 1/pause 1150/emote farmer 8/pause 1000/move farmer 8 0 0/pause 1500/emote farmer 40/pause 750/showFrame Victor 4/pause 1000/move Victor 0 0 2/pause 600/speak Victor \"Hi, @.$6\"/pause 1200/emote farmer 8/pause 300/emote farmer 40/pause 1500/speak Victor \"Oh, what am I doing? I'm... pondering to myself at the moment. I have a lot on my mind.$6\"/pause 1000/move Victor 0 0 1/pause 1250/showFrame Victor 43/pause 1000/playMusic desolate/pause 1500/speak Victor \"My mother told me she's... disappointed I haven't found employment yet. I came here to the park to get out of the house for a while.$2\"/pause 750/emote farmer 60/pause 1250/speak Victor \"You can't blame her for feeling that way. I graduated from university a year ago and I'm still living at home.$2#$b#Maybe she thinks I'm comfortable living at home forever because we're financially secure.$6#$b#But that's... not the case at all.$2\"/pause 1500/speak Victor \"Over the course of the past year, I've turned down dozens of internships and job offers. These positions don't... appease to me.$2\"/pause 1250/speak Victor \"I don't have a desire to move out of the valley and work myself to death in the city.$2#$b#I want a career where I'm free to be who I am. Not what I'm told to be.$6\"/pause 1000/showFrame Victor 4/pause 1000/move Victor 0 0 2/pause 750/speak Victor \"You understand what I'm saying, @. You quit your accounting job in Pine-Mesa City because that wasn't who you were.$6#$b#You took a leap of faith and took over your grandpa's farm. Just look at how that transformed your life!$3\"/pause 1500/speak Victor \"In a way... I envy you, @.$2\"/pause 1500/question fork0 \"(What should I say?)#That's true, Victor. It wasn't my destiny. I didn't enjoy working 50 to 60-hour work weeks in a small cubicle. My career took over my life and defined who I was. I understand why you wouldn't want that. Although it took a while, I'm happy I found what my passion is. I hope you will find that someday too.#Maybe you should move to Zuzu City. That's where all the jobs are and it's not like you'll find anything here in the valley with your engineering degree. I feel like you're wasting precious time. It has already been an entire year, Victor.\"/fork 2000002_FindYourPassion/pause 800/move Victor 0 0 1/pause 1000/showFrame Victor 43/pause 1000/speak Victor \"I know there aren't many jobs here in the valley, @. You can't do much here unless you do freelance work or are willing to commute two hours to Zuzu City.$2#$b#Like I said before, I don't want to move away. I love living here in Stardew Valley, and I can't see myself going anywhere else.$6\"/pause 1500/speak Victor \"I lived in Zuzu City all my life with my parents. After moving to Stardew Valley, I would consider it... paradise.$6\"/pause 1250/speak Victor \"Imagine how you would feel if you suddenly moved back to Pine-Mesa City after living here all this time. You wouldn't want that, would you?$6\"/pause 1000/emote farmer 36/pause 750/speak Victor \"Then you understand what I mean.$6\"/pause 2500/speak Victor \"I need to think for a while. I'll see you later, @.$2\"/pause 600/emote farmer 60/pause 1100/move farmer -6 0 3 true/pause 500/globalFade/viewport -1000 -1000/pause 800/friendship Victor -125/end dialogue Victor \"Hi, @. I appreciate you talking to me at the park. It's... nice to talk to someone when you have that much on your mind.$6\"",
+      
+	    "2000002_FindYourPassion": "pause 750/speak Victor \"A career like that sounds dreadful. Having a boss telling you what to do and how to feel.$2#$b#If you worked that many hours a week, that's essentially over half your life you aren't in control of.$6\"/pause 1000/emote farmer 60/pause 1250/move Victor 0 0 1/pause 1000/showFrame Victor 43/pause 1000/speak Victor \"It's great I can talk to you this, @. Abigail, Sam, and Sophia wouldn't understand what I'm going through...$6\"/pause 1500/speak Victor \"I feel immense pressure from my mother and relatives to jump into a high paying career, without a second thought of my feelings.$2\"/pause 2000/speak Victor \"There aren't many jobs here in the valley unless you do freelance work or are willing to commute two hours to and from Zuzu City.$6#$b#That totals to four hours a day, if you're lucky with traffic...$2\"/pause 1250/showFrame Victor 4/pause 800/move Victor 0 0 2/pause 1000/speak Victor \"I'm optimistic I'll figure this all out soon enough, @.$3\"/pause 1250/speak Victor \"I'm going to ponder to myself for a little longer. Thank you for talking to me. You're a true friend.$1\"/pause 600/emote farmer 32/pause 750/globalFade/viewport -1000 -1000/pause 800/friendship Victor 75/end dialogue Victor \"Hi, @. I appreciate our conversation we had at the park. It's... nice to talk to someone when you have that much on your mind.$3#$b#I consider you a close friend.$1\"",
+	  }
+    },
+	
+	{ //VICTOR 8 HEART EVENT
+      "LogName": "Victor Event 8 hearts",
+      "Action": "EditData",
+      "Target": "Data/Events/JenkinsHouse",
+      "Entries": {
+        "2000003/f Victor 2000/e 2000002/p Olivia/p Victor": "playful/-500 -500/farmer 10 25 0 Victor 31 25 2 Olivia 20 19 1/pause 400/skippable/showFrame Victor 37/viewport 27 16 true/move Olivia 5 0 0/pause 300/shake Olivia 500/pause 1000/move Olivia 1 0 0/pause 500/shake Olivia 400/pause 1100/textAboveHead Olivia \"Dusted! Not a single speck!\"/pause 1350/move Olivia 5 0 0/move Olivia 0 -1 1/move Olivia 2 0 0/pause 800/textAboveHead Olivia \"Victor? I'm coming in.\"/pause 2000/doAction 33 17/pause 600/viewport move 0 -1 5400 true/move Olivia 0 -7 0/pause 300/move Olivia 0 0 3/pause 750/move Olivia 0 0 2/pause 600/move Olivia 0 0 1/pause 500/textAboveHead Olivia \"Sigh... needs dusting.\"/pause 1500/move Olivia 0 -2 1/move Olivia 2 0 1/pause 300/shake Olivia 400/pause 700/move Olivia 0 -1 1/pause 250/shake Olivia 500/pause 800/move Olivia 0 -1 1/pause 400/shake Olivia 400/pause 800/move Olivia 0 0 0/pause 750/emote Olivia 8/pause 600/move Olivia 0 -2 1/pause 750/emote Olivia 40/pause 500/showFrame Olivia 29/playSound newRecipe/pause 500/showFrame Olivia 28/pause 750/emote Olivia 40/pause 1000/stopMusic/speak Olivia \"!!!??$7\"/pause 1000/shake Olivia 1500/pause 800/speak Olivia \"!!!$7\"/pause 1000/playSound newRecipe/speed Olivia 4/move Olivia -2 0 2/speed Olivia 4/move Olivia 0 10 1 true/globalFade/viewport -1000 -1000/pause 1000/warp Olivia 21 27/warp farmer 16 28/move Olivia 0 0 1/viewport 27 27 true/move Olivia 2 0 1/speed Olivia 4/pause 700/shake Olivia 800/pause 1200/move Olivia 8 0 0/playMusic shaneTheme/pause 250/speak Olivia \"VICTOR!!!$5\"/move farmer 0 0 1/showFrame Victor 38/emote Victor 16/speed farmer 4/move farmer 8 0 1 true/speak Victor \"Ahh! Wh-what!?$7\"/pause 600/shake Olivia 2000/pause 700/speak Olivia \"YOU'VE BEEN TURNING DOWN JOB OFFERS!?$5\"/pause 300/speed farmer 4/move farmer 0 -2 1/move Victor 0 0 2/speed farmer 4/move farmer 2 0 2 true/speak Victor \"I have done nothing of the sort! The job market-$7\"/pause 150/speak Olivia \"NO! STOP! DO NOT lie to me, Victor! I read what you wrote in your diary!!!$5\"/pause 500/speak Victor \"You were snooping around my room!?$7\"/pause 500/speak Olivia \"I was dusting the house, and thought I'd clean your room for once. You never dust enough.$6#$b#My father is coming to visit in a couple days, and I wanted the house to be perfect for his arrival.$6\"/pause 1000/speak Olivia \"I discovered a note of you confessing you've been turning down internships and job offers.$5#$b#This is why you haven't found a job after graduating!? Why, Victor?$5#$b#What is the point of this charade? Don't you want to have a successful career?$2\"/pause 1350/speak Victor \"...$2\"/pause 1850/shake Olivia 1500/pause 700/speak Olivia \"ACKNOWLEDGE WHAT I AM SAYING!!!$5\"/pause 400/speak Victor \"I DIDN'T KNOW WHAT I WANTED TO DO!!!$5\"/pause 500/emote Olivia 16/pause 400/move Olivia 0 -1 0/pause 400/speak Olivia \"That's the reason you're going to give me!? After all the money I spent sending you to Pellcar University?...$5\"/pause 200/emote farmer 60/pause 250/speak Olivia \"I'm going to purchase a one-bedroom apartment for you in Zuzu City, give you some starting money, and then cutting you off.$0\"/pause 300/emote Victor 16/pause 500/shake Victor 1000/pause 500/speak Olivia \"You are moving out, Victor. Maybe being back in the city and lacking necessary funds will encourage you to get into your career.$5\"/pause 500/speak Victor \"Mom, no! Please just let me explain!!! I have a reaso-$7\"/speak Olivia \"There is nothing to explain, Victor. This is for your own good.$2\"/emote Victor 28/pause 500/move farmer 0 2 1/move farmer 5 0 0/pause 300/move Olivia 0 0 2/stopMusic/pause 200/emote Olivia 16/pause 200/speak Olivia \"!!!$7\"/pause 200/speed Victor 4/move Victor -1 0 2/speed Victor 4/move Victor 0 1 2/pause 250/speak Victor \"@!?$7\"/pause 600/speak Olivia \"You were eavesdropping on our conversation!?$5\"/pause 1000/question fork0 \"(I need to explain myself)#I came by to read some of Victor's books and I heard you two arguing. I stayed because it involved something Victor and I had talked about. It wasn't my intention to come off as spying. I apologize.\"/fork 2000003_Eavesdropping/end",
+
+		"2000003_Eavesdropping": "pause 500/move Victor 0 0 1/pause 500/speak Victor \"Mom. Please. Let me talk so you can understand my side of the story. At least give me that.$2\"/pause 500/move Olivia 0 0 3/pause 1000/emote Olivia 40/pause 500/move Olivia 0 0 2/pause 1000/move Olivia 0 0 3/pause 1200/speak Olivia \"Okay.$2\"/pause 750/question fork1 \"(What should I say)#(Don't say anything and let Victor talk)#Victor, you've been out of school for a long time. It would be easier to find employment in Zuzu City rather than waiting even longer for some job here in the valley. You should listen to your mom and move to the city.\"/fork 2000003_VictorTalk/pause 500/move Victor 0 0 2/emote Victor 16/pause 400/move Olivia 0 0 2/pause 300/speak Victor \"!!!$7\"/pause 500/move Olivia 0 0 3/pause 800/move Olivia 0 0 2/pause 1000/move Olivia 0 0 3/pause 500/speak Olivia \"See, Victor? Even @ agrees it would be in your best interest to move to Zuzu City. This is the best path for your bright future, honey.$0\"/pause 500/move Victor 0 0 0/pause 400/shake Victor 700/pause 700/speak Victor \"...$2\"/pause 1000/move Olivia 0 0 2/pause 750/speak Olivia \"Thank you for your input, @. Victor and I will continue on with our conversation. Alone. You may now leave.$0\"/pause 500/emote Victor 28/pause 400/emote farmer 32/pause 500/speed farmer 2/move farmer -6 0 3 true/pause 500/move Olivia 0 0 3 true/globalFade/viewport -1000 -1000/pause 800/friendship Victor -1000/end dialogue Victor \"Why did you say you agree with my mother about sending me to Zuzu City? I had to talk to her quite extensively to change her mind.$2#$b#I'm in the middle of an apprenticeship with a retired bridge builder in Grampleton. You hurt my feelings and betrayed my trust...$2#$e#Don't talk to me, @.$5\"",
+		
+		"2000003_VictorTalk": "pause 1200/pause 400/showFrame Victor 43/playMusic musicboxsong/pause 1000/speak Victor \"Mom...$2\"/pause 600/showFrame Victor 4/pause 400/speak Victor \"I want to preface this by saying I enjoy what I majored in school. The type of work I wish my career to revolve around is unique in its function.$6\"/pause 1250/speak Victor \"I want to build and maintain bridges. Not just any bridges, the bridges here in the valley and surrounding provinces.$3\"/pause 500/showFrame Victor 43/pause 600/speak Victor \"This was going to be a surprise. I didn't want to tell you until it was official but...$2\"/pause 500/emote Olivia 8/pause 600/showFrame Victor 4/pause 300/speak Victor \"I've been working closely with Kendra, the Mayor of Grampleton, and their bridge engineer, Ralph. He recently retired.$3#$b#Ralph is responsible for constructing and managing the bridges in the region, including the ones here in Pelican town.$1\"/pause 750/emote Olivia 16/pause 500/speak Olivia \"Are you saying you...?$6\"/pause 500/speak Victor \"Yes. I'm an apprentice.$1#$b#Ralph is teaching me the ins and outs of bridge construction and maintenance. I've been waiting for a position like this to open up for a long time.$3\"/pause 500/emote farmer 16/pause 300/speak Olivia \"Honey! This is wonderous news! I wish you had told me.$1\"/pause 400/showFrame Victor 43/pause 400/speak Victor \"I thought it'd be best to tell you when it was official. Now that I think about it, I should have communicated this to you.$2\"/pause 400/showFrame Victor 4/pause 400/speak Victor \"Those notes in my diary are very old, and don't reflect the present.$6\"/pause 500/emote Olivia 40/pause 500/speak Olivia \"...$2\"/pause 650/speak Olivia \"I... I'm sorry I went through your things and assumed you were intentionally denying job offers because you wanted to stay home.$2\"/pause 1250/speak Victor \"Part of that is true, mother. I don't want to move away from Stardew Valley. Departing from my friends and the valley would make me miserable.$6#$b#If I had moved to the city and gained a position in a company, I feel like I'd be nothing but a cog in a machine, unable to evolve to my full potential.$2\"/pause 1100/speak Victor \"I feel like I can achieve so much more if I control my own destiny. And right now, working with Ralph, I am.$1\"/pause 300/speak Olivia \"Honey, I'm so proud of you!$1\"/pause 500/speak Victor \"Thank you, mother!$3\"/pause 1000/question fork1 \"(I'm awkwardly standing here. I should leave...)#I'm going to leave to give you two some space. Congratulations on the apprenticeship, Victor. I had no idea! I'm so happy for you! Your future is looking bright!\"/fork 2000003_GiveSpace/end", 
+		
+		"2000003_GiveSpace": "pause 600/move Victor 0 0 2/pause 350/move Olivia 0 0 2/pause 600/speak Victor \"Thank you, @. I'll talk to you later. My mother and I are going to chat a little longer.$1\"/pause 800/speak Olivia \"Bye, sweetie. Thank you for dropping by.$1\"/pause 300/emote farmer 32/speed farmer 2/move farmer -7 0 3 true/pause 400/move Victor 0 0 1 true/pause 450/move Olivia 0 0 3 true/pause 500/globalFade/viewport -1000 -1000/pause 800/friendship Victor 50/end dialogue Victor \"Hi, @! I'm sorry you got caught up with my mother and me. I didn't intend on letting anyone know about my apprenticeship until I knew how it was going to turn out$6#$b#. It's not something that's guaranteed. I have a lot of learning and work ahead of me.$3#$e#Thank you for being a good friend.$1\"",
+	  }
+    },
+	
+	{ //VICTOR 10 HEART EVENT
+      "LogName": "Victor Event 10 hearts",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "2000004/e 2000003/t 600 1150/f Victor 2500/w sunny": "none/-500 -500/farmer -300 -300 1 Victor -301 -301 2 Marlon 34 104 2 Wizard 33 106 2 Krobus 32 104 2/pause 400/skippable/viewport 59 53 true/showFrame Marlon 12/showFrame Wizard 18/pause 2750/playSound doorClose/warp Victor 59 52/pause 1150/textAboveHead Victor \"Yawn...\"/shake Victor 1000/pause 2000/move Victor 0 1 1/viewport move 1 0 3500 true/move Victor 7 0 0/pause 800/shake Victor 500/playSound trashcanlid/pause 800/textAboveHead Victor \"Trash got picked up.\"/pause 2000/playSound trashcanlid/shake Victor 500/pause 700/move Victor 1 0 0/pause 600/playSound openBox/shake Victor 400/pause 1200/emote Victor 8/pause 600/playSound newRecipe/pause 800/emote Victor 40/pause 700/emote Victor 16/pause 500/jump Victor/pause 900/speed Victor 4/move Victor -9 0 3 true/globalFade/viewport -1000 -1000/warp farmer 5 54/warp Victor 27 54/pause 750/viewport 18 54 true/move farmer 6 0 1 true/speed Victor 4/move Victor -14 0 3 true/pause 300/emote farmer 16/speak Victor \"@!!! I was just running over to your farm!$1\"/pause 500/emote farmer 8/pause 500/speed Victor 3/move Victor -1 0 3/speak Victor \"I got the job! Look at this, @!$1\"/pause 300/playSound newRecipe/pause 500/speak Victor \"I just received my official acceptance letter from the town of Grampleton and my credentials from the Bridge Engineering Association!$1#$b#I haven't told anyone yet! You're the first!$1\"/emote farmer 16/speak Victor \"@, I know you may be in the middle of running some errands, but would you like to walk up to the summit with me?$3\"/pause 800/question fork0 \"(What should I say?)#Yes! I'd love to walk up to the summit with you!#I can't. Sorry, Victor. I'm in the middle of something. (Leave)\"/fork 2000004_Summit/pause 350/showFrame Victor 40/pause 750/speak Victor \"Oh... that's okay. I'll see you later then.$2\"/pause 1300/globalFade/viewport -1000 -1000/pause 800/friendship Victor -250/end dialogue Victor \"I'm not in a good mood, @. I wanted to tell you something at the summit, and you shot me down.$2$e#I'll talk to you later. I'll get over it soon.$5#$e#Give me some space, @.$2\"",
+
+        "2000004_Summit": "pause 400/speak Victor \"!!!$1\"/pause 500/speak Victor \"Umm... would you like to hold hands as we walk up there?$4\"/pause 300/emote farmer 32/pause 300/move farmer 0 1 2/move farmer 1 0 0 true/pause 200/move Victor 0 0 2/pause 250/emote Victor 20/pause 200/emote farmer 20/pause 650/speed Victor 2/move Victor 6 0 0 true/move farmer 6 0 0 true/pause 200/globalFade/viewport -1000 -1000/pause 500/warp Wizard -400 -400/warp Krobus -444 -444/warp Marlon -433 -433/warp farmer 15 25/warp Victor 14 25/changeLocation Summit/viewport 15 17 true/move farmer 0 -8 0 true/move Victor 0 -8 0 true/pause 4000/playSound SpringBirds/pause 400/playSound SpringBirds/pause 600/playSound SpringBirds/pause 1150/speak Victor \"...$3\"/pause 300/playSound SpringBirds/pause 500/playSound SpringBirds/pause 400/playSound SpringBirds/pause 300/speak Victor \"It feels like we just met yesterday, but at the same time it feels like I've known you all my life, @.$3\"/pause 400/move farmer 0 0 3/pause 500/speak Victor \"We listen to each other, inspire each other, understand each other, and grow stronger together every day.$3#$b#I couldn't imagine living a single day without you in my life.$4#$b#I have grown to be a better person because of you. Hopefully, I've allowed you to do the same.$3\"/pause 400/emote farmer 20/pause 200/move Victor 0 0 1/pause 400/speak Victor \"You're my boo, and you always will be.$4\"/pause 500/emote Victor 20/pause 750/speak Victor \"Ah, that was a little cheesy wasn't it.$0#$b#I sometimes have a way with words.$1\"/pause 200/emote farmer 32/pause 200/speak Victor \"So, I was thinking to celebrate me getting the position, maybe we cou-$4\"/emote Victor 16/playMusic junimoStarSong/animate farmer true true 9999999 101/showFrame Victor 28/emote farmer 20 true/emote Victor 20/pause 1500/viewport move 0 -1 11000 true/pause 11000/globalFade/viewport -1000 -1000/end dialogue Victor \"Our kiss at the summit was romantic.$4#$e#I love you, @.$4\"",
+		}
+       }
+	]
+}
+		
+		

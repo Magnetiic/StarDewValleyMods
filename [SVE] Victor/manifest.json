@@ -1,0 +1,13 @@
+{
+
+  "Name": "Stardew Valley Expanded - Victor NPC",
+  "Author": "FlashShifter",
+  "Description": "Adds Victor to Stardew Valley Expanded",
+  "Version": "1.3.5",
+  "UniqueID": "FlashShifter.VictorSVE",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+
+
+}

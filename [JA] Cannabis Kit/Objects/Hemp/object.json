@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "Name": "Hemp",
   "Description": "A variant of the sativa species with little to no THC, hemp can be used in a variety of industrial settings.",
@@ -12,3 +13,19 @@
     "Hate": ["Jas", "Vincent"],
   }
 }
+=======
+{
+  "Name": "Hemp",
+  "Description": "A variant of the sativa species with little to no THC, hemp can be used in a variety of industrial settings.",
+  "Category": "Flower",
+  "Edibility": 18,
+  "Price": 170,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Robin", "Demetrius", "Emily", "Linus", "Clint", "Marnie"],
+    "Neutral" : ["Sam", "Sebastian", "Pierre", "Penny", "Pam", "Kent", "Abigail", "Elliott", "Harvey", "Willy"],
+    "Hate": ["Jas", "Vincent"],
+  }
+}
+>>>>>>> asdfasdf

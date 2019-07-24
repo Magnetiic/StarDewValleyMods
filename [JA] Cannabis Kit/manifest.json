@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
    "Name": "Cannabis Kit for JsonAssets",
    "Description": "Adds cannabis to your farm.",
@@ -10,3 +11,17 @@
     },
    "UpdateKeys": [ "Nexus:1741" ],
 }
+=======
+{
+   "Name": "Cannabis Kit for JsonAssets",
+   "Description": "Adds cannabis to your farm.",
+   "Author": "PPJA & taintedwheat",
+   "Version": "1.6.0",
+   "MinimumApiVersion": "2.10.1",
+   "UniqueID": "PPJA.cannabiskit",
+  "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+   "UpdateKeys": [ "Nexus:1741" ],
+}
+>>>>>>> asdfasdf

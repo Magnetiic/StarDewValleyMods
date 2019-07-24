@@ -1,0 +1,13 @@
+{
+
+  "Name": "Stardew Valley Expanded - Olivia NPC",
+  "Author": "FlashShifter",
+  "Description": "Adds Olivia to Stardew Valley Expanded",
+  "Version": "1.3.5",
+  "UniqueID": "FlashShifter.OliviaSVE",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+
+
+}

@@ -1,0 +1,108 @@
+
+
+	== IMMERSIVE MAPS - STARDEW VALLEY ENHANCED EDITION ==
+	
+
+		---> Only works with SVE installed <---
+
+
+		!!!!!IMPORTANT!!!!!
+		
+		If you have any other "Karmylla's Immersive Maps" folder in your Mods folder - DELETE IT!
+		My mod's name was changeed, and many are having issues with the newest updates.
+		
+			!!!There is no "Karmylla's Immersive Map Edits" any more!!!
+
+
+____________________________________________________________________________________________________________
+
+
+
+ When you first load this mod, a config file will appear on the Mod's folder, which you should edit to your liking. 
+
+ This mod edition has three Conditions with different values, which are:
+
+
+	- CONDITION: TownMap
+		VALUES: TownRuins, TownPlaza
+
+	- CONDITION: StringsEdits
+		VALUES: true, false
+		
+	- CONDITION: TownFestivals
+		VALUES: true, false
+
+		
+ * The first condition - TownMap - relates to which Town map you'll be using.
+
+	1. "TownRuins" 
+		For those who would like to have the Joja ruins in their Town map; it will automatically change from the Joja map to the TownRuins map once you've finished the Community Centre quest.
+		- This is the default.
+	
+	2. "TownPlaza" 
+		For those who, instead of having the Joja Ruins in their Town, prefer having a new Plaza area. 
+		- Only use this after you've finished with the Community Centre Quest!
+	
+		
+ * The second condition - StringsEdits - are to be used by those who do not intend to use my NPC map edits. 
+	By default, this is set to true. If you don't want to play with my NPC map edits, set this to false.
+	
+	
+ * The third condition - TownFestivals - follows the same idea has the previous condition: it is to be used by those who may not be interested in my Town Festival edits.
+	By default, this is set to true. If you do not want to play with my Town Festival maps, set this to false.
+
+
+
+			===== DO NOT FORGET =====
+			
+			You need Entoarox Framework to reset the bushes - if you aren't playing with a new save!
+			Load your save file and type in the SMAPI console:
+						world_bushreset
+			And you will see the bushes in their new place!	
+			
+			==========================	
+
+	
+	
+ Any questions, comments or bugs, feel free to contact me at NexusMods!
+
+	~ Karmylla & FlashShifter
+
+
+
+
+____________________________________________________________________________________________________________
+
+
+		CREDITS
+
+
+	
+	* Stardew Valley Enhanced, credited to FlashShifter (https://www.nexusmods.com/stardewvalley/mods/3596)
+
+	* Elliott's House Tilesheet were originally made by Bartalac, and shared through their Mod - Elliott's cozy shack. 
+I changed some things and added others to my liking. I tried talking with Bartalac and request adding their work to mine, but unfortunately they haven't visit the ChuckleFish Forums since April 6, 2016. I will be making this adjustment and crediting the original author, but if they ever return and are against me adding this to my Mod, it will be removed.
+
+	* The Hot Springs Tilesheet added to the Town map were originally done by DevilBro's Hot Spring behind Joja Market. 
+I changed it according to my liking. Much like what happened with Bartalac, DevilBro hasn't been online in a while, and even though I did message them, I got no response. Therefore, I will be taking the same stance as per Bartalac's case, and use this as I see fit, but if I'm ever contacted by the original author and they are not happy with my use of their resources, it will be removed.
+
+	* Flower Valley - Dusty Tilesheet was made by ManekiNeko89﻿.
+
+	* A Toned Down Stardew Valley - Elliott House Tiles was made by Zyler﻿.
+	
+	* A Toned Down Stardew Valley Dusty Tiles was done by Minerva.
+
+	* German Translation was made by Bregodon.
+
+	* Portuguese- Brazilian Translation was made by farpencio.
+
+	* Spanish Translation was made by Python593.
+ 
+	* Chinese Translation was initially made by @yuwenlan, and revised by kimberly6979. It was revised AGAIN by lchinove!
+	
+	* Korean Translation was made by hyunny1203.
+	
+	* Russian Translation was made by pinzol.
+	
+	
+	

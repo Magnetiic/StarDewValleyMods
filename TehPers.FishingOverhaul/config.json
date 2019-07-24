@@ -15,10 +15,17 @@
     "DaysBeforeLegendaryRecatchable": 28,
     
     /* Whether the fish should be shown while catching it. False for vanilla */
+<<<<<<< HEAD
     "ShowFish": false,
     
     /* Whether or not to show current streak, chance for treasure, chance for each fish, etc. while fishing. */
     "ShowFishingData": false,
+=======
+    "ShowFish": true,
+    
+    /* Whether or not to show current streak, chance for treasure, chance for each fish, etc. while fishing. */
+    "ShowFishingData": true,
+>>>>>>> asdfasdf
     
     /* The X coordinate of the top left corner of the fishing HUD. */
     "HudTopLeftX": 0,
