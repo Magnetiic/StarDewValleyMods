@@ -1,7 +1,7 @@
 {
-  "ForageSpawnEnabled": false,
-  "LargeObjectSpawnEnabled": false,
-  "OreSpawnEnabled": false,
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": true,
+  "OreSpawnEnabled": true,
   "Forage_Spawn_Settings": {
     "Areas": [
       {
@@ -9,16 +9,16 @@
         "SummerItemIndex": null,
         "FallItemIndex": null,
         "WinterItemIndex": null,
-        "UniqueAreaID": "Farm forage area 1",
         "MapName": "Farm",
-        "MinimumSpawnsPerDay": 0,
+        "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 3,
         "AutoSpawnTerrainTypes": [
-          "Grass",
-          "Diggable"
+          "Grass"
         ],
         "IncludeAreas": [],
-        "ExcludeAreas": [],
+        "ExcludeAreas": [
+          "33,0/106,85"
+        ],
         "StrictTileChecking": "High",
         "ExtraConditions": {
           "Years": [],
@@ -28,8 +28,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": null
+        }
       }
     ],
     "PercentExtraSpawnsPerForagingLevel": 0,
@@ -60,16 +59,17 @@
         "ObjectTypes": [
           "Stump"
         ],
-        "FindExistingObjectLocations": true,
+        "FindExistingObjectLocations": false,
         "PercentExtraSpawnsPerSkillLevel": 0,
         "RelatedSkill": "Foraging",
-        "UniqueAreaID": "Farm large object area 1",
         "MapName": "Farm",
         "MinimumSpawnsPerDay": 999,
         "MaximumSpawnsPerDay": 999,
         "AutoSpawnTerrainTypes": [],
         "IncludeAreas": [],
-        "ExcludeAreas": [],
+        "ExcludeAreas": [
+          "33,0/106,85"
+        ],
         "StrictTileChecking": "High",
         "ExtraConditions": {
           "Years": [],
@@ -79,8 +79,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": null
+        }
       }
     ],
     "CustomTileIndex": []
@@ -91,14 +90,15 @@
         "MiningLevelRequired": null,
         "StartingSpawnChance": null,
         "LevelTenSpawnChance": null,
-        "UniqueAreaID": "Farm ore area 1",
         "MapName": "Farm",
-        "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 5,
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
         "AutoSpawnTerrainTypes": [
           "Quarry"
         ],
-        "IncludeAreas": [],
+        "IncludeAreas": [
+          "47,69/68,81"
+        ],
         "ExcludeAreas": [],
         "StrictTileChecking": "High",
         "ExtraConditions": {
@@ -109,8 +109,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": null
+        }
       }
     ],
     "PercentExtraSpawnsPerMiningLevel": 0,
@@ -147,7 +146,7 @@
       "Copper": 16,
       "Iron": 13,
       "Gold": 10,
-      "Iridium": 1,
+      "Iridium": 2,
       "Mystic": 1
     },
     "CustomTileIndex": []
@@ -166,11 +165,7 @@
     681,
     685
   ],
-  "File_Conditions": {
-    "FarmTypes": [],
-    "FarmerNames": [],
-    "SaveFileNames": [],
-    "OtherMods": {},
-    "ResetMainDataFolder": false
+  "Internal_Save_Data": {
+    "WeatherForYesterday": "Sunny"
   }
 }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿{
   "Name": "Horse Whistle Mod",
   "Author": "icepuente",
@@ -8,15 +7,4 @@
   "EntryDll": "HorseWhistle.dll",
   "MinimumApiVersion": "2.6-beta.4",
   "UpdateKeys": ["Nexus:1131"]
-=======
-﻿{
-  "Name": "Horse Whistle Mod",
-  "Author": "icepuente",
-  "Version": "1.2.2",
-  "Description": "Press V to call your horse to any outdoor location with an audible whistle.",
-  "UniqueID": "icepuente.HorseWhistle",
-  "EntryDll": "HorseWhistle.dll",
-  "MinimumApiVersion": "2.6-beta.4",
-  "UpdateKeys": ["Nexus:1131"]
->>>>>>> asdfasdf
 }

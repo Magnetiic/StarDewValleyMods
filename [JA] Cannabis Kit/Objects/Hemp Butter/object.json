@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "Name": "Hemp Butter",
   "Description": "A homemade butter with hemp added in.",
@@ -12,18 +11,3 @@
     "Hate": ["Jas", "Vincent"],
   },
 }
-=======
-{
-  "Name": "Hemp Butter",
-  "Description": "A homemade butter with hemp added in.",
-  "Category": "ArtisanGoods",
-  "Edibility": 18,
-  "Price": 230,
-  "IsColored": false,
-  "Recipe": null,
-  "GiftTastes": {
-    "Love": ["Sebastian", "Gus", "Willy", "Evelyn", "Pierre", "Abigail"],
-    "Hate": ["Jas", "Vincent"],
-  },
-}
->>>>>>> asdfasdf

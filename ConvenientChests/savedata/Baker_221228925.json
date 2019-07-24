@@ -45,7 +45,6 @@
         "Tile": "4, 5"
       },
       "AcceptedItems": {}
-<<<<<<< HEAD
     },
     {
       "Address": {
@@ -55,8 +54,6 @@
         "Tile": "58, 17"
       },
       "AcceptedItems": {}
-=======
->>>>>>> asdfasdf
     }
   ]
 }

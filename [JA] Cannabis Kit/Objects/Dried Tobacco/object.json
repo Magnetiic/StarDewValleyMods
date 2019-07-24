@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "Name": "Dried Tobacco",
   "Description": "Good for making spliffs and smoking alone.",
@@ -8,14 +7,3 @@
   "IsColored": false,
   "Recipe": null,
 }
-=======
-{
-  "Name": "Dried Tobacco",
-  "Description": "Good for making spliffs and smoking alone.",
-  "Category": "ArtisanGoods",
-  "Edibility": 	-300,
-  "Price": 100,
-  "IsColored": false,
-  "Recipe": null,
-}
->>>>>>> asdfasdf

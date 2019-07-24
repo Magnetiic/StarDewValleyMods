@@ -2,7 +2,6 @@
     /* All the fish that can be caught */
     "PossibleFish": {
         "Farm": {
-<<<<<<< HEAD
             "145": {
                 /* The weighted chance of this fish appearing */
                 "Chance": 0.45,
@@ -558,8 +557,6 @@
                 /* The mine level this fish can be found on, or null if it can be found on any floor. */
                 "MineLevel": null
             }
-=======
->>>>>>> asdfasdf
         },
         "UndergroundMine": {
             "156": {
