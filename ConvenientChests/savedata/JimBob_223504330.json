@@ -9,6 +9,15 @@
         "Tile": "2, 10"
       },
       "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "3, 4"
+      },
+      "AcceptedItems": {}
     }
   ]
 }
