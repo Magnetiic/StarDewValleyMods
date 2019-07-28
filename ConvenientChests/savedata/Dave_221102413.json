@@ -33,6 +33,15 @@
         "LocationType": "Normal",
         "LocationName": "Farm",
         "BuildingName": "",
+        "Tile": "68, 15"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
         "Tile": "61, 15"
       },
       "AcceptedItems": {}
