@@ -4,9 +4,7 @@
   "Controls": {
     "ToggleOverlay": "U"
   },
-  "ConnectorNames": [
-    "Stone Floor"
-  ],
+  "ConnectorNames": [],
   "ModCompatibility": {
     "AutoGrabberMod": true,
     "BetterJunimos": true
