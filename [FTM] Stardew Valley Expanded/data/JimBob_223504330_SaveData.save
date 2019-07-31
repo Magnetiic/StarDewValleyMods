@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Debris",
   "LNOSCounter": {
     "Beach forage area 3": 1,
     "Forest forage area 2": 1,
@@ -23,27 +23,11 @@
   "SavedObjects": [
     {
       "MapName": "LostWoods",
-      "Tile": "89, 93",
-      "Type": "Forage",
-      "ID": 22,
-      "Name": null,
-      "DaysUntilExpire": 1
-    },
-    {
-      "MapName": "LostWoods",
-      "Tile": "5, 65",
-      "Type": "Forage",
-      "ID": 22,
-      "Name": null,
-      "DaysUntilExpire": 1
-    },
-    {
-      "MapName": "LostWoods",
       "Tile": "8, 68",
       "Type": "Forage",
       "ID": 16,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "LostWoods",
@@ -51,7 +35,7 @@
       "Type": "Forage",
       "ID": 296,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "LostWoods",
@@ -59,7 +43,7 @@
       "Type": "Forage",
       "ID": 404,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "LostWoods",
@@ -67,7 +51,7 @@
       "Type": "Forage",
       "ID": 20,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "LostWoods",
@@ -75,7 +59,7 @@
       "Type": "Forage",
       "ID": 296,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "LostWoods",
@@ -83,23 +67,7 @@
       "Type": "Forage",
       "ID": 404,
       "Name": null,
-      "DaysUntilExpire": 3
-    },
-    {
-      "MapName": "ForestWest",
-      "Tile": "60, 145",
-      "Type": "Forage",
-      "ID": 404,
-      "Name": null,
-      "DaysUntilExpire": 1
-    },
-    {
-      "MapName": "Town",
-      "Tile": "118, 76",
-      "Type": "Forage",
-      "ID": 18,
-      "Name": null,
-      "DaysUntilExpire": 1
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "BackWoods",
@@ -107,7 +75,7 @@
       "Type": "Forage",
       "ID": 22,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "BackWoods",
@@ -115,7 +83,7 @@
       "Type": "Forage",
       "ID": 16,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "TownEast",
@@ -123,7 +91,7 @@
       "Type": "Forage",
       "ID": 22,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "TownEast",
@@ -131,7 +99,7 @@
       "Type": "Forage",
       "ID": 22,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "LostWoods",
@@ -139,77 +107,13 @@
       "Type": "Forage",
       "ID": 296,
       "Name": null,
-      "DaysUntilExpire": 4
+      "DaysUntilExpire": 3
     },
     {
       "MapName": "LostWoods",
       "Tile": "48, 72",
       "Type": "Forage",
       "ID": 16,
-      "Name": null,
-      "DaysUntilExpire": 4
-    },
-    {
-      "MapName": "ForestWest",
-      "Tile": "127, 36",
-      "Type": "Forage",
-      "ID": 20,
-      "Name": null,
-      "DaysUntilExpire": 1
-    },
-    {
-      "MapName": "ForestWest",
-      "Tile": "135, 46",
-      "Type": "Forage",
-      "ID": 404,
-      "Name": null,
-      "DaysUntilExpire": 1
-    },
-    {
-      "MapName": "ForestWest",
-      "Tile": "57, 78",
-      "Type": "Forage",
-      "ID": 16,
-      "Name": null,
-      "DaysUntilExpire": 1
-    },
-    {
-      "MapName": "ForestWest",
-      "Tile": "89, 94",
-      "Type": "Forage",
-      "ID": 16,
-      "Name": null,
-      "DaysUntilExpire": 1
-    },
-    {
-      "MapName": "ForestWest",
-      "Tile": "124, 26",
-      "Type": "Forage",
-      "ID": 18,
-      "Name": null,
-      "DaysUntilExpire": 1
-    },
-    {
-      "MapName": "ForestWest",
-      "Tile": "98, 31",
-      "Type": "Forage",
-      "ID": 20,
-      "Name": null,
-      "DaysUntilExpire": 1
-    },
-    {
-      "MapName": "Forest",
-      "Tile": "36, 90",
-      "Type": "Forage",
-      "ID": 404,
-      "Name": null,
-      "DaysUntilExpire": 1
-    },
-    {
-      "MapName": "BackWoods",
-      "Tile": "48, 13",
-      "Type": "Forage",
-      "ID": 22,
       "Name": null,
       "DaysUntilExpire": 3
     },
@@ -219,7 +123,7 @@
       "Type": "Forage",
       "ID": 22,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "RailRoad",
@@ -227,7 +131,7 @@
       "Type": "Forage",
       "ID": 296,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "TownEast",
@@ -235,7 +139,7 @@
       "Type": "Forage",
       "ID": 16,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "LostWoods",
@@ -243,7 +147,7 @@
       "Type": "Forage",
       "ID": 16,
       "Name": null,
-      "DaysUntilExpire": 5
+      "DaysUntilExpire": 4
     },
     {
       "MapName": "LostWoods",
@@ -251,7 +155,7 @@
       "Type": "Forage",
       "ID": 16,
       "Name": null,
-      "DaysUntilExpire": 5
+      "DaysUntilExpire": 4
     },
     {
       "MapName": "LostWoods",
@@ -259,7 +163,7 @@
       "Type": "Forage",
       "ID": 404,
       "Name": null,
-      "DaysUntilExpire": 5
+      "DaysUntilExpire": 4
     },
     {
       "MapName": "ForestWest",
@@ -267,7 +171,7 @@
       "Type": "Forage",
       "ID": 18,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "ForestWest",
@@ -275,21 +179,13 @@
       "Type": "Forage",
       "ID": 22,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "ForestWest",
       "Tile": "86, 17",
       "Type": "Forage",
       "ID": 20,
-      "Name": null,
-      "DaysUntilExpire": 2
-    },
-    {
-      "MapName": "SpriteSpring",
-      "Tile": "70, 27",
-      "Type": "Forage",
-      "ID": 597,
       "Name": null,
       "DaysUntilExpire": 1
     },
@@ -299,7 +195,7 @@
       "Type": "Forage",
       "ID": 18,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "Forest",
@@ -307,7 +203,7 @@
       "Type": "Forage",
       "ID": 20,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "Forest",
@@ -315,7 +211,7 @@
       "Type": "Forage",
       "ID": 20,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "RailRoad",
@@ -323,7 +219,7 @@
       "Type": "Forage",
       "ID": 296,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "RailRoad",
@@ -331,7 +227,7 @@
       "Type": "Forage",
       "ID": 257,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "RailRoad",
@@ -339,7 +235,7 @@
       "Type": "Forage",
       "ID": 20,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "TownEast",
@@ -347,7 +243,7 @@
       "Type": "Forage",
       "ID": 257,
       "Name": null,
-      "DaysUntilExpire": 4
+      "DaysUntilExpire": 3
     },
     {
       "MapName": "TownEast",
@@ -355,7 +251,7 @@
       "Type": "Forage",
       "ID": 20,
       "Name": null,
-      "DaysUntilExpire": 4
+      "DaysUntilExpire": 3
     },
     {
       "MapName": "TownEast",
@@ -363,7 +259,7 @@
       "Type": "Forage",
       "ID": 296,
       "Name": null,
-      "DaysUntilExpire": 4
+      "DaysUntilExpire": 3
     },
     {
       "MapName": "LostWoods",
@@ -371,7 +267,7 @@
       "Type": "Forage",
       "ID": 22,
       "Name": null,
-      "DaysUntilExpire": 6
+      "DaysUntilExpire": 5
     },
     {
       "MapName": "LostWoods",
@@ -379,7 +275,7 @@
       "Type": "Forage",
       "ID": 18,
       "Name": null,
-      "DaysUntilExpire": 6
+      "DaysUntilExpire": 5
     },
     {
       "MapName": "LostWoods",
@@ -387,7 +283,7 @@
       "Type": "Forage",
       "ID": 16,
       "Name": null,
-      "DaysUntilExpire": 6
+      "DaysUntilExpire": 5
     },
     {
       "MapName": "LostWoods",
@@ -395,7 +291,7 @@
       "Type": "Forage",
       "ID": 404,
       "Name": null,
-      "DaysUntilExpire": 6
+      "DaysUntilExpire": 5
     },
     {
       "MapName": "LostWoods",
@@ -403,7 +299,7 @@
       "Type": "Forage",
       "ID": 22,
       "Name": null,
-      "DaysUntilExpire": 6
+      "DaysUntilExpire": 5
     },
     {
       "MapName": "ForestWest",
@@ -411,7 +307,7 @@
       "Type": "Forage",
       "ID": 257,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "ForestWest",
@@ -419,7 +315,7 @@
       "Type": "Forage",
       "ID": 257,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "ForestWest",
@@ -427,7 +323,7 @@
       "Type": "Forage",
       "ID": 16,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "ForestWest",
@@ -435,7 +331,7 @@
       "Type": "Forage",
       "ID": 404,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "ForestWest",
@@ -443,7 +339,7 @@
       "Type": "Forage",
       "ID": 296,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "ForestWest",
@@ -451,7 +347,7 @@
       "Type": "Forage",
       "ID": 296,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "ForestWest",
@@ -459,7 +355,7 @@
       "Type": "Forage",
       "ID": 18,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "ForestWest",
@@ -467,7 +363,7 @@
       "Type": "Forage",
       "ID": 22,
       "Name": null,
-      "DaysUntilExpire": 3
+      "DaysUntilExpire": 2
     },
     {
       "MapName": "SpriteSpring",
@@ -475,7 +371,7 @@
       "Type": "Forage",
       "ID": 597,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "SpriteSpring",
@@ -483,7 +379,7 @@
       "Type": "Forage",
       "ID": 597,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "SpriteSpring",
@@ -491,7 +387,7 @@
       "Type": "Forage",
       "ID": 597,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "SpriteSpring",
@@ -499,11 +395,203 @@
       "Type": "Forage",
       "ID": 597,
       "Name": null,
-      "DaysUntilExpire": 2
+      "DaysUntilExpire": 1
     },
     {
       "MapName": "SpriteSpring",
       "Tile": "74, 40",
+      "Type": "Forage",
+      "ID": 591,
+      "Name": null,
+      "DaysUntilExpire": 1
+    },
+    {
+      "MapName": "Town",
+      "Tile": "79, 7",
+      "Type": "Forage",
+      "ID": 257,
+      "Name": null,
+      "DaysUntilExpire": 4
+    },
+    {
+      "MapName": "Forest",
+      "Tile": "108, 61",
+      "Type": "Forage",
+      "ID": 20,
+      "Name": null,
+      "DaysUntilExpire": 2
+    },
+    {
+      "MapName": "Forest",
+      "Tile": "112, 56",
+      "Type": "Forage",
+      "ID": 20,
+      "Name": null,
+      "DaysUntilExpire": 2
+    },
+    {
+      "MapName": "Mountain",
+      "Tile": "72, 10",
+      "Type": "Forage",
+      "ID": 18,
+      "Name": null,
+      "DaysUntilExpire": 5
+    },
+    {
+      "MapName": "TownEast",
+      "Tile": "35, 3",
+      "Type": "Forage",
+      "ID": 404,
+      "Name": null,
+      "DaysUntilExpire": 4
+    },
+    {
+      "MapName": "LostWoods",
+      "Tile": "58, 15",
+      "Type": "Forage",
+      "ID": 20,
+      "Name": null,
+      "DaysUntilExpire": 6
+    },
+    {
+      "MapName": "LostWoods",
+      "Tile": "68, 37",
+      "Type": "Forage",
+      "ID": 404,
+      "Name": null,
+      "DaysUntilExpire": 6
+    },
+    {
+      "MapName": "LostWoods",
+      "Tile": "91, 18",
+      "Type": "Forage",
+      "ID": 404,
+      "Name": null,
+      "DaysUntilExpire": 6
+    },
+    {
+      "MapName": "LostWoods",
+      "Tile": "57, 34",
+      "Type": "Forage",
+      "ID": 404,
+      "Name": null,
+      "DaysUntilExpire": 6
+    },
+    {
+      "MapName": "LostWoods",
+      "Tile": "27, 34",
+      "Type": "Forage",
+      "ID": 20,
+      "Name": null,
+      "DaysUntilExpire": 6
+    },
+    {
+      "MapName": "LostWoods",
+      "Tile": "89, 51",
+      "Type": "Forage",
+      "ID": 16,
+      "Name": null,
+      "DaysUntilExpire": 6
+    },
+    {
+      "MapName": "ForestWest",
+      "Tile": "19, 76",
+      "Type": "Forage",
+      "ID": 404,
+      "Name": null,
+      "DaysUntilExpire": 3
+    },
+    {
+      "MapName": "ForestWest",
+      "Tile": "43, 115",
+      "Type": "Forage",
+      "ID": 404,
+      "Name": null,
+      "DaysUntilExpire": 3
+    },
+    {
+      "MapName": "ForestWest",
+      "Tile": "31, 114",
+      "Type": "Forage",
+      "ID": 296,
+      "Name": null,
+      "DaysUntilExpire": 3
+    },
+    {
+      "MapName": "ForestWest",
+      "Tile": "135, 41",
+      "Type": "Forage",
+      "ID": 404,
+      "Name": null,
+      "DaysUntilExpire": 3
+    },
+    {
+      "MapName": "ForestWest",
+      "Tile": "114, 58",
+      "Type": "Forage",
+      "ID": 20,
+      "Name": null,
+      "DaysUntilExpire": 3
+    },
+    {
+      "MapName": "ForestWest",
+      "Tile": "133, 35",
+      "Type": "Forage",
+      "ID": 404,
+      "Name": null,
+      "DaysUntilExpire": 3
+    },
+    {
+      "MapName": "ForestWest",
+      "Tile": "98, 13",
+      "Type": "Forage",
+      "ID": 257,
+      "Name": null,
+      "DaysUntilExpire": 3
+    },
+    {
+      "MapName": "ForestWest",
+      "Tile": "80, 146",
+      "Type": "Forage",
+      "ID": 20,
+      "Name": null,
+      "DaysUntilExpire": 4
+    },
+    {
+      "MapName": "SpriteSpring",
+      "Tile": "69, 46",
+      "Type": "Forage",
+      "ID": 597,
+      "Name": null,
+      "DaysUntilExpire": 2
+    },
+    {
+      "MapName": "SpriteSpring",
+      "Tile": "68, 32",
+      "Type": "Forage",
+      "ID": 591,
+      "Name": null,
+      "DaysUntilExpire": 2
+    },
+    {
+      "MapName": "SpriteSpring",
+      "Tile": "67, 29",
+      "Type": "Forage",
+      "ID": 591,
+      "Name": null,
+      "DaysUntilExpire": 2
+    },
+    {
+      "MapName": "SpriteSpring",
+      "Tile": "75, 31",
+      "Type": "Forage",
+      "ID": 591,
+      "Name": null,
+      "DaysUntilExpire": 2
+    },
+    {
+      "MapName": "SpriteSpring",
+      "Tile": "76, 34",
       "Type": "Forage",
       "ID": 591,
       "Name": null,
