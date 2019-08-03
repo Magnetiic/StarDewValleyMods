@@ -8,8 +8,5 @@
   "BeachDestinationEnabled": true,
   "WizardDestinationEnabled": true,
   "UseCustomFarmDestination": true,
-  "CustomFarmDestinationPoint": {
-    "X": 78,
-    "Y": 9
-  }
+  "CustomFarmDestinationPoint": "78, 9"
 }

@@ -9,6 +9,7 @@
         "SummerItemIndex": null,
         "FallItemIndex": null,
         "WinterItemIndex": null,
+        "UniqueAreaID": "Farm forage area 1",
         "MapName": "Farm",
         "MinimumSpawnsPerDay": 1,
         "MaximumSpawnsPerDay": 3,
@@ -28,7 +29,8 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
-        }
+        },
+        "DaysUntilSpawnsExpire": null
       }
     ],
     "PercentExtraSpawnsPerForagingLevel": 0,
@@ -62,6 +64,7 @@
         "FindExistingObjectLocations": false,
         "PercentExtraSpawnsPerSkillLevel": 0,
         "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm large object area 1",
         "MapName": "Farm",
         "MinimumSpawnsPerDay": 999,
         "MaximumSpawnsPerDay": 999,
@@ -94,7 +97,8 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
-        }
+        },
+        "DaysUntilSpawnsExpire": null
       }
     ],
     "CustomTileIndex": []
@@ -105,6 +109,7 @@
         "MiningLevelRequired": null,
         "StartingSpawnChance": null,
         "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Farm ore area 1",
         "MapName": "Farm",
         "MinimumSpawnsPerDay": 5,
         "MaximumSpawnsPerDay": 10,
@@ -124,7 +129,8 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
-        }
+        },
+        "DaysUntilSpawnsExpire": null
       }
     ],
     "PercentExtraSpawnsPerMiningLevel": 0,
@@ -180,7 +186,11 @@
     681,
     685
   ],
-  "Internal_Save_Data": {
-    "WeatherForYesterday": "Sunny"
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {},
+    "ResetMainDataFolder": false
   }
 }
