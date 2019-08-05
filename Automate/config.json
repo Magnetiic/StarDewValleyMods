@@ -4,7 +4,9 @@
   "Controls": {
     "ToggleOverlay": "U"
   },
-  "ConnectorNames": [],
+  "ConnectorNames": [
+    "Gravel Path"
+  ],
   "ModCompatibility": {
     "AutoGrabberMod": true,
     "BetterJunimos": true

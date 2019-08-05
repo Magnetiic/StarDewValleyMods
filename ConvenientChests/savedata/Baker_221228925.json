@@ -26,7 +26,9 @@
         "BuildingName": "",
         "Tile": "2, 8"
       },
-      "AcceptedItems": {}
+      "AcceptedItems": {
+        "Object": "167,168,169,170,171,172,747,748"
+      }
     },
     {
       "Address": {
@@ -52,6 +54,15 @@
         "LocationName": "Farm",
         "BuildingName": "",
         "Tile": "58, 17"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmCave",
+        "BuildingName": "",
+        "Tile": "8, 8"
       },
       "AcceptedItems": {}
     }

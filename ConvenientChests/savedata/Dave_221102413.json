@@ -44,20 +44,20 @@
         "LocationType": "Normal",
         "LocationName": "Farm",
         "BuildingName": "",
-        "Tile": "68, 15"
+        "Tile": "61, 15"
       },
-      "AcceptedItems": {}
+      "AcceptedItems": {
+        "Object": "685,599,621,645,368,369,370,465,466,371"
+      }
     },
     {
       "Address": {
         "LocationType": "Normal",
         "LocationName": "Farm",
         "BuildingName": "",
-        "Tile": "61, 15"
+        "Tile": "68, 15"
       },
-      "AcceptedItems": {
-        "Object": "685,599,621,645,368,369,370,465,466,371"
-      }
+      "AcceptedItems": {}
     },
     {
       "Address": {
@@ -83,6 +83,15 @@
         "LocationName": "Farm",
         "BuildingName": "Cabin772957b8-e5f5-4c13-8344-cb9197f36213",
         "Tile": "2, 8"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmCave",
+        "BuildingName": "",
+        "Tile": "7, 8"
       },
       "AcceptedItems": {}
     }
