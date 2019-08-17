@@ -53,7 +53,38 @@
         "LocationType": "Normal",
         "LocationName": "Farm",
         "BuildingName": "",
+        "Tile": "53, 22"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "62, 15"
+      },
+      "AcceptedItems": {
+        "Object": "299,301,302,309,310,311,347,433,472,473,474,475,476,477,478,479,480,481,482,483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,427,429,453,455,431,425,628,629,630,631,632,633,745,770,802,2024,2025,2026,2027,2028,2029,2030,2031,2032,2033,2034,2035,2036,2037,2044,2045,2046,2047,2048,2049",
+        "Tool": "189,273,8,6,7,12,5,2",
+        "Weapon": "47"
+      }
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
         "Tile": "58, 17"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "21, 18"
       },
       "AcceptedItems": {}
     },
