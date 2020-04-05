@@ -1,5 +1,6 @@
 {
   "AutomateShippingBin": true,
+  "PullGemstonesFromJunimoHuts": false,
   "AutomationInterval": 60,
   "Controls": {
     "ToggleOverlay": "U"
