@@ -5,7 +5,8 @@
     "PlantCrops": true,
     "HarvestCrops": true,
     "HarvestForageCrops": true,
-    "ClearDeadCrops": true
+    "ClearDeadCrops": true,
+    "HarvestBushes": true
   },
   "JunimoHuts": {
     "MaxJunimos": 3,
