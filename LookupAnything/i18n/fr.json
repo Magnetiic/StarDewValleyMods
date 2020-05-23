@@ -24,14 +24,14 @@
     "generic.hours": "{{count}} heures",
     "generic.days": "{{count}} jours",
     "generic.in-x-days": "dans {{count}} jours",
-    "generic.x-days-ago": "{{count}} days ago", // TODO
+    "generic.x-days-ago": "il y a {{count}} jours",
     "generic.price": "{{price}}po",
     "generic.price-for-quality": "{{price}}po ({{quality}})",
     "generic.price-for-stack": "{{price}}po le lot de {{count}}",
 
     // types
     "type.building": "Bâtiment",
-    "type.bush": "Bush", // TODO
+    "type.bush": "arbuste",
     "type.fruit-tree": "Arbre fruitié",
     "type.map-tile": "Case de carte",
     "type.monster": "Monstre",
@@ -52,6 +52,7 @@
     "friendship-status.engaged": "Engagé",
     "friendship-status.married": "Marrié",
     "friendship-status.divorced": "Divorcé",
+    "friendship-status.kicked-out": "Rejeté",
 
     /*********
     ** Data translations
@@ -63,6 +64,7 @@
     "bundle-area.boiler-room": "Chaufferie",
     "bundle-area.vault": "Coffre",
     "bundle-area.bulletin-board": "Panneau d'affichage",
+    "bundle-area.abandoned-joja-mart": "Marché Joja abandonné",
 
     // shop names
     "shop.adventure-guild": "Guilde des aventuriers",
@@ -76,22 +78,18 @@
     "recipe-type.cooking": "Cuisine",
     "recipe-type.crafting": "Artisanat",
 
-    /*********
-    ** NPC overrides
-    *********/
+    // NPC descriptions
     "data.npc.pet.description": "Vôtre loyal animal.",
     "data.npc.horse.description": "Vôtre loyal destrier.",
     "data.npc.junimo.description": "Un esprit de la forêt provenant du monde des esprits. On en sait très peu sur eux.",
+    "data.npc.trashbear.description": "Un esprit amical qui nettoie les déchets.",
 
-    /*********
-    ** Item overrides
-    *********/
     // item types
     "data.type.debris": "Débris",
     "data.type.stone": "Pierre",
     "data.type.container": "Contenant",
 
-    // farm
+    // farm items
     "data.item.egg-incubator.description": "Fait éclore les oeufs en des poussins et canetons.",
     "data.item.broken-branch.name": "Branche cassée",
     "data.item.broken-branch.description": "Une branche cassée. A couper avec une hache pour obtenir du bois.",
@@ -139,8 +137,8 @@
     "data.item.copper-node.description": "A casser pour obtenir du minerais de cuivre.",
     "data.item.gold-node.name": "Filon d'or",
     "data.item.gold-node.description": "A casser pour obtenir du minerais d'or.",
-    "data.item.iridum-node.name": "Filon d'iridium",
-    "data.item.iridum-node.description": "A casser pour obtenir du minerais d'iridium.",
+    "data.item.iridium-node.name": "Filon d'iridium",
+    "data.item.iridium-node.description": "A casser pour obtenir du minerais d'iridium.",
     "data.item.iron-node.name": "Filon de fer",
     "data.item.iron-node.description": "A casser pour obtenir du minerais du fer.",
 
@@ -156,10 +154,38 @@
     "data.item.box.name": "Boîte",
     "data.item.box.description": "A casser pour obtenir des biens divers.",
 
+    // location names
+    "location.backwoods": "forêt inexploitée",
+    "location.beach": "plage",
+    "location.beach.east-pier": "plage (jetée à l'est)",
+    "location.bugLand": "repaire des insectes mutants",
+    "location.busStop": "arrêt de bus",
+    "location.desert": "désert",
+    "location.farm": "ferme",
+    "location.farmCave": "grotte de la ferme",
+    "location.farmHouse": "maison de ferme",
+    "location.forest": "forêt",
+    "location.forest.fish-area-0": "rivère de la forêt",
+    "location.forest.fish-area-1": "étang de la forêt",
+    "location.forest.island-tip": "rivière de la forêt (pointe sud de la grande île)",
+    "location.mountain": "montagne",
+    "location.railroad": "chemin de fer",
+    "location.sewer": "égout",
+    "location.submarine": "sous-marin du marché de nuit",
+    "location.town": "ville",
+    "location.town.northmost-bridge": "ville (pont le plus au nord)",
+    "location.tunnel": "tunnel de bus",
+    "location.undergroundMine": "mines",
+    "location.undergroundMine.level": "mine niveau {{level}}",
+    "location.witchSwamp": "marais de la sorcière",
+    "location.woods": "bois secret",
+    "location.unknown-fish-area": "{{locationName}} (secteur de pêche {{id}})",
+
+
     /*********
-    ** Specific lookups
+    ** Animal lookups
     *********/
-    // animal lookup labels
+    // labels
     "animal.love": "Amour",
     "animal.happiness": "Bonheur",
     "animal.mood": "Humeur d'aujourd'hui",
@@ -168,7 +194,7 @@
     "animal.growth": "Croissance",
     "animal.sells-for": "Valeur",
 
-    // animal lookup values
+    // values
     "animal.complaints.hungry": "n'a pas été nourri hier",
     "animal.complaints.left-out": "a été laissé dehors cette nuit",
     "animal.complaints.new-home": "déplacé dans une nouvelle maison",
@@ -176,7 +202,11 @@
     "animal.complaints.not-petted": "n'a pas été carressé aujourd'hui",
     "animal.complaints.wild-animal-attack": "a été attaqué par des animaux sauvages pendant la nuit",
 
-    // building lookup labels
+
+    /*********
+    ** Building > generic lookups
+    *********/
+    // labels
     "building.animals": "Animaux",
     "building.construction": "Construction",
     "building.feed-trough": "Mangeoire",
@@ -188,7 +218,7 @@
     "building.upgrades": "Améliorations",
     "building.water-trough": "Abreuvoir",
 
-    // building lookup values
+    // values
     "building.animals.summary": "{{count}} sur {{max}} animaux",
     "building.construction.summary": "prêt le {{date}}",
     "building.feed-trough.automated": "automatisé",
@@ -212,19 +242,50 @@
     "building.upgrades.coop.2": "jusqu'à 12 animaux, ajoute le nourrissage automatique, permet les lapins",
     "building.water-trough.summary": "{{filled}} de {{max}} capacité d'eau",
 
-    // bush lookup labels
-    // TODO
-    "bush.name.berry": "Berry Bush",
-    "bush.name.plain": "Plain Bush",
-    "bush.description.berry": "A bush that grows salmonberries and blackberries.",
-    "bush.description.plain": "A plain bush that doesn't grow anything.",
-    "bush.next-harvest": "Next harvest",
 
-    // bush lookup values
-    // TODO
-    "bush.schedule.berry": "20% chance of salmonberries in spring 15-18 and blackberries in fall 8-11.",
+    /*********
+    ** Building > fish pond lookups
+    *********/
+    // labels
+    "building.fish-pond.population": "Population",
+    "building.fish-pond.drops": "Collecte",
+    "building.fish-pond.quests": "Quêtes",
 
-    // fruit tree lookup labels
+    // values
+    "building.fish-pond.population.empty": "Ajoutez un poisson pour démarrer cet étang",
+    "building.fish-pond.population.next-spawn": "Nouveau poisson le {{relativeDate}}",
+    "building.fish-pond.drops.preface": "{{chance}}% de chance chaque jour de produire le premier item matché :",
+    "building.fish-pond.drops.min-fish": "Avec {{count}} poissons :",
+    "building.fish-pond.quests.done": "{{count}} poisson(s)",
+    "building.fish-pond.quests.incomplete-one": "{{count}} poisson(s) : auront besoin de {{itemName}}",
+    "building.fish-pond.quests.incomplete-random": "{{count}} poisson(s) : auront besoin d'un objet parmi {{itemList}}",
+    "building.fish-pond.quests.available": "disponible le {{relativeDate}}",
+
+
+    /*********
+    ** Bush lookups
+    *********/
+    // labels
+    "bush.name.berry": "Arbuste fruitier",
+    "bush.name.plain": "Arbuste ordinaire",
+    "bush.name.tea": "théier",
+    "bush.description.berry": "Un arbuste qui produit des baies de saumons et des mûres.",
+    "bush.description.plain": "Un arbuste ordinaire qui ne fait rien pousser.",
+    "bush.description.Tea": "Un arbuste qui fait pousser des feuilles de thé.",
+    "bush.date-planted": "Date de plantation",
+    "bush.growth": "Croissance",
+    "bush.next-harvest": "Prochaine récolte",
+
+    // values
+    "bush.growth.summary": "prêt le {{date}}",
+    "bush.schedule.berry": "20% de chance de baies de saumon du 15 au 18 printemps and mûres du 8 au 11 automne.",
+    "bush.schedule.tea": "Fais pousser des feuilles de thé à partie du 22 de chaque saison (sauf en hiver si hors de la serre).",
+
+
+    /*********
+    ** Fruit tree lookups
+    *********/
+    // labels
     "fruit-tree.complaints": "Problèmes",
     "fruit-tree.name": "Arbre : {{fruitName}}",
     "fruit-tree.growth": "Croissance",
@@ -232,7 +293,7 @@
     "fruit-tree.season": "Saison",
     "fruit-tree.quality": "Qualité",
 
-    // fruit tree lookup values
+    // values
     "fruit-tree.complaints.adjacent-objects": "ne peut grandir car il y a des objets adjacents",
     "fruit-tree.growth.summary": "prêt le {{date}}",
     "fruit-tree.next-fruit.struck-by-lighting": "touché par la foudre ! Récupérera dans {{count}} jours.",
@@ -244,11 +305,15 @@
     "fruit-tree.quality.on-date-next-year": "{{quality}} le {{date}} de la prochaine année",
     "fruit-tree.season.summary": "{{season}} (ou n'importe quand dans la serre)",
 
-    // crop lookup labels
+
+    /*********
+    ** Crop lookups
+    *********/
+    // labels
     "crop.summary": "Culture",
     "crop.harvest": "Récolte",
 
-    // crop lookup values
+    // values
     "crop.summary.dead": "Cette culture est morte.",
     "crop.summary.drops-X": "donne {{count}}",
     "crop.summary.drops-X-to-Y": "donne de {{min}} à {{max}} ({{percent}}% chance de culture supplémentaire)",
@@ -258,19 +323,17 @@
     "crop.summary.sells-for": "vendu pour {{price}}",
     "crop.harvest.too-late": "trop tard dans la saison pour la prochaine récolte (sera le {{date}})",
 
-    // item lookup labels
-    "item.cask-contents": "Contenu",
-    "item.cask-schedule": "Âge",
 
-    "item.crabpot-bait": "Appat",
-    "item.crabpot-bait-needed": "A besoin d'appat !",
-    "item.crabpot-bait-not-needed": "N'en a pas besoin grâce à la profession Maître des leurres.",
-
-    "item.fence-health": "Santé",
-
+    /*********
+    ** Item > generic lookups
+    *********/
+    // labels
     "item.contents": "Contenu",
-    "item.likes-this": "Apprécié par",
-    "item.loves-this": "Adoré par",
+    "item.loves-this": "Adore ça",
+    "item.likes-this": "Apprécie ça",
+    "item.neutral-about-this": "Neutre à propos de ça",
+    "item.dislikes-this": "N'apprécie pas ça",
+    "item.hates-this": "Déteste ça",
     "item.needed-for": "Nécessaire pour",
     "item.number-owned": "Possédé",
     "item.number-cooked": "Cuisiné",
@@ -279,19 +342,15 @@
     "item.see-also": "Voir aussi",
     "item.sells-for": "Vendu pour",
     "item.sells-to": "Vendu à",
+    "item.can-be-dyed": "Peut être teint",
+    "item.produces-dye": "Produit du colorant",
 
-    // item lookup values
-    "item.cask-schedule.now": "{{quality}} prêt maintenant",
-    "item.cask-schedule.now-partial": "{{quality}} maintenant (utiliser la pioche pour arrêté le vieillissement)",
-    "item.cask-schedule.tomorrow": "{{quality}} demain",
-    "item.cask-schedule.in-x-days": "{{quality}} dans {{count}} jours ({{date}})",
-
-    "item.fence-health.gold-clock": "pas de déclin avec l'Horloge d'Or",
-    "item.fence-health.summary": "{{percent}}% (environ {{count}} jours restant)",
-
+    // values
     "item.contents.placed": "{{name}} placé",
     "item.contents.ready": "{{name}} prêt",
     "item.contents.partial": "{{name}} in {{time}}",
+    "item.undiscovered-gift-taste": "{{count}} goût(s) de villageois non découvert(s)",
+    "item.undiscovered-gift-taste-appended": ", et {{count}} goût(s) de villageois non découvert(s)",
     "item.needed-for.community-center": "centre communautaire ({{bundles}})",
     "item.needed-for.full-shipment": "succès de livraison complète (1 à livrer)",
     "item.needed-for.polyculture": "succès polyculture ({{count}} encore à livrer)",
@@ -300,47 +359,136 @@
     "item.needed-for.craft-master": "succès maître artisant (fabriquer {{recipes}})",
     "item.sells-to.shipping-box": "bac d'expédition",
     "item.recipes-for-ingredient.entry": "{{name}} (nécessite {{count}})",
-    "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}", // TODO
+    "item.recipes-for-machine.multiple-items": "{{name}} x {{count}}",
     "item.number-owned.summary": "vous en possédez {{count}}",
     "item.number-crafted.summary": "vous en avez fabriqué {{count}}",
 
-    // monster lookup labels
+
+    /*********
+    ** Item > cask lookups
+    *********/
+    // labels
+    "item.cask-contents": "Contenu",
+    "item.cask-schedule": "Âge",
+
+    // values
+    "item.cask-schedule.now": "{{quality}} prêt maintenant",
+    "item.cask-schedule.now-partial": "{{quality}} maintenant (utiliser la pioche pour arrêté le vieillissement)",
+    "item.cask-schedule.tomorrow": "{{quality}} demain",
+    "item.cask-schedule.in-x-days": "{{quality}} dans {{count}} jours ({{date}})",
+
+
+    /*********
+    ** Item > crab pot lookups
+    *********/
+    // labels
+    "item.crabpot-bait": "Appat",
+    "item.crabpot-bait-needed": "A besoin d'appat !",
+    "item.crabpot-bait-not-needed": "N'en a pas besoin grâce à la profession Maître des leurres.",
+
+
+    /*********
+    ** Item > fence lookups
+    *********/
+    // labels
+    "item.fence-health": "Santé",
+
+    // values
+    "item.fence-health.gold-clock": "pas de déclin avec l'Horloge d'Or",
+    "item.fence-health.summary": "{{percent}}% (environ {{count}} jours restant)",
+
+
+    /*********
+    ** Item > fish lookups
+    *********/
+    // labels
+    "item.fish-pond-drops": "Récolte d'étang à poisson",
+    "item.fish-spawn-rules": "Règle d'apparition",
+
+    // values
+    "item.fish-spawn-rules.min-fishing-level": "niveau minimum de pêche : {{level}}",
+    "item.fish-spawn-rules.not-caught-yet": "pas encore attrapé (ne peux être attrapé qu'une fois)",
+    "item.fish-spawn-rules.locations": "emplacements : {{locations}}",
+    "item.fish-spawn-rules.locations-by-season.label": "emplacements :",
+    "item.fish-spawn-rules.locations-by-season.season-locations": "{{season}} : {{locations}}",
+    "item.fish-spawn-rules.season-any": "toutes les saisons",
+    "item.fish-spawn-rules.season-list": "saisons : {{seasons}}",
+    "item.fish-spawn-rules.time": "heure : {{times}}",
+    "item.fish-spawn-rules.weather-sunny": "temps : ensoleillé",
+    "item.fish-spawn-rules.weather-rainy": "temps : pluvieux",
+
+
+    /*********
+    ** Item > movie lookups
+    *********/
+    // labels
+    "item.movie-snack-preference": "Préférence",
+    "item.movie-ticket.movie-this-week": "Film cette semaine",
+    "item.movie-ticket.loves-movie": "Films aimés",
+    "item.movie-ticket.likes-movie": "Films appréciés",
+    "item.movie-ticket.dislikes-movie": "Films non appréciés",
+
+    // values
+    "item.movie-snack-preference.love": "{{name}} aime ça",
+    "item.movie-snack-preference.like": "{{name}} apprécie ça",
+    "item.movie-snack-preference.dislike": "{{name}} n'apprécie pas ça",
+    "item.movie-ticket.movie-this-week.none": "Pas de film cette semaine",
+
+
+    /*********
+    ** Monster lookups
+    *********/
+    // labels
     "monster.invincible": "Invincible",
     "monster.health": "Santé",
     "monster.drops": "Butin",
     "monster.experience": "XP",
-    "monster.defence": "Défense",
+    "monster.defense": "Défense",
     "monster.attack": "Attaque",
     "monster.adventure-guild": "Guilde des aventuriers",
 
-    // monster lookup values
+    // values
     "monster.drops.nothing": "rien",
     "monster.adventure-guild.complete": "complté",
     "monster.adventure-guild.incomplete": "en cours",
     "monster.adventure-guild.progress": "tué {{count}} sur {{requiredCount}}",
 
-    // NPC lookup labels
+
+    /*********
+    ** NPC > generic lookups
+    *********/
+    // labels
     "npc.birthday": "Anniversaire",
     "npc.can-romance": "Séduisable",
     "npc.friendship": "Relation",
     "npc.talked-today": "Parlé aujourd'hui",
     "npc.gifted-today": "Cadeau aujourd'hui",
     "npc.gifted-this-week": "Cadeau cette semaine",
-    "npc.kissed-today": "Kissed today", // TODO
+    "npc.kissed-today": "Embrassé aujourd'hui",
+    "npc.hugged-today": "Câliné aujourd'hui",
     "npc.loves-gifts": "Cadeaux préférés",
     "npc.likes-gifts": "Cadeaux appréciés",
     "npc.neutral-gifts": "Cadeaux neutres",
+    "npc.dislikes-gifts": "Cadeaux non appréciés",
+    "npc.hates-gifts": "Cadeaux détestés",
 
-    // NPC lookup values
+    // values
     "npc.can-romance.married": "Vous êtes mariés ! <", // < turns into a heart
+    "npc.can-romance.housemate": "Vous habitez ensemble !",
     "npc.friendship.not-met": "Vous ne vous êtes pas encore rencontré.",
     "npc.friendship.need-bouquet": "besoin d'un bouquet",
     "npc.friendship.need-points": "manque {{count}} pts",
+    "npc.undiscovered-gift-taste": "{{count}} goût(s) non révelé(s)",
+    "npc.undiscovered-gift-taste-appended": ", et {{count}} goût(s) non révelé(s)",
 
-    // NPC child lookup labels
+
+    /*********
+    ** NPC > child lookups
+    *********/
+    // labels
     "npc.child.age": "Âge",
 
-    // NPC child lookup values
+    // values
     "npc.child.age.description-partial": "{{label}} ({{count}} jour pour {{nextLabel}})",
     "npc.child.age.description-grown": "{{label}}",
     "npc.child.age.newborn": "nouveau né",
@@ -348,24 +496,44 @@
     "npc.child.age.crawler": "marmot",
     "npc.child.age.toddler": "bambim",
 
-    // pet lookup labels
+
+    /*********
+    ** Pet lookups
+    *********/
+    // labels
     "pet.love": "Amour",
     "pet.petted-today": "Carressé aujourd'hui",
+    "pet.last-petted": "Dernière carresse",
+    "pet.water-bowl": "Gamelle d'eau",
 
-    // player lookup labels
+    // values
+    "pet.last-petted.yes": "oui (+12 amour)",
+    "pet.last-petted.days-ago": "il y a {{days}} jour(s)",
+    "pet.last-petted.never": "jamais",
+    "pet.water-bowl.empty": "Vide",
+    "pet.water-bowl.filled": "Rempli (+6 amour)",
+
+
+    /*********
+    ** Player lookups
+    *********/
+    // labels
     "player.farm-name": "Nom de la ferme",
     "player.farm-map": "Carte de la ferme",
     "player.favorite-thing": "Chose préférée",
     "player.gender": "Sexe",
+    "player.housemate": "Cohabitant",
     "player.spouse": "Conjoint(e)",
+    "player.watched-movie-this-week": "A regardé un film cette semaine",
     "player.combat-skill": "Combat",
     "player.farming-skill": "Agriculture",
     "player.fishing-skill": "Pêche",
     "player.foraging-skill": "Cueillette",
     "player.mining-skill": "Ext. minière",
     "player.luck": "Chance",
+    "player.save-format": "Format du fichier de sauvegarde",
 
-    // player lookup values
+    // values
     "player.farm-map.custom": "Personnalisée",
     "player.gender.male": "masculin",
     "player.gender.female": "féminin",
@@ -373,7 +541,11 @@
     "player.skill.progress": "niv. {{level}} (reste {{expNeeded}} XP)",
     "player.skill.progress-last": "niveau {{level}}",
 
-    // tile lookup labels
+
+    /*********
+    ** Tile lookups
+    *********/
+    // labels
     "tile.description": "Une case sur la carte. Ceci est affiché car vous avez activé la recherche des cases dans les paramètres.",
     "tile.map-name": "Nom de la carte",
     "tile.tile": "Case",
@@ -383,15 +555,28 @@
     "tile.index-property": "{{layerName}}: ix props: {{propertyName}}",
     "tile.tile-property": "{{layerName}}: props: {{propertyName}}",
 
-    // tile lookup values
+    // values
     "tile.tile.none-here": "pas de case ici",
 
-    // tree lookup labels
+
+    /*********
+    ** Trash bear lookups
+    *********/
+    // labels
+    "trash-bear.item-wanted": "Objet voulu",
+    "trash-bear.quest-progress": "Progrès de la quête",
+
+
+    /*********
+    ** Wild tree lookups
+    *********/
+    // labels
     "tree.stage": "Niveau de croissance",
     "tree.next-growth": "Prochaine croissance",
     "tree.has-seed": "A des graines",
+    "tree.is-fertilized": "Est fertilisé",
 
-    // non-fruit tree lookup values
+    // values
     "tree.name.maple": "Erable",
     "tree.name.oak": "Chêne",
     "tree.name.pine": "Pin",
@@ -402,9 +587,10 @@
     "tree.stage.partial": "{{stageName}} ({{step}} sur {{max}})",
     "tree.next-growth.winter": "ne peut pousser en hiver en dehors de la serre",
     "tree.next-growth.adjacent-trees": "ne peut pousser car d'autres arbres sont trop près",
-    "tree.next-growth.random": "20% de chance de grandir en {{stage}} demain",
+    "tree.next-growth.chance": "{{chance}}% de chance de grandir en {{stage}} demain",
+    "tree.is-fertilized.effects": "garantit une pousse quotidienne, même en hiver",
 
-    // tree stages
+    // growth stages
     "tree.stages.seed": "graine",
     "tree.stages.sprout": "bourgeon",
     "tree.stages.sapling": "pousse",

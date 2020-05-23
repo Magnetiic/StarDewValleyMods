@@ -5,6 +5,8 @@
     "default-name.fridge": "Geladeira",
     "default-name.junimo-hut": "Cabana dos junimos #{{number}}",
     "default-name.shipping-bin": "Caixa de Remessas",
+    "default-name.shipping-bin.store": "Shipping bin (ship items)", // TODO
+    "default-name.shipping-bin.take": "Shipping bin (retrieve items)", // TODO
 
     // default category names
     "default-category.owned-cabin": "Cabana ({{owner}})",
@@ -19,10 +21,10 @@
     "label.order": "Ordem",
     "label.hide-chest": "Esconder esse baú",
     "label.hide-chest-hidden": "Esconder esse baú (Você terá que achar o baú para desfazer isso!)",
-    "label.automate-prefer-output": "(Automate) Primeiro coloque itens nesse baú",
-    "label.automate-no-input": "(Automate) Não coloque itens neste baú",
-    "label.automate-no-output": "(Automate) Não pegue itens deste baú",
-    "label.automate-ignore": "(Automate) Não use este baú para automação",
+    "label.automate-store": "(Automate) Coloque itens neste baú",
+    "label.automate-store-first": "(Automate) Primeiro coloque itens neste baú",
+    "label.automate-take": "(Automate) Pegue itens deste baú",
+    "label.automate-take-first": "(Automate) Primeiro pegue itens deste baú",
 
     // button labels
     "button.edit-chest": "editar baú",
