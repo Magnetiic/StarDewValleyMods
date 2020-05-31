@@ -6,7 +6,7 @@
         "LocationType": "Normal",
         "LocationName": "FarmHouse",
         "BuildingName": "",
-        "Tile": "2, 10"
+        "Tile": "7, 10"
       },
       "AcceptedItems": {}
     },
@@ -15,7 +15,7 @@
         "LocationType": "Normal",
         "LocationName": "FarmHouse",
         "BuildingName": "",
-        "Tile": "1, 7"
+        "Tile": "8, 5"
       },
       "AcceptedItems": {}
     },
@@ -24,7 +24,43 @@
         "LocationType": "Normal",
         "LocationName": "FarmHouse",
         "BuildingName": "",
-        "Tile": "2, 9"
+        "Tile": "11, 7"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "7, 9"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "8, 9"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "8, 10"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "1, 10"
       },
       "AcceptedItems": {}
     },
@@ -39,10 +75,73 @@
     },
     {
       "Address": {
-        "LocationType": "Building",
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "2, 10"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "3, 10"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "2, 5"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Refrigerator",
+        "LocationName": "FarmHouse",
+        "BuildingName": null,
+        "Tile": "0, 0"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
         "LocationName": "Farm",
-        "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
-        "Tile": "7, 4"
+        "BuildingName": "",
+        "Tile": "62, 15"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "76, 32"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "67, 46"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "68, 15"
       },
       "AcceptedItems": {}
     },
@@ -51,7 +150,7 @@
         "LocationType": "Building",
         "LocationName": "Farm",
         "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
-        "Tile": "9, 6"
+        "Tile": "27, 19"
       },
       "AcceptedItems": {}
     },
@@ -60,7 +159,70 @@
         "LocationType": "Building",
         "LocationName": "Farm",
         "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
-        "Tile": "1, 6"
+        "Tile": "4, 19"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
+        "Tile": "28, 19"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
+        "Tile": "17, 13"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
+        "Tile": "16, 13"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
+        "Tile": "19, 13"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
+        "Tile": "18, 13"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
+        "Tile": "15, 13"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
+        "Tile": "14, 13"
       },
       "AcceptedItems": {}
     },
@@ -69,7 +231,160 @@
         "LocationType": "Building",
         "LocationName": "Farm",
         "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
-        "Tile": "6, 7"
+        "Tile": "13, 9"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
+        "Tile": "13, 7"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
+        "Tile": "11, 7"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
+        "Tile": "15, 6"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
+        "Tile": "12, 7"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
+        "Tile": "16, 10"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
+        "Tile": "10, 7"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Coop72731df6-5bfa-41d6-9381-07e535533871",
+        "Tile": "3, 8"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Coop2c14aa0a-49bb-4451-8949-ab284d4b6e90",
+        "Tile": "1, 4"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Coopaeab669c-189c-4cb3-9ebe-603ecbcac86d",
+        "Tile": "13, 7"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Barn08d82fd4-0c57-4d5a-b5cc-08c901eec3cd",
+        "Tile": "4, 3"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Barn08d82fd4-0c57-4d5a-b5cc-08c901eec3cd",
+        "Tile": "23, 7"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Barn08d82fd4-0c57-4d5a-b5cc-08c901eec3cd",
+        "Tile": "7, 10"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Barn2d509ff9-4a77-4266-9255-f6944946fc47",
+        "Tile": "4, 3"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Barn5d5d702e-5f24-46d1-923f-a47bb0c92f61",
+        "Tile": "12, 13"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Shed861ccba9-f061-4e13-9be0-667c6663a663",
+        "Tile": "8, 15"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Greenhouse",
+        "BuildingName": "",
+        "Tile": "3, 19"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Cellar2",
+        "BuildingName": "",
+        "Tile": "5, 8"
       },
       "AcceptedItems": {}
     }
