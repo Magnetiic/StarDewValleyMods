@@ -24,15 +24,6 @@
         "LocationType": "Normal",
         "LocationName": "FarmHouse",
         "BuildingName": "",
-        "Tile": "11, 7"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Normal",
-        "LocationName": "FarmHouse",
-        "BuildingName": "",
         "Tile": "7, 9"
       },
       "AcceptedItems": {}
@@ -102,10 +93,28 @@
     },
     {
       "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "10, 7"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
         "LocationType": "Refrigerator",
         "LocationName": "FarmHouse",
         "BuildingName": null,
         "Tile": "0, 0"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "68, 15"
       },
       "AcceptedItems": {}
     },
@@ -123,25 +132,7 @@
         "LocationType": "Normal",
         "LocationName": "Farm",
         "BuildingName": "",
-        "Tile": "76, 32"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Normal",
-        "LocationName": "Farm",
-        "BuildingName": "",
         "Tile": "67, 46"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Normal",
-        "LocationName": "Farm",
-        "BuildingName": "",
-        "Tile": "68, 15"
       },
       "AcceptedItems": {}
     },
@@ -286,6 +277,15 @@
         "LocationName": "Farm",
         "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
         "Tile": "10, 7"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
+        "Tile": "14, 9"
       },
       "AcceptedItems": {}
     },
