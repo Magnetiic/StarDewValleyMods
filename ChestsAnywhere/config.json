@@ -1,6 +1,7 @@
 {
   "ShowHoverTooltips": true,
   "EnableShippingBin": true,
+  "AddOrganizePlayerInventoryButton": true,
   "Range": "CurrentWorldArea",
   "Controls": {
     "Toggle": "B",
