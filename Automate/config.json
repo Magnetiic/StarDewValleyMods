@@ -1,5 +1,9 @@
 {
+  "MachinePriority": {
+    "ShippingBinMachine": -1
+  },
   "AutomateShippingBin": true,
+  "PullGemstonesFromJunimoHuts": false,
   "AutomationInterval": 60,
   "Controls": {
     "ToggleOverlay": "U"

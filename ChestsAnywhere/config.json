@@ -1,8 +1,8 @@
 {
   "ShowHoverTooltips": true,
   "EnableShippingBin": true,
-  "AddOrganisePlayerInventoryButton": true,
-  "Range": "Unlimited",
+  "AddOrganizePlayerInventoryButton": true,
+  "Range": "CurrentWorldArea",
   "Controls": {
     "Toggle": "B",
     "PrevChest": "Left, LeftShoulder",
@@ -14,5 +14,9 @@
     "HoldToMouseWheelScrollChests": "LeftControl",
     "HoldToMouseWheelScrollCategories": "LeftAlt"
   },
-  "DisabledInLocations": []
+  "DisabledInLocations": [
+    "Mine",
+    "SkullCave",
+    "UndergroundMine"
+  ]
 }
