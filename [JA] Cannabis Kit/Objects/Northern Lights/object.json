@@ -14,30 +14,36 @@
     },
     "NameLocalization":
     {
-         // "es": "",
+         "es": "Luces del Norte",
          // "ko": "",
-         // "de": "",
+         "de": "Nordlicht",
          // "fr": "",
          // "hu": "",
          // "it": "",
          // "ja": "",
-         // "pt": "",
+         "pt": "Luzes do Norte",
          // "ru": "",
          // "tr": "",
-         // "zh": "",
+         "zh": "北极光",
     },
     "DescriptionLocalization":
     {
-         // "es": "",
+         "es": "Esta corta y tupida planta es idea para la relajación completa del cuerpo con su alta producción de resina y corto tiempo de floración.",
          // "ko": "",
-         // "de": "",
+         "de": "Diese kurze, buschige Pflanze ist mit ihrer hohen Harzproduktion und kurzen Blütezeit ideal für hohe Gewinne.",
          // "fr": "",
          // "hu": "",
          // "it": "",
          // "ja": "",
-         // "pt": "",
+         "pt": "Esta planta pequena e espessa é ideal para relaxamento completo do corpo com sua alta produção de resina e curto tempo de floração.",
          // "ru": "",
          // "tr": "",
-         // "zh": "",
-    }
+         "zh": "这种矮而多叶的植物，因树脂产量高、花期短，非常适合全身放松。",
+    },
+    "ContextTags": [
+        "season_summer",
+        "flower_item",
+        "flower_cannabinoid",
+        "trellis_item"
+    ]
 }

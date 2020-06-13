@@ -42,30 +42,30 @@
     },
     "NameLocalization":
     {
-         // "es": "",
+         "es": "Porro",
          // "ko": "",
-         // "de": "",
+         "de": "Joint",
          // "fr": "",
          // "hu": "",
          // "it": "",
          // "ja": "",
-         // "pt": "",
+         "pt": "Articulação",
          // "ru": "",
          // "tr": "",
-         // "zh": "",
+         "zh": "大麻烟卷",
     },
     "DescriptionLocalization":
     {
-         // "es": "",
+         "es": "También Podrías...",
          // "ko": "",
-         // "de": "",
+         "de": "Warum nicht",
          // "fr": "",
          // "hu": "",
          // "it": "",
          // "ja": "",
-         // "pt": "",
+         "pt": "Também pudera...",
          // "ru": "",
          // "tr": "",
-         // "zh": "",
+         "zh": "可以一试。",
     }
 }

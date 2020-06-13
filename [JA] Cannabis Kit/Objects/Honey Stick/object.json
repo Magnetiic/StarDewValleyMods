@@ -45,30 +45,30 @@
     },
     "NameLocalization":
     {
-         // "es": "",
+         "es": "Palo de Miel",
          // "ko": "",
-         // "de": "",
+         "de": "Honigstangeg",
          // "fr": "",
          // "hu": "",
          // "it": "",
          // "ja": "",
-         // "pt": "",
+         "pt": "Pau de Mel",
          // "ru": "",
          // "tr": "",
-         // "zh": "",
+         "zh": "蜂蜜棒",
     },
     "DescriptionLocalization":
     {
-         // "es": "",
+         "es": "Dulce y pegajosa miela.",
          // "ko": "",
-         // "de": "",
+         "de": "Süßer, klebriger Honig",
          // "fr": "",
          // "hu": "",
          // "it": "",
          // "ja": "",
-         // "pt": "",
+         "pt": "Mel doce e pegajoso.",
          // "ru": "",
          // "tr": "",
-         // "zh": "",
+         "zh": "甜而黏的蜂蜜。",
     }
 }

@@ -14,30 +14,36 @@
     },
     "NameLocalization":
     {
-         // "es": "",
+         "es": "Sativa",
          // "ko": "",
-         // "de": "",
+          "de": "Sativa",
          // "fr": "",
          // "hu": "",
          // "it": "",
          // "ja": "",
-         // "pt": "",
+         "pt": "Sativa",
          // "ru": "",
          // "tr": "",
-         // "zh": "",
+         "zh": "苜蓿大麻",
     },
     "DescriptionLocalization":
     {
-         // "es": "",
+         "es": "Con un distintivo efecto de estimulante cerebral, el alto cultivo de sativa prospera en climas cálidos y es genial para la creatividad.",
          // "ko": "",
-         // "de": "",
+         "de": "Die große Sativa-Ernte hat einen erhebenden zerebralen Effekt und gedeiht in wärmeren Klimazonen. Sie fördert die Kreativität.",
          // "fr": "",
          // "hu": "",
          // "it": "",
          // "ja": "",
-         // "pt": "",
+         "pt": "Com um efeito distintivo de estimulante cerebral, o alto cultivo de sativa prospera nos climas quentes e é ótimo para criatividade.",
          // "ru": "",
          // "tr": "",
-         // "zh": "",
-    }
+         "zh": "高大的苜蓿大麻可以在温暖的环境中茁壮成长，其具有明显的提神作用，非常适合创造。",
+    },
+    "ContextTags": [
+        "season_fall",
+        "flower_item",
+        "flower_cannabinoid",
+        "trellis_item"
+    ]
 }

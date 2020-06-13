@@ -96,7 +96,7 @@
         "LocationType": "Normal",
         "LocationName": "FarmHouse",
         "BuildingName": "",
-        "Tile": "10, 7"
+        "Tile": "1, 9"
       },
       "AcceptedItems": {}
     },
@@ -114,7 +114,7 @@
         "LocationType": "Normal",
         "LocationName": "Farm",
         "BuildingName": "",
-        "Tile": "68, 15"
+        "Tile": "67, 46"
       },
       "AcceptedItems": {}
     },
@@ -132,7 +132,7 @@
         "LocationType": "Normal",
         "LocationName": "Farm",
         "BuildingName": "",
-        "Tile": "67, 46"
+        "Tile": "68, 15"
       },
       "AcceptedItems": {}
     },
@@ -221,6 +221,24 @@
       "Address": {
         "LocationType": "Building",
         "LocationName": "Farm",
+        "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
+        "Tile": "19, 19"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin0a5441e4-bd98-4711-a83e-97b8dc8d89f8",
+        "Tile": "30, 15"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
         "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
         "Tile": "13, 9"
       },
@@ -276,7 +294,7 @@
         "LocationType": "Building",
         "LocationName": "Farm",
         "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
-        "Tile": "10, 7"
+        "Tile": "8, 10"
       },
       "AcceptedItems": {}
     },
@@ -286,6 +304,15 @@
         "LocationName": "Farm",
         "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
         "Tile": "14, 9"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabindd27e708-986d-48a3-9242-a99106292669",
+        "Tile": "23, 10"
       },
       "AcceptedItems": {}
     },
@@ -367,6 +394,15 @@
         "LocationName": "Farm",
         "BuildingName": "Shed861ccba9-f061-4e13-9be0-667c6663a663",
         "Tile": "8, 15"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Shed861ccba9-f061-4e13-9be0-667c6663a663",
+        "Tile": "10, 15"
       },
       "AcceptedItems": {}
     },
