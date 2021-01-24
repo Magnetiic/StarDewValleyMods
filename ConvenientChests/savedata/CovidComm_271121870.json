@@ -1,0 +1,23 @@
+{
+  "Version": "1.5.1",
+  "ChestEntries": [
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "FarmHouse",
+        "BuildingName": "",
+        "Tile": "2, 10"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Cabin5b36da5c-c557-4880-a051-d852f8d0013b",
+        "Tile": "10, 6"
+      },
+      "AcceptedItems": {}
+    }
+  ]
+}

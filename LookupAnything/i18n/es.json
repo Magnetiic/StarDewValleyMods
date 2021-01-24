@@ -2,14 +2,13 @@
     /*********
     ** Generic translations
     *********/
-    // dates (possible tokens: {{seasonName}}, {{seasonNumber}}, {{dayNumber}}, {{year}})
-    "generic.date": "{{seasonName}} {{dayNumber}}",
-    "generic.date-with-year": "{{seasonName}} {{dayNumber}} del año {{year}}",
-
     // date names
     "generic.now": "Ahora",
     "generic.tomorrow": "Mañana",
     "generic.yesterday": "ayer",
+
+    // generic values
+    "generic.unknown": "unknown", // TODO
 
     // generic field values
     "generic.percent": "{{percent}}%",
@@ -73,11 +72,13 @@
     "shop.marnie": "Marnie",
     "shop.pierre": "Pierre",
     "shop.robin": "Robin",
+    "shop.volcano": "volcano shop", // TODO
     "shop.willy": "Willy",
 
     // recipe types
     "recipe-type.cooking": "Cocina",
     "recipe-type.crafting": "Artesanía",
+    "recipe-type.tailoring": "Sastrería",
 
     // NPC descriptions
     "data.npc.pet.description": "Tu fiel mascota.",
@@ -134,6 +135,8 @@
     "data.item.topaz-node.description": "Romper para obtener topacio.",
 
     // mine ores
+    "data.item.cinder-shard-node.name": "Cinder Shard Node", // TODO
+    "data.item.cinder-shard-node.description": "Break apart to obtain cinder shards.", // TODO
     "data.item.copper-node.name": "Nodo de cobre",
     "data.item.copper-node.description": "Romper para obtener mineral de cobre.",
     "data.item.gold-node.name": "Nodo de oro",
@@ -142,12 +145,21 @@
     "data.item.iridium-node.description": "Romper para obtener mineral de iridio.",
     "data.item.iron-node.name": "Nodo de hierro",
     "data.item.iron-node.description": "Romper para obtener mineral de hierro.",
+    "data.item.omni-geode-node.name": "Omni Geode Node", // TODO
+    "data.item.omni-geode-node.description": "Break apart to obtain an omni geode.", // TODO
 
     // mine stones
     "data.item.colored-stone.name": "Piedra de colores",
     "data.item.colored-stone.description": "Una piedra. Tal vez contenga piedras, minerales o geodas.",
     "data.item.mine-stone.name": "Piedra",
-    "data.item.mine-stone.description": "Romper para obtener piedra.",
+    "data.item.mine-stone.description": "Break apart to obtain stone with a chance of coal.", // TODO
+
+    // other stones
+    // TODO
+    "data.item.clay-stone.name": "Clay Stone",
+    "data.item.clay-stone.description": "Break apart to obtain clay.",
+    "data.item.fossil-stone.name": "Fossil Stone",
+    "data.item.fossil-stone.description": "Break apart to obtain fossils and bones.",
 
     // mine containers
     "data.item.barrel.name": "Barril",
@@ -180,6 +192,17 @@
     "location.undergroundMine.level": "nivel {{level}} de las minas",
     "location.witchSwamp": "pantano de la bruja",
     "location.woods": "bosque secreto",
+
+    "location.caldera": "Ginger Island caldera", // TODO
+    "location.islandEast": "Ginger Island east", // TODO
+    "location.islandNorth": "Ginger Island north", // TODO
+    "location.islandSouth": "Ginger Island south", // TODO
+    "location.islandSouthEast": "Ginger Island southeast", // TODO
+    "location.islandSouthEastCave": "Ginger Island southeast cave", // TODO
+    "location.islandWest": "Ginger Island west", // TODO
+    "location.islandWest.fish-area-1": "Ginger Island west (ocean)", // TODO
+    "location.islandWest.fish-area-2": "Ginger Island west (pond)", // TODO
+
     "location.unknown-fish-area": "{{locationName}} (zona de pesca {{id}})",
 
     /*********
@@ -296,9 +319,9 @@
     // values
     "fruit-tree.complaints.adjacent-objects": "No puede crecer porque hay objetos a su alrededor",
     "fruit-tree.growth.summary": "Madura en {{date}}",
-    "fruit-tree.next-fruit.struck-by-lighting": "¡Alcanzado por un rayo! Se recuperará en {{count}} días.",
-    "fruit-tree.next-fruit.out-of-season": "Fuera de temporada",
     "fruit-tree.next-fruit.max-fruit": "No generará más frutas hasta que coseches las que ya tiene",
+    "fruit-tree.next-fruit.out-of-season": "Fuera de temporada",
+    "fruit-tree.next-fruit.struck-by-lightning": "¡Alcanzado por un rayo! Se recuperará en {{count}} días.",
     "fruit-tree.next-fruit.too-young": "Demasiado joven para dar frutas",
     "fruit-tree.quality.now": "{{quality}} ahora",
     "fruit-tree.quality.on-date": "{{quality}} en {{date}}",
@@ -312,6 +335,8 @@
     // labels
     "crop.summary": "Cultivo",
     "crop.harvest": "Cosecha",
+    "crop.fertilized": "Fertilized", // TODO
+    "crop.watered": "Watered", // TODO
 
     // values
     "crop.summary.dead": "Esta cosecha está muerta.",
@@ -436,6 +461,15 @@
 
 
     /*********
+    ** Item > music block lookups
+    *********/
+    // labels
+    // TODO
+    "item.music-block.pitch": "Pitch",
+    "item.music-block.drum-type": "Drum type",
+
+
+    /*********
     ** Monster lookups
     *********/
     // labels
@@ -449,9 +483,7 @@
 
     // values
     "monster.drops.nothing": "Nada",
-    "monster.adventure-guild.complete": "Completo",
-    "monster.adventure-guild.incomplete": "En progreso",
-    "monster.adventure-guild.progress": "Eliminados {{count}} de {{requiredCount}}",
+    "monster.adventure-guild.eradication-goal": "Erradicación de monstruos: {{name}} (Eliminados {{count}} de {{requiredCount}})",
 
 
     /*********
@@ -543,11 +575,65 @@
 
 
     /*********
+    ** Puzzles
+    *********/
+    // labels
+    // TODO
+    "puzzle.solution": "Solution",
+
+    // values
+    // TODO
+    "puzzle.solution.solved": "Puzzle solved!",
+    "puzzle.solution.hidden": "Puzzle solutions are hidden in progression mode.",
+
+
+    /*********
+    ** Puzzles > Fern Islands crystal cave
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-crystal-cave.title": "Crystal Cave Puzzle",
+    "puzzle.island-crystal-cave.crystal-id": "Crystal ID",
+
+    // values
+    // TODO
+    "puzzle.island-crystal-cave.solution.not-activated": "Activate the statue to start the puzzle.",
+    "puzzle.island-crystal-cave.solution.waiting": "Waiting for game to generate sequence...",
+    "puzzle.island-crystal-cave.solution.activated": "Repeat the pattern of activated crystals:",
+
+
+    /*********
+    ** Puzzles > Fern Islands mermaid puzzle
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-mermaid.title": "Island Mermaid Puzzle",
+    "puzzle.island-mermaid.solution.intro": "Use flute blocks to play the Night Market mermaid song. Pitch values (you can lookup a flute block to see its pitch):",
+
+
+    /*********
+    ** Puzzles > Fern Islands shrine puzzle
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-shrine.title": "Island Shrine Puzzle",
+    "puzzle.island-shrine.description": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
+
+    // values
+    // TODO
+    "puzzle.island-shrine.solution.east": "East: {{item}}",
+    "puzzle.island-shrine.solution.north": "North: {{item}}",
+    "puzzle.island-shrine.solution.south": "South: {{item}}",
+    "puzzle.island-shrine.solution.west": "West: {{item}}",
+
+
+    /*********
     ** Tile lookups
     *********/
     // labels
     // note from translator: better not to translate the technical terms
     "tile.description": "Una casilla en el mapa. Esto se muestra porque activaste «tile lookups» en la configuracion.",
+    "tile.game-location": "Location", // TODO
     "tile.map-name": "Nombre del mapa",
     "tile.tile": "Casilla",
     "tile.tile-index": "{{layerName}}: tile index",
@@ -561,11 +647,11 @@
 
 
     /*********
-    ** Trash bear lookups
+    ** Trash Bear or Gourmand lookups
     *********/
     // labels
-    "trash-bear.item-wanted": "Artículo deseado",
-    "trash-bear.quest-progress": "Progreso de la búsqueda",
+    "trash-bear-or-gourmand.item-wanted": "Artículo deseado",
+    "trash-bear-or-gourmand.quest-progress": "Progreso de la búsqueda",
 
 
     /*********
@@ -578,18 +664,18 @@
     "tree.is-fertilized": "ha sido fertilizado",
 
     // values
+    "tree.name.big-mushroom": "Seta gigante",
+    "tree.name.mahogany": "Mahogany Tree", // TODO
     "tree.name.maple": "Arce",
     "tree.name.oak": "Roble",
-    "tree.name.pine": "Pino",
     "tree.name.palm": "Palmera",
-    "tree.name.big-mushroom": "Seta gigante",
+    "tree.name.pine": "Pino",
     "tree.name.unknown": "Árbol desconocido",
     "tree.stage.done": "Completamente maduro",
     "tree.stage.partial": "{{stageName}} ({{step}} de {{max}})",
     "tree.next-growth.winter": "no puede crecer en invierno fuera del invernadero",
     "tree.next-growth.adjacent-trees": "no puede crecer porque otros árboles estan muy cerca",
     "tree.next-growth.chance": "{{chance}}% de probabilidad de evolucionar a «{{stage}}» mañana",
-    "tree.is-fertilized.effects": "asegura el crecimiento diario, incluso en invierno",
 
     // growth stages
     "tree.stages.seed": "Semilla",

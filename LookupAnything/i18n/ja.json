@@ -2,14 +2,13 @@
     /*********
     ** Generic translations
     *********/
-    // dates (possible tokens: {{seasonName}}, {{seasonNumber}}, {{dayNumber}}, {{year}})
-    "generic.date": "{{seasonName}} {{dayNumber}}日",
-    "generic.date-with-year": "{{year}}年目 {{seasonName}} {{dayNumber}}日",
-
     // date names
     "generic.now": "今",
     "generic.tomorrow": "明日",
     "generic.yesterday": "昨日",
+
+    // generic values
+    "generic.unknown": "unknown", // TODO
 
     // generic field values
     "generic.percent": "{{percent}}%",
@@ -73,11 +72,13 @@
     "shop.marnie": "マーニー",
     "shop.pierre": "ピエール",
     "shop.robin": "ロビン",
+    "shop.volcano": "volcano shop", // TODO
     "shop.willy": "ウィリー",
 
     // recipe types
     "recipe-type.cooking": "料理",
     "recipe-type.crafting": "工作",
+    "recipe-type.tailoring": "仕立て",
 
     // NPC descriptions
     "data.npc.pet.description": "あなたの忠実なペット.",
@@ -134,6 +135,8 @@
     "data.item.topaz-node.description": "壊すとトパーズが手に入る",
 
     // mine ores
+    "data.item.cinder-shard-node.name": "Cinder Shard Node", // TODO
+    "data.item.cinder-shard-node.description": "Break apart to obtain cinder shards.", // TODO
     "data.item.copper-node.name": "銅鉱脈",
     "data.item.copper-node.description": "壊すと銅鉱石が手に入る",
     "data.item.gold-node.name": "金鉱脈",
@@ -142,12 +145,21 @@
     "data.item.iridium-node.description": "壊すとイリジウム鉱石が手に入る",
     "data.item.iron-node.name": "鉄鉱脈",
     "data.item.iron-node.description": "壊すと鉄鉱石が手に入る",
+    "data.item.omni-geode-node.name": "Omni Geode Node", // TODO
+    "data.item.omni-geode-node.description": "Break apart to obtain an omni geode.", // TODO
 
     // mine stones
     "data.item.colored-stone.name": "色付きの石",
     "data.item.colored-stone.description": "変哲もない石。 石材,鉱石,ジオードを含んでいるかもしれない",
     "data.item.mine-stone.name": "石",
-    "data.item.mine-stone.description": "壊すと石材が手に入る",
+    "data.item.mine-stone.description": "Break apart to obtain stone with a chance of coal.", // TODO
+
+    // other stones
+    // TODO
+    "data.item.clay-stone.name": "Clay Stone",
+    "data.item.clay-stone.description": "Break apart to obtain clay.",
+    "data.item.fossil-stone.name": "Fossil Stone",
+    "data.item.fossil-stone.description": "Break apart to obtain fossils and bones.",
 
     // mine containers
     "data.item.barrel.name": "タル",
@@ -181,6 +193,17 @@
     "location.undergroundMine.level": "mine level {{level}}",
     "location.witchSwamp": "witch's swamp",
     "location.woods": "secret woods",
+
+    "location.caldera": "Ginger Island caldera", // TODO
+    "location.islandEast": "Ginger Island east", // TODO
+    "location.islandNorth": "Ginger Island north", // TODO
+    "location.islandSouth": "Ginger Island south", // TODO
+    "location.islandSouthEast": "Ginger Island southeast", // TODO
+    "location.islandSouthEastCave": "Ginger Island southeast cave", // TODO
+    "location.islandWest": "Ginger Island west", // TODO
+    "location.islandWest.fish-area-1": "Ginger Island west (ocean)", // TODO
+    "location.islandWest.fish-area-2": "Ginger Island west (pond)", // TODO
+
     "location.unknown-fish-area": "{{locationName}} (fishing area {{id}})",
 
 
@@ -298,9 +321,9 @@
     // values
     "fruit-tree.complaints.adjacent-objects": "隣になにかあって成長できなかった",
     "fruit-tree.growth.summary": "{{date}}に成熟",
-    "fruit-tree.next-fruit.struck-by-lighting": "雷に打たれた! {{count}}日で復旧",
-    "fruit-tree.next-fruit.out-of-season": "季節外",
     "fruit-tree.next-fruit.max-fruit": "収穫するまで新しい果実を収穫できない",
+    "fruit-tree.next-fruit.out-of-season": "季節外",
+    "fruit-tree.next-fruit.struck-by-lightning": "雷に打たれた! {{count}}日で復旧",
     "fruit-tree.next-fruit.too-young": "果実を実らせるには若すぎる",
     "fruit-tree.quality.now": "現在{{quality}}",
     "fruit-tree.quality.on-date": "{{date}}に{{quality}}",
@@ -314,6 +337,8 @@
     // labels
     "crop.summary": "作物",
     "crop.harvest": "収穫",
+    "crop.fertilized": "Fertilized", // TODO
+    "crop.watered": "Watered", // TODO
 
     // values
     "crop.summary.dead": "この作物は枯れている",
@@ -442,6 +467,15 @@
 
 
     /*********
+    ** Item > music block lookups
+    *********/
+    // labels
+    // TODO
+    "item.music-block.pitch": "Pitch",
+    "item.music-block.drum-type": "Drum type",
+
+
+    /*********
     ** Monster lookups
     *********/
     // labels
@@ -455,9 +489,7 @@
 
     // values
     "monster.drops.nothing": "なし",
-    "monster.adventure-guild.complete": "完了",
-    "monster.adventure-guild.incomplete": "進行中",
-    "monster.adventure-guild.progress": "{{requiredCount}}のうち{{count}}匹倒した",
+    "monster.adventure-guild.eradication-goal": "モンスター討伐目標: {{name}} ({{requiredCount}}のうち{{count}}匹倒した)",
 
 
     /*********
@@ -550,10 +582,64 @@
 
 
     /*********
+    ** Puzzles
+    *********/
+    // labels
+    // TODO
+    "puzzle.solution": "Solution",
+
+    // values
+    // TODO
+    "puzzle.solution.solved": "Puzzle solved!",
+    "puzzle.solution.hidden": "Puzzle solutions are hidden in progression mode.",
+
+
+    /*********
+    ** Puzzles > Fern Islands crystal cave
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-crystal-cave.title": "Crystal Cave Puzzle",
+    "puzzle.island-crystal-cave.crystal-id": "Crystal ID",
+
+    // values
+    // TODO
+    "puzzle.island-crystal-cave.solution.not-activated": "Activate the statue to start the puzzle.",
+    "puzzle.island-crystal-cave.solution.waiting": "Waiting for game to generate sequence...",
+    "puzzle.island-crystal-cave.solution.activated": "Repeat the pattern of activated crystals:",
+
+
+    /*********
+    ** Puzzles > Fern Islands mermaid puzzle
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-mermaid.title": "Island Mermaid Puzzle",
+    "puzzle.island-mermaid.solution.intro": "Use flute blocks to play the Night Market mermaid song. Pitch values (you can lookup a flute block to see its pitch):",
+
+
+    /*********
+    ** Puzzles > Fern Islands shrine puzzle
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-shrine.title": "Island Shrine Puzzle",
+    "puzzle.island-shrine.description": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
+
+    // values
+    // TODO
+    "puzzle.island-shrine.solution.east": "East: {{item}}",
+    "puzzle.island-shrine.solution.north": "North: {{item}}",
+    "puzzle.island-shrine.solution.south": "South: {{item}}",
+    "puzzle.island-shrine.solution.west": "West: {{item}}",
+
+
+    /*********
     ** Tile lookups
     *********/
     // labels
     "tile.description": "マップでのタイル位置です 設定で有効化されたので表示しています",
+    "tile.game-location": "Location", // TODO
     "tile.map-name": "マップ名",
     "tile.tile": "タイル",
     "tile.tile-index": "{{layerName}}: タイルインデックス",
@@ -567,12 +653,12 @@
 
 
     /*********
-    ** Trash bear lookups
+    ** Trash Bear or Gourmand lookups
     *********/
     // labels
     // TODO
-    "trash-bear.item-wanted": "Item wanted",
-    "trash-bear.quest-progress": "Quest progress",
+    "trash-bear-or-gourmand.item-wanted": "Item wanted",
+    "trash-bear-or-gourmand.quest-progress": "Quest progress",
 
 
     /*********
@@ -585,18 +671,18 @@
     "tree.is-fertilized": "Is fertilized", // TODO
 
     // values
+    "tree.name.big-mushroom": "大きなキノコ",
+    "tree.name.mahogany": "Mahogany Tree", // TODO
     "tree.name.maple": "カエデの木",
     "tree.name.oak": "カシの木",
-    "tree.name.pine": "マツの木",
     "tree.name.palm": "ヤシの木",
-    "tree.name.big-mushroom": "大きなキノコ",
+    "tree.name.pine": "マツの木",
     "tree.name.unknown": "未知の木",
     "tree.stage.done": "成長完了",
     "tree.stage.partial": "{{stageName}} ({{step}} / {{max}})",
     "tree.next-growth.winter": "温室の外では冬に育たない",
     "tree.next-growth.adjacent-trees": "他の木に近いため育たない",
     "tree.next-growth.chance": "{{chance}}%の確率で明日{{stage}}に成長する",
-    "tree.is-fertilized.effects": "guarantees daily growth, even in winter", // TODO
 
     // growth stages
     "tree.stages.seed": "種",

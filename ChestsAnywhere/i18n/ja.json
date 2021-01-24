@@ -1,12 +1,9 @@
 {
     // default chest names
-    "default-name.auto-grabber": "自動収穫機 #{{number}}",
-    "default-name.chest": "チェスト #{{number}}",
     "default-name.fridge": "冷蔵庫",
-    "default-name.junimo-hut": "ジュニモ小屋 #{{number}}",
-    "default-name.shipping-bin": "出荷箱",
-    "default-name.shipping-bin.store": "Shipping bin (ship items)", // TODO
-    "default-name.shipping-bin.take": "Shipping bin (retrieve items)", // TODO
+    "default-name.other": "{{name}} #{{number}}",
+    "default-name.shipping-bin.store": "ship items", // TODO
+    "default-name.shipping-bin.take": "retrieve items", // TODO
 
     // default category names
     "default-category.owned-cabin": "小屋 ({{owner}})",
@@ -21,10 +18,13 @@
     "label.order": "順番",
     "label.hide-chest": "このチェストを非表示にする",
     "label.hide-chest-hidden": "このチェストを非表示にする (再び表示するにはチェストを探して下さい!)",
-    "label.automate-store": "(Automate) このチェストにはアイテムを入れる",
-    "label.automate-store-first": "(Automate) このチェストに優先的にアイテムを入れる",
-    "label.automate-take": "(Automate) このチェストからはアイテムを取り出す",
-    "label.automate-take-first": "(Automate) このチェストからは優先的にアイテムを取り出す",
+    "label.automate-options": "Automate",
+    "label.automate-store": "このチェストにはアイテムを入れる",
+    "label.automate-store-first": "このチェストに優先的にアイテムを入れる",
+    "label.automate-store-disabled": "Never put items in this chest", // TODO
+    "label.automate-take": "このチェストからはアイテムを取り出す",
+    "label.automate-take-first": "このチェストからは優先的にアイテムを取り出す",
+    "label.automate-take-disabled": "Never take items from this chest", // TODO
 
     // button labels
     "button.edit-chest": "チェストの編集",

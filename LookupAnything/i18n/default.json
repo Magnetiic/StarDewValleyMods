@@ -2,14 +2,13 @@
     /*********
     ** Generic translations
     *********/
-    // dates (possible tokens: {{seasonName}}, {{seasonNumber}}, {{dayNumber}}, {{year}})
-    "generic.date": "{{seasonName}} {{dayNumber}}",
-    "generic.date-with-year": "{{seasonName}} {{dayNumber}} in year {{year}}",
-
     // date names
     "generic.now": "now",
     "generic.tomorrow": "tomorrow",
     "generic.yesterday": "yesterday",
+
+    // generic values
+    "generic.unknown": "unknown",
 
     // generic field values
     "generic.percent": "{{percent}}%",
@@ -73,17 +72,19 @@
     "shop.marnie": "Marnie",
     "shop.pierre": "Pierre",
     "shop.robin": "Robin",
+    "shop.volcano": "volcano shop",
     "shop.willy": "Willy",
 
     // recipe types
     "recipe-type.cooking": "Cooking",
     "recipe-type.crafting": "Crafting",
+    "recipe-type.tailoring": "Tailoring",
 
     // NPC descriptions
     "data.npc.pet.description": "Your loyal pet.",
     "data.npc.horse.description": "Your loyal steed.",
     "data.npc.junimo.description": "A forest spirit from the spirit world. Very little is known about them.",
-    "data.npc.trashbear.description": "A friendly spirit who cleans up trash.",
+    "data.npc.trash-bear.description": "A friendly spirit who cleans up trash.",
 
     // item types
     "data.type.debris": "Debris",
@@ -134,6 +135,8 @@
     "data.item.topaz-node.description": "Break apart to obtain topaz.",
 
     // mine ores
+    "data.item.cinder-shard-node.name": "Cinder Shard Node",
+    "data.item.cinder-shard-node.description": "Break apart to obtain cinder shards.",
     "data.item.copper-node.name": "Copper Node",
     "data.item.copper-node.description": "Break apart to obtain copper ore.",
     "data.item.gold-node.name": "Gold Node",
@@ -142,12 +145,20 @@
     "data.item.iridium-node.description": "Break apart to obtain iridium ore.",
     "data.item.iron-node.name": "Iron Node",
     "data.item.iron-node.description": "Break apart to obtain iron ore.",
+    "data.item.omni-geode-node.name": "Omni Geode Node",
+    "data.item.omni-geode-node.description": "Break apart to obtain an omni geode.",
 
     // mine stones
     "data.item.colored-stone.name": "Colored Stone",
     "data.item.colored-stone.description": "A nondescript stone. It might contain stone, ores, or geodes.",
     "data.item.mine-stone.name": "Stone",
-    "data.item.mine-stone.description": "Break apart to obtain stone.",
+    "data.item.mine-stone.description": "Break apart to obtain stone with a chance of coal.",
+
+    // other stones
+    "data.item.clay-stone.name": "Clay Stone",
+    "data.item.clay-stone.description": "Break apart to obtain clay.",
+    "data.item.fossil-stone.name": "Fossil Stone",
+    "data.item.fossil-stone.description": "Break apart to obtain fossils and bones.",
 
     // mine containers
     "data.item.barrel.name": "Barrel",
@@ -168,7 +179,7 @@
     "location.forest": "forest",
     "location.forest.fish-area-0": "forest river",
     "location.forest.fish-area-1": "forest pond",
-    "location.forest.island-tip": "forest river (south tip of large island)", 
+    "location.forest.island-tip": "forest river (south tip of large island)",
     "location.mountain": "mountain",
     "location.railroad": "railroad",
     "location.sewer": "sewers",
@@ -180,6 +191,17 @@
     "location.undergroundMine.level": "mine level {{level}}",
     "location.witchSwamp": "witch's swamp",
     "location.woods": "secret woods",
+
+    "location.caldera": "Ginger Island caldera",
+    "location.islandEast": "Ginger Island east",
+    "location.islandNorth": "Ginger Island north",
+    "location.islandSouth": "Ginger Island south",
+    "location.islandSouthEast": "Ginger Island southeast",
+    "location.islandSouthEastCave": "Ginger Island southeast cave",
+    "location.islandWest": "Ginger Island west",
+    "location.islandWest.fish-area-1": "Ginger Island west (ocean)",
+    "location.islandWest.fish-area-2": "Ginger Island west (pond)",
+
     "location.unknown-fish-area": "{{locationName}} (fishing area {{id}})",
 
 
@@ -297,9 +319,9 @@
     // values
     "fruit-tree.complaints.adjacent-objects": "can't grow because there are adjacent objects",
     "fruit-tree.growth.summary": "mature on {{date}}",
-    "fruit-tree.next-fruit.struck-by-lighting": "struck by lightning! Will recover in {{count}} days.",
-    "fruit-tree.next-fruit.out-of-season": "out of season",
     "fruit-tree.next-fruit.max-fruit": "won't grow any more fruit until you harvest those it has",
+    "fruit-tree.next-fruit.out-of-season": "out of season",
+    "fruit-tree.next-fruit.struck-by-lightning": "struck by lightning! Will recover in {{count}} days.",
     "fruit-tree.next-fruit.too-young": "too young to bear fruit",
     "fruit-tree.quality.now": "{{quality}} now",
     "fruit-tree.quality.on-date": "{{quality}} on {{date}}",
@@ -313,6 +335,8 @@
     // labels
     "crop.summary": "Crop",
     "crop.harvest": "Harvest",
+    "crop.fertilized": "Fertilized",
+    "crop.watered": "Watered",
 
     // values
     "crop.summary.dead": "This crop is dead.",
@@ -437,6 +461,14 @@
 
 
     /*********
+    ** Item > music block lookups
+    *********/
+    // labels
+    "item.music-block.pitch": "Pitch",
+    "item.music-block.drum-type": "Drum type",
+
+
+    /*********
     ** Monster lookups
     *********/
     // labels
@@ -450,9 +482,7 @@
 
     // values
     "monster.drops.nothing": "nothing",
-    "monster.adventure-guild.complete": "complete",
-    "monster.adventure-guild.incomplete": "in progress",
-    "monster.adventure-guild.progress": "killed {{count}} of {{requiredCount}}",
+    "monster.adventure-guild.eradication-goal": "eradication goal: {{name}} (killed {{count}} of {{requiredCount}})",
 
 
     /*********
@@ -544,10 +574,57 @@
 
 
     /*********
+    ** Puzzles
+    *********/
+    // labels
+    "puzzle.solution": "Solution",
+
+    // values
+    "puzzle.solution.solved": "Puzzle solved!",
+    "puzzle.solution.hidden": "Puzzle solutions are hidden in progression mode.",
+
+
+    /*********
+    ** Puzzles > Fern Islands crystal cave
+    *********/
+    // labels
+    "puzzle.island-crystal-cave.title": "Crystal Cave Puzzle",
+    "puzzle.island-crystal-cave.crystal-id": "Crystal ID",
+
+    // values
+    "puzzle.island-crystal-cave.solution.not-activated": "Activate the statue to start the puzzle.",
+    "puzzle.island-crystal-cave.solution.waiting": "Waiting for game to generate sequence...",
+    "puzzle.island-crystal-cave.solution.activated": "Repeat the pattern of activated crystals:",
+
+
+    /*********
+    ** Puzzles > Fern Islands mermaid puzzle
+    *********/
+    // labels
+    "puzzle.island-mermaid.title": "Island Mermaid Puzzle",
+    "puzzle.island-mermaid.solution.intro": "Use flute blocks to play the Night Market mermaid song. Pitch values (you can lookup a flute block to see its pitch):",
+
+
+    /*********
+    ** Puzzles > Fern Islands shrine puzzle
+    *********/
+    // labels
+    "puzzle.island-shrine.title": "Island Shrine Puzzle",
+
+    // values
+    "puzzle.island-shrine.solution": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
+    "puzzle.island-shrine.solution.east": "East: {{item}}",
+    "puzzle.island-shrine.solution.north": "North: {{item}}",
+    "puzzle.island-shrine.solution.south": "South: {{item}}",
+    "puzzle.island-shrine.solution.west": "West: {{item}}",
+
+
+    /*********
     ** Tile lookups
     *********/
     // labels
     "tile.description": "A tile position on the map. This is displayed because you enabled tile lookups in the configuration.",
+    "tile.game-location": "Location",
     "tile.map-name": "Map name",
     "tile.tile": "Tile",
     "tile.tile-index": "{{layerName}}: tile index",
@@ -561,11 +638,11 @@
 
 
     /*********
-    ** Trash bear lookups
+    ** Trash Bear or Gourmand lookups
     *********/
     // labels
-    "trash-bear.item-wanted": "Item wanted",
-    "trash-bear.quest-progress": "Quest progress",
+    "trash-bear-or-gourmand.item-wanted": "Item wanted",
+    "trash-bear-or-gourmand.quest-progress": "Quest progress",
 
 
     /*********
@@ -578,18 +655,18 @@
     "tree.is-fertilized": "Is fertilized",
 
     // values
+    "tree.name.big-mushroom": "Big Mushroom",
+    "tree.name.mahogany": "Mahogany Tree",
     "tree.name.maple": "Maple Tree",
     "tree.name.oak": "Oak Tree",
-    "tree.name.pine": "Pine Tree",
     "tree.name.palm": "Palm Tree",
-    "tree.name.big-mushroom": "Big Mushroom",
+    "tree.name.pine": "Pine Tree",
     "tree.name.unknown": "Unknown Tree",
     "tree.stage.done": "Fully grown",
     "tree.stage.partial": "{{stageName}} ({{step}} of {{max}})",
     "tree.next-growth.winter": "can't grow in winter outside greenhouse",
     "tree.next-growth.adjacent-trees": "can't grow because other trees are too close",
     "tree.next-growth.chance": "{{chance}}% chance to grow into {{stage}} tomorrow",
-    "tree.is-fertilized.effects": "guarantees daily growth, even in winter",
 
     // growth stages
     "tree.stages.seed": "seed",

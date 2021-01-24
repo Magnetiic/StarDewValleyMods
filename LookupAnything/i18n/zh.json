@@ -2,14 +2,13 @@
     /*********
     ** Generic translations
     *********/
-    // dates (possible tokens: {{seasonName}}, {{seasonNumber}}, {{dayNumber}}, {{year}})
-    "generic.date": "{{seasonName}}{{dayNumber}}日",
-    "generic.date-with-year": "第{{year}}年{{seasonName}}{{dayNumber}}日",
-
     // date names
     "generic.now": "现在",
     "generic.tomorrow": "明天",
     "generic.yesterday": "昨天",
+
+    // generic values
+    "generic.unknown": "unknown", // TODO
 
     // generic field values
     "generic.percent": "{{percent}}%",
@@ -25,9 +24,9 @@
     "generic.days": "{{count}}天",
     "generic.in-x-days": "在{{count}}天内",
     "generic.x-days-ago": "{{count}}天前",
-    "generic.price": "{{price}}G",
-    "generic.price-for-quality": "{{price}}G({{quality}})",
-    "generic.price-for-stack": "{{count}}个，总共价值{{price}}G",
+    "generic.price": "{{price}}金",
+    "generic.price-for-quality": "{{price}}金({{quality}})",
+    "generic.price-for-stack": "{{count}}个，总共价值{{price}}金",
 
     // types
     "type.building": "建筑",
@@ -73,11 +72,13 @@
     "shop.marnie": "玛妮",
     "shop.pierre": "皮埃尔",
     "shop.robin": "罗宾",
+    "shop.volcano": "volcano shop", // TODO
     "shop.willy": "威利",
 
     // recipe types
     "recipe-type.cooking": "烹饪",
     "recipe-type.crafting": "制造",
+    "recipe-type.tailoring": "裁缝",
 
     // NPC descriptions
     "data.npc.pet.description": "对你忠心耿耿的宠物。",
@@ -134,6 +135,8 @@
     "data.item.topaz-node.description": "打碎之后可以获得黄水晶。",
 
     // mine ores
+    "data.item.cinder-shard-node.name": "Cinder Shard Node", // TODO
+    "data.item.cinder-shard-node.description": "Break apart to obtain cinder shards.", // TODO
     "data.item.copper-node.name": "铜矿点",
     "data.item.copper-node.description": "打碎之后可以获得铜矿石。",
     "data.item.gold-node.name": "黄金矿点",
@@ -142,12 +145,21 @@
     "data.item.iridium-node.description": "打碎之后可以获得铱矿石。",
     "data.item.iron-node.name": "铁矿点",
     "data.item.iron-node.description": "打碎之后可以获得铁矿石。",
+    "data.item.omni-geode-node.name": "Omni Geode Node", // TODO
+    "data.item.omni-geode-node.description": "Break apart to obtain an omni geode.", // TODO
 
     // mine stones
     "data.item.colored-stone.name": "各色石头",
     "data.item.colored-stone.description": "一颗常见的石头。可能藏有石头、矿石或晶洞。",
     "data.item.mine-stone.name": "石头",
-    "data.item.mine-stone.description": "打碎之后可以获得石头。",
+    "data.item.mine-stone.description": "Break apart to obtain stone with a chance of coal.", // TODO
+
+    // other stones
+    // TODO
+    "data.item.clay-stone.name": "Clay Stone",
+    "data.item.clay-stone.description": "Break apart to obtain clay.",
+    "data.item.fossil-stone.name": "Fossil Stone",
+    "data.item.fossil-stone.description": "Break apart to obtain fossils and bones.",
 
     // mine containers
     "data.item.barrel.name": "桶",
@@ -180,7 +192,18 @@
     "location.undergroundMine.level": "矿井层数：{{level}}",
     "location.witchSwamp": "女巫的沼泽",
     "location.woods": "秘密森林",
-    "location.unknown-fish-area": "{{locationName}} (fishing area {{id}})", // TODO
+
+    "location.caldera": "Ginger Island caldera", // TODO
+    "location.islandEast": "Ginger Island east", // TODO
+    "location.islandNorth": "Ginger Island north", // TODO
+    "location.islandSouth": "Ginger Island south", // TODO
+    "location.islandSouthEast": "Ginger Island southeast", // TODO
+    "location.islandSouthEastCave": "Ginger Island southeast cave", // TODO
+    "location.islandWest": "Ginger Island west", // TODO
+    "location.islandWest.fish-area-1": "Ginger Island west (ocean)", // TODO
+    "location.islandWest.fish-area-2": "Ginger Island west (pond)", // TODO
+
+    "location.unknown-fish-area": "{{locationName}} (钓鱼区 {{id}})",
 
 
     /*********
@@ -297,9 +320,9 @@
     // values
     "fruit-tree.complaints.adjacent-objects": "因相邻的物体无法生长",
     "fruit-tree.growth.summary": "将于 {{date}} 成熟",
-    "fruit-tree.next-fruit.struck-by-lighting": "被闪电击中！将在 {{count}} 天后复原。",
-    "fruit-tree.next-fruit.out-of-season": "过季",
     "fruit-tree.next-fruit.max-fruit": "收获这批水果之前无法再次结果",
+    "fruit-tree.next-fruit.out-of-season": "过季",
+    "fruit-tree.next-fruit.struck-by-lightning": "被闪电击中！将在 {{count}} 天后复原。",
     "fruit-tree.next-fruit.too-young": "树龄太小无法结果",
     "fruit-tree.quality.now": "目前{{quality}}",
     "fruit-tree.quality.on-date": "将于{{date}}获得{{quality}}",
@@ -313,6 +336,8 @@
     // labels
     "crop.summary": "作物",
     "crop.harvest": "收割",
+    "crop.fertilized": "Fertilized", // TODO
+    "crop.watered": "Watered", // TODO
 
     // values
     "crop.summary.dead": "作物死亡",
@@ -350,8 +375,8 @@
     "item.contents.placed": "已放置{{name}}",
     "item.contents.ready": "目前{{name}}",
     "item.contents.partial": "{{name}}在{{time}}后完成",
-    "item.undiscovered-gift-taste": "{{count}} unrevealed villagers", // TODO
-    "item.undiscovered-gift-taste-appended": ", and {{count}} unrevealed villagers", // TODO
+    "item.undiscovered-gift-taste": "{{count}} 位没揭露的村民",
+    "item.undiscovered-gift-taste-appended": ", 和 {{count}} 位没揭露的村民",
     "item.needed-for.community-center": "社区中心({{bundles}})",
     "item.needed-for.full-shipment": "全部货物成就(出货一个)",
     "item.needed-for.polyculture": "混合栽培成就(再出货{{count}}个)",
@@ -438,6 +463,15 @@
 
 
     /*********
+    ** Item > music block lookups
+    *********/
+    // labels
+    // TODO
+    "item.music-block.pitch": "Pitch",
+    "item.music-block.drum-type": "Drum type",
+
+
+    /*********
     ** Monster lookups
     *********/
     // labels
@@ -451,9 +485,7 @@
 
     // values
     "monster.drops.nothing": "无",
-    "monster.adventure-guild.complete": "完成",
-    "monster.adventure-guild.incomplete": "正在进行",
-    "monster.adventure-guild.progress": "击杀了总数{{requiredCount}}中的{{count}}",
+    "monster.adventure-guild.eradication-goal": "消灭怪物的目的: {{name}} (击杀了总数{{requiredCount}}中的{{count}})",
 
 
     /*********
@@ -480,8 +512,8 @@
     "npc.friendship.not-met": "你们还没有见过面",
     "npc.friendship.need-bouquet": "需要花束进行到下一阶段",
     "npc.friendship.need-points": "下一等级需要{{count}}点好感度",
-    "npc.undiscovered-gift-taste": "{{count}} unrevealed items", // TODO
-    "npc.undiscovered-gift-taste-appended": ", and {{count}} unrevealed items", // TODO
+    "npc.undiscovered-gift-taste": "{{count}} 个没揭露的品目",
+    "npc.undiscovered-gift-taste-appended": ", 和 {{count}} 个没揭露的品目",
 
 
     /*********
@@ -545,28 +577,82 @@
 
 
     /*********
+    ** Puzzles
+    *********/
+    // labels
+    // TODO
+    "puzzle.solution": "Solution",
+
+    // values
+    // TODO
+    "puzzle.solution.solved": "Puzzle solved!",
+    "puzzle.solution.hidden": "Puzzle solutions are hidden in progression mode.",
+
+
+    /*********
+    ** Puzzles > Fern Islands crystal cave
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-crystal-cave.title": "Crystal Cave Puzzle",
+    "puzzle.island-crystal-cave.crystal-id": "Crystal ID",
+
+    // values
+    // TODO
+    "puzzle.island-crystal-cave.solution.not-activated": "Activate the statue to start the puzzle.",
+    "puzzle.island-crystal-cave.solution.waiting": "Waiting for game to generate sequence...",
+    "puzzle.island-crystal-cave.solution.activated": "Repeat the pattern of activated crystals:",
+
+
+    /*********
+    ** Puzzles > Fern Islands mermaid puzzle
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-mermaid.title": "Island Mermaid Puzzle",
+    "puzzle.island-mermaid.solution.intro": "Use flute blocks to play the Night Market mermaid song. Pitch values (you can lookup a flute block to see its pitch):",
+
+
+    /*********
+    ** Puzzles > Fern Islands shrine puzzle
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-shrine.title": "Island Shrine Puzzle",
+    "puzzle.island-shrine.description": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
+
+    // values
+    // TODO
+    "puzzle.island-shrine.solution.east": "East: {{item}}",
+    "puzzle.island-shrine.solution.north": "North: {{item}}",
+    "puzzle.island-shrine.solution.south": "South: {{item}}",
+    "puzzle.island-shrine.solution.west": "West: {{item}}",
+
+
+    /*********
     ** Tile lookups
     *********/
     // labels
     "tile.description": "地图上此位置的地格。显示此信息是因为你在设置中打开了地格信息显示功能。",
+    "tile.game-location": "Location", // TODO
     "tile.map-name": "地图名",
     "tile.tile": "地格",
     "tile.tile-index": "{{layerName}}：地格号",
     "tile.tilesheet": "{{layerName}}: 地格层",
     "tile.blend-mode": "{{layerName}}: 混合模式",
-    "tile.index-property": "{{layerName}}: ix props: {{propertyName}}", // TODO
-    "tile.tile-property": "{{layerName}}: props: {{propertyName}}", // TODO
+    "tile.index-property": "{{layerName}}: 指数属性: {{propertyName}}",
+    "tile.tile-property": "{{layerName}}: 属性: {{propertyName}}",
 
     // values
     "tile.tile.none-here": "此处无地格",
 
 
     /*********
-    ** Trash bear lookups
+    ** Trash Bear or Gourmand lookups
     *********/
     // labels
-    "trash-bear.item-wanted": "想要的东西",
-    "trash-bear.quest-progress": "任务进度",
+    "trash-bear-or-gourmand.item-wanted": "想要的东西",
+    "trash-bear-or-gourmand.quest-progress": "任务进度",
 
 
     /*********
@@ -579,18 +665,18 @@
     "tree.is-fertilized": "播洒树肥",
 
     // values
+    "tree.name.big-mushroom": "大蘑菇",
+    "tree.name.mahogany": "Mahogany Tree", // TODO
     "tree.name.maple": "枫树",
     "tree.name.oak": "橡树",
-    "tree.name.pine": "松树",
     "tree.name.palm": "棕榈树",
-    "tree.name.big-mushroom": "大蘑菇",
+    "tree.name.pine": "松树",
     "tree.name.unknown": "未知",
     "tree.stage.done": "完全长成",
     "tree.stage.partial": "{{stageName}} (总共{{max}}个阶段中的第{{step}}阶段)",
     "tree.next-growth.winter": "冬天在温室之外无法生长",
     "tree.next-growth.adjacent-trees": "因其他树靠的太近无法生长",
     "tree.next-growth.chance": "有{{chance}}%几率明天成长到{{stage}}",
-    "tree.is-fertilized.effects": "即使在冬天也能保证每天生长",
 
     // growth stages
     "tree.stages.seed": "种子",

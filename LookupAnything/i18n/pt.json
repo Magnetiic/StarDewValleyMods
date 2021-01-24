@@ -2,14 +2,13 @@
     /*********
     ** Generic translations
     *********/
-    // dates (possible tokens: {{seasonName}}, {{seasonNumber}}, {{dayNumber}}, {{year}})
-    "generic.date": "{{seasonName}} {{dayNumber}}",
-    "generic.date-with-year": "{{seasonName}} {{dayNumber}} no ano {{year}}",
-
     // date names
     "generic.now": "agora",
     "generic.tomorrow": "amanhã",
     "generic.yesterday": "ontem",
+
+    // generic values
+    "generic.unknown": "unknown", // TODO
 
     // generic field values
     "generic.percent": "{{percent}}%",
@@ -32,8 +31,8 @@
     // types
     "type.building": "Construção",
     "type.bush": "Arbusto",
-    "type.fruit-tree": "Arvore Frutífera",
-    "type.map-tile": "Azulejo",
+    "type.fruit-tree": "Árvore Frutífera",
+    "type.map-tile": "Bloco",
     "type.monster": "Monstro",
     "type.player": "Jogador",
     "type.tree": "Árvore",
@@ -73,11 +72,13 @@
     "shop.marnie": "Marnie",
     "shop.pierre": "Pierre",
     "shop.robin": "Robin",
+    "shop.volcano": "volcano shop", // TODO
     "shop.willy": "Willy",
 
     // recipe types
     "recipe-type.cooking": "Cozinhar",
     "recipe-type.crafting": "Construir",
+    "recipe-type.tailoring": "Alfaiataria",
 
     // NPC descriptions
     "data.npc.pet.description": "Seu animal de estimação leal.",
@@ -95,7 +96,7 @@
     "data.item.broken-branch.name": "Galho Quebrado",
     "data.item.broken-branch.description": "Um galho quebrado. Corte-o com um machado para obter madeira.",
     "data.item.stone.name": "Pedra",
-    "data.item.stone.description": "Uma pedra cinza indefinível. Quebre-a para obter pedras.",
+    "data.item.stone.description": "Uma pedra cinza indefinida. Quebre-a para obter pedras.",
     "data.item.geode.name": "Pedra de Geodo",
     "data.item.geode.description": "Quebre-a para obter Geodos.",
     "data.item.frozen-geode.name": "Pedra de Geodo Congelado",
@@ -104,9 +105,9 @@
     "data.item.magma-geode.description": "Quebre-a para obter Geodos de magma.",
 
     // weeds & crystals
-    "data.item.weed.name": "Erva",
-    "data.item.weed.description": "Uma erva sem descrição. Pode conter fibras ou sementes mistas.",
-    "data.item.fertile-weed.name": "Erva fértil",
+    "data.item.weed.name": "Mato",
+    "data.item.weed.description": "Uma mato sem descrição. Pode conter fibras ou sementes mistas.",
+    "data.item.fertile-weed.name": "Mato fértil",
     "data.item.fertile-weed.description": "É garantido conter sementes mistas.",
     "data.item.ice-crystal.name": "Cristal de Gelo",
     "data.item.ice-crystal.description": "Um cristal de gelo sem descrição. Tem uma chance bem pequena de colher Quartzo Refinado.",
@@ -121,7 +122,7 @@
     "data.item.emerald-node.name": "Aglomerado de Esmeralda",
     "data.item.emerald-node.description": "Quebre-a para obter esmeralda.",
     "data.item.gem-node.name": "Aglomerado de Gemas",
-    "data.item.gem-node.description": "Quebre-a para receber esmeraldas, água-marinhas, rubís, ametistas, topaz, jade, ou diamantes.",
+    "data.item.gem-node.description": "Quebre-a para receber esmeraldas, água-marinhas, rubis, ametistas, topaz, jade, ou diamantes.",
     "data.item.jade-node.name": "Aglomerado de Jade",
     "data.item.jade-node.description": "Quebre-a para receber Jade.",
     "data.item.mystic-stone.name": "Rocha Mística",
@@ -129,11 +130,13 @@
     "data.item.prismatic-node.name": "Aglomerado Prismático",
     "data.item.prismatic-node.description": "Quebre-a para obter fragmentos prismáticos.",
     "data.item.ruby-node.name": "Aglomerado de Rubís",
-    "data.item.ruby-node.description": "Quebre-a para receber rubís.",
+    "data.item.ruby-node.description": "Quebre-a para receber rubis.",
     "data.item.topaz-node.name": "Aglomerado de topaz",
     "data.item.topaz-node.description": "Quebre-a para coletar topaz.",
 
     // mine ores
+    "data.item.cinder-shard-node.name": "Cinder Shard Node", // TODO
+    "data.item.cinder-shard-node.description": "Break apart to obtain cinder shards.", // TODO
     "data.item.copper-node.name": "Aglomerado de Cobre",
     "data.item.copper-node.description": "Quebre-a para coletar minérios de cobre.",
     "data.item.gold-node.name": "Aglomerado de Ouro",
@@ -142,12 +145,21 @@
     "data.item.iridium-node.description": "Quebre-a para receber minérios de irídio.",
     "data.item.iron-node.name": "Aglomerado de Ferro",
     "data.item.iron-node.description": "Quebre-a pra receber minérios de ferro.",
+    "data.item.omni-geode-node.name": "Omni Geode Node", // TODO
+    "data.item.omni-geode-node.description": "Break apart to obtain an omni geode.", // TODO
 
     // mine stones
     "data.item.colored-stone.name": "Rocha Colorida",
     "data.item.colored-stone.description": "Uma rocha indescritível. Talvez possa conter pedras, minérios, ou geodos.",
     "data.item.mine-stone.name": "Pedra",
-    "data.item.mine-stone.description": "Quebre para obter preda.",
+    "data.item.mine-stone.description": "Break apart to obtain stone with a chance of coal.", // TODO
+
+    // other stones
+    // TODO
+    "data.item.clay-stone.name": "Clay Stone",
+    "data.item.clay-stone.description": "Break apart to obtain clay.",
+    "data.item.fossil-stone.name": "Fossil Stone",
+    "data.item.fossil-stone.description": "Break apart to obtain fossils and bones.",
 
     // mine containers
     "data.item.barrel.name": "Barríl",
@@ -156,32 +168,42 @@
     "data.item.box.description": "Quebre para receber bens diversos.",
 
     // location names
-    // TODO
-    "location.backwoods": "backwoods",
-    "location.beach": "beach",
-    "location.beach.east-pier": "beach (eastern pier)",
-    "location.bugLand": "mutant bug lair",
-    "location.busStop": "bus stop",
-    "location.desert": "desert",
-    "location.farm": "farm",
-    "location.farmCave": "farm cave",
-    "location.farmHouse": "farmhouse",
-    "location.forest": "forest",
-    "location.forest.fish-area-0": "forest river",
-    "location.forest.fish-area-1": "forest pond",
-    "location.forest.island-tip": "forest river (south tip of large island)",
-    "location.mountain": "mountain",
-    "location.railroad": "railroad",
-    "location.sewer": "sewers",
-    "location.submarine": "Night Market submarine",
-    "location.town": "town",
-    "location.town.northmost-bridge": "town (northmost bridge)",
-    "location.tunnel": "bus tunnel",
-    "location.undergroundMine": "mines",
-    "location.undergroundMine.level": "mine level {{level}}",
-    "location.witchSwamp": "witch's swamp",
-    "location.woods": "secret woods",
-    "location.unknown-fish-area": "{{locationName}} (fishing area {{id}})",
+    "location.backwoods": "Bosque",
+    "location.beach": "Praia",
+    "location.beach.east-pier": "“praia (cais oriental)",
+    "location.bugLand": "Covil dos Insetos Mutantes",
+    "location.busStop": "Parada de ônibus",
+    "location.desert": "Deserto",
+    "location.farm": "fazenda",
+    "location.farmCave": "Caverna",
+    "location.farmHouse": "Casa da Fazenda",
+    "location.forest": "Floresta Cinzaseiva",
+    "location.forest.fish-area-0": "Rio da Floresta Cinzaseiva",
+    "location.forest.fish-area-1": "Lagoa da Floresta Cinzaseiva",
+    "location.forest.island-tip": "Rio da Floresta Cinzaseiva (ponta sul da ilha grande)",
+    "location.mountain": "Montanha",
+    "location.railroad": "Ferrovia",
+    "location.sewer": "Esgotos",
+    "location.submarine": "Submarino de Pesca do Mercado Noturno",
+    "location.town": "Cidade",
+    "location.town.northmost-bridge": "Cidade (ponte mais ao norte)",
+    "location.tunnel": "Túnel do ônibus",
+    "location.undergroundMine": "Minas",
+    "location.undergroundMine.level": "Mina nível {{level}}",
+    "location.witchSwamp": "Pântano da bruxa",
+    "location.woods": "Bosque Secreto",
+
+    "location.caldera": "Ginger Island caldera", // TODO
+    "location.islandEast": "Ginger Island east", // TODO
+    "location.islandNorth": "Ginger Island north", // TODO
+    "location.islandSouth": "Ginger Island south", // TODO
+    "location.islandSouthEast": "Ginger Island southeast", // TODO
+    "location.islandSouthEastCave": "Ginger Island southeast cave", // TODO
+    "location.islandWest": "Ginger Island west", // TODO
+    "location.islandWest.fish-area-1": "Ginger Island west (ocean)", // TODO
+    "location.islandWest.fish-area-2": "Ginger Island west (pond)", // TODO
+
+    "location.unknown-fish-area": "{{locationName}} (área de pesca {{id}})",
 
 
     /*********
@@ -198,7 +220,7 @@
 
     // values
     "animal.complaints.hungry": "Não foi alimentado ontem",
-    "animal.complaints.left-out": "Foi deixado para fora na ultima noite",
+    "animal.complaints.left-out": "Foi deixado para fora na última noite",
     "animal.complaints.new-home": "Se mudou para uma nova casa",
     "animal.complaints.no-heater": "Sem aquecedor no inverno",
     "animal.complaints.not-petted": "Não recebeu carinho hoje",
@@ -250,17 +272,17 @@
     *********/
     // labels
     "building.fish-pond.population": "População",
-    "building.fish-pond.drops": "Possíveis items derrubados",
+    "building.fish-pond.drops": "Possíveis itens derrubados",
     "building.fish-pond.quests": "Missões",
 
     // values
     "building.fish-pond.population.empty": "Adicionar um peixe à este lago",
     "building.fish-pond.population.next-spawn": "Novo peixe aparece {{relativeDate}}",
-    "building.fish-pond.drops.preface": "{{chance}}% chance each day of producing the first matched item:", // TODO
-    "building.fish-pond.drops.min-fish": "With {{count}} fish:", // TODO
-    "building.fish-pond.quests.done": "{{count}} peixe",
-    "building.fish-pond.quests.incomplete-one": "{{count}} peixe: vai precisar {{itemName}}",
-    "building.fish-pond.quests.incomplete-random": "{{count}} peixe: vai precisar de um {{itemList}}",
+    "building.fish-pond.drops.preface": "{{chance}}% de chance todos os dias de produzir o primeiro item correspondente:",
+    "building.fish-pond.drops.min-fish": "Com {{count}} peixes:",
+    "building.fish-pond.quests.done": "{{count}} peixes",
+    "building.fish-pond.quests.incomplete-one": "{{count}} peixes: vai precisar {{itemName}}",
+    "building.fish-pond.quests.incomplete-random": "{{count}} peixes: vai precisar de um {{itemList}}",
     "building.fish-pond.quests.available": "disponível {{relativeDate}}",
 
 
@@ -290,17 +312,17 @@
     // labels
     "fruit-tree.complaints": "Reclamações",
     "fruit-tree.name": "Árvore de {{fruitName}}",
-    "fruit-tree.growth": "Crescismento",
+    "fruit-tree.growth": "Crescimento",
     "fruit-tree.next-fruit": "Próxima fruta",
     "fruit-tree.season": "Estação",
     "fruit-tree.quality": "Qualidade",
 
     // values
-    "fruit-tree.complaints.adjacent-objects": "Não pode crescer pois ha objetos ao lado",
+    "fruit-tree.complaints.adjacent-objects": "Não pode crescer pois há objetos ao lado",
     "fruit-tree.growth.summary": "Fica madura em {{date}}",
-    "fruit-tree.next-fruit.struck-by-lighting": "Atingida por um raio! Irá se recuperar em {{count}} dias.",
-    "fruit-tree.next-fruit.out-of-season": "fora da estação",
     "fruit-tree.next-fruit.max-fruit": "Não irá dar nenhuma fruta até você colher as que já estão ali.",
+    "fruit-tree.next-fruit.out-of-season": "fora da estação",
+    "fruit-tree.next-fruit.struck-by-lightning": "Atingida por um raio! Irá se recuperar em {{count}} dias.",
     "fruit-tree.next-fruit.too-young": "Muito nova pra produzir frutos",
     "fruit-tree.quality.now": "{{quality}} agora",
     "fruit-tree.quality.on-date": "{{quality}} em {{date}}",
@@ -314,6 +336,8 @@
     // labels
     "crop.summary": "Plantação",
     "crop.harvest": "Próxima colheita",
+    "crop.fertilized": "Fertilized", // TODO
+    "crop.watered": "Watered", // TODO
 
     // values
     "crop.summary.dead": "Esta planta está morta.",
@@ -361,7 +385,7 @@
     "item.needed-for.craft-master": "conquista de Mestre do Artesanato (crie {{recipes}})",
     "item.sells-to.shipping-box": "Caixa de envio",
     "item.recipes-for-ingredient.entry": "{{name}} (precisa de {{count}})",
-    "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
+    "item.recipes-for-machine.multiple-items": "{{name}} x {{count}}",
     "item.number-owned.summary": "Possui {{count}} desses",
     "item.number-crafted.summary": "Criou {{count}} desses",
 
@@ -386,7 +410,7 @@
     // labels
     "item.crabpot-bait": "Isca",
     "item.crabpot-bait-needed": "Requer isca!",
-    "item.crabpot-bait-not-needed": "Não é necessaria devido a habilidade Mestre da isca",
+    "item.crabpot-bait-not-needed": "Não é necessária devido a habilidade Mestre da isca",
 
 
     /*********
@@ -404,22 +428,20 @@
     ** Item > fish lookups
     *********/
     // labels
-    // TODO
-    "item.fish-pond-drops": "Fish pond drops",
-    "item.fish-spawn-rules": "Spawn rules",
+    "item.fish-pond-drops": "Drops do lago de peixes",
+    "item.fish-spawn-rules": "Regras de spawn",
 
     // values
-    // TODO
-    "item.fish-spawn-rules.min-fishing-level": "min fishing level: {{level}}",
-    "item.fish-spawn-rules.not-caught-yet": "not caught yet (can only be caught once)",
-    "item.fish-spawn-rules.locations": "locations: {{locations}}",
-    "item.fish-spawn-rules.locations-by-season.label": "locations:",
+    "item.fish-spawn-rules.min-fishing-level": "nível mínimo de pesca: {{level}}",
+    "item.fish-spawn-rules.not-caught-yet": "não capturado ainda (pode ser capturado apenas uma vez)",
+    "item.fish-spawn-rules.locations": "localizações: {{locations}}",
+    "item.fish-spawn-rules.locations-by-season.label": "localizações:",
     "item.fish-spawn-rules.locations-by-season.season-locations": "{{season}}: {{locations}}",
-    "item.fish-spawn-rules.season-any": "any season",
-    "item.fish-spawn-rules.season-list": "seasons: {{seasons}}",
-    "item.fish-spawn-rules.time": "time of day: {{times}}",
-    "item.fish-spawn-rules.weather-sunny": "weather: sunny",
-    "item.fish-spawn-rules.weather-rainy": "weather: raining",
+    "item.fish-spawn-rules.season-any": "Qualquer estação",
+    "item.fish-spawn-rules.season-list": "Estações: {{seasons}}",
+    "item.fish-spawn-rules.time": "Horário do dia: {{times}}",
+    "item.fish-spawn-rules.weather-sunny": "Clima: Ensolarado",
+    "item.fish-spawn-rules.weather-rainy": "Clima: Chuva",
 
 
     /*********
@@ -440,6 +462,14 @@
 
 
     /*********
+    ** Item > music block lookups
+    *********/
+    // labels
+    "item.music-block.pitch": "Tom",
+    "item.music-block.drum-type": "Tipo de Bateria",
+
+
+    /*********
     ** Monster lookups
     *********/
     // labels
@@ -453,9 +483,7 @@
 
     // values
     "monster.drops.nothing": "Nada",
-    "monster.adventure-guild.complete": "Completo",
-    "monster.adventure-guild.incomplete": "Em andamento",
-    "monster.adventure-guild.progress": "Matou {{count}} de {{requiredCount}}",
+    "monster.adventure-guild.eradication-goal": "Metas de Erradicação de Monstros: {{name}} (Matou {{count}} de {{requiredCount}})",
 
 
     /*********
@@ -524,8 +552,8 @@
     // labels
     "player.farm-name": "Nome da fazenda",
     "player.farm-map": "Mapa da fazenda",
-    "player.favorite-thing": "Coisa Favorida",
-    "player.gender": "Genero",
+    "player.favorite-thing": "Coisa Favorita",
+    "player.gender": "Gênero",
     "player.housemate": "Companheiro de Casa",
     "player.spouse": "Esposa(o)",
     "player.watched-movie-this-week": "Assistiu filme essa semana",
@@ -533,7 +561,7 @@
     "player.farming-skill": "Cultivo",
     "player.fishing-skill": "Pescaria",
     "player.foraging-skill": "Colheita",
-    "player.mining-skill": "Mineiração",
+    "player.mining-skill": "Mineração",
     "player.luck": "Sorte",
     "player.save-format": "Versão do jogo salvo",
 
@@ -547,28 +575,82 @@
 
 
     /*********
+    ** Puzzles
+    *********/
+    // labels
+    // TODO
+    "puzzle.solution": "Solution",
+
+    // values
+    // TODO
+    "puzzle.solution.solved": "Puzzle solved!",
+    "puzzle.solution.hidden": "Puzzle solutions are hidden in progression mode.",
+
+
+    /*********
+    ** Puzzles > Fern Islands crystal cave
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-crystal-cave.title": "Crystal Cave Puzzle",
+    "puzzle.island-crystal-cave.crystal-id": "Crystal ID",
+
+    // values
+    // TODO
+    "puzzle.island-crystal-cave.solution.not-activated": "Activate the statue to start the puzzle.",
+    "puzzle.island-crystal-cave.solution.waiting": "Waiting for game to generate sequence...",
+    "puzzle.island-crystal-cave.solution.activated": "Repeat the pattern of activated crystals:",
+
+
+    /*********
+    ** Puzzles > Fern Islands mermaid puzzle
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-mermaid.title": "Island Mermaid Puzzle",
+    "puzzle.island-mermaid.solution.intro": "Use flute blocks to play the Night Market mermaid song. Pitch values (you can lookup a flute block to see its pitch):",
+
+
+    /*********
+    ** Puzzles > Fern Islands shrine puzzle
+    *********/
+    // labels
+    // TODO
+    "puzzle.island-shrine.title": "Island Shrine Puzzle",
+    "puzzle.island-shrine.description": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
+
+    // values
+    // TODO
+    "puzzle.island-shrine.solution.east": "East: {{item}}",
+    "puzzle.island-shrine.solution.north": "North: {{item}}",
+    "puzzle.island-shrine.solution.south": "South: {{item}}",
+    "puzzle.island-shrine.solution.west": "West: {{item}}",
+
+
+    /*********
     ** Tile lookups
     *********/
     // labels
-    "tile.description": "Um azulejo posicionado no mapa. Isto está aparecendo pois você habilitou nas configurações.",
+    "tile.description": "Um bloque posicionado no mapa. Isto está aparecendo pois você habilitou nas configurações.",
+    "tile.game-location": "Location", // TODO
     "tile.map-name": "Nome do mapa",
-    "tile.tile": "Azulejo",
-    "tile.tile-index": "{{layerName}}: Índice do azulejo",
+    "tile.tile": "Bloco",
+    "tile.tile-index": "{{layerName}}: Indice do bloco",
     "tile.tilesheet": "{{layerName}}: Planilha",
     "tile.blend-mode": "{{layerName}}: Modo de mistura",
     "tile.index-property": "{{layerName}}: Índice da propriedade: {{propertyName}}",
     "tile.tile-property": "{{layerName}}: Propriedade: {{propertyName}}",
 
     // values
-    "tile.tile.none-here": "Sem azulejos aqui",
+    "tile.tile.none-here": "Sem blocos aqui",
 
 
     /*********
-    ** Trash bear lookups
+    ** Trash Bear or Gourmand lookups
     *********/
     // labels
-    "trash-bear.item-wanted": "Item desejado",
-    "trash-bear.quest-progress": "Progresso da missão",
+    "trash-bear-or-gourmand.item-wanted": "Item desejado",
+    "trash-bear-or-gourmand.quest-progress": "Progresso da missão",
 
 
     /*********
@@ -581,18 +663,18 @@
     "tree.is-fertilized": "Está fertilizado",
 
     // values
-    "tree.name.maple": "Árvode de Ácer",
-    "tree.name.oak": "Carvalho",
-    "tree.name.pine": "Pinheiro",
-    "tree.name.palm": "Palmeira",
     "tree.name.big-mushroom": "Cogumelo gigante",
+    "tree.name.mahogany": "Mahogany Tree", // TODO
+    "tree.name.maple": "Árvore de Ácer",
+    "tree.name.oak": "Carvalho",
+    "tree.name.palm": "Palmeira",
+    "tree.name.pine": "Pinheiro",
     "tree.name.unknown": "Árvore desconhecida",
     "tree.stage.done": "Totalmente crescido",
     "tree.stage.partial": "{{stageName}} ({{step}} de {{max}})",
     "tree.next-growth.winter": "Não pode crescer no inverno fora da estufa",
     "tree.next-growth.adjacent-trees": "Não pode crescer pois as outras árvores estão muito perto",
     "tree.next-growth.chance": "{{chance}}% Chance de crescer {{stage}} amanhã",
-    "tree.is-fertilized.effects": "garante crescimento diário, inclusive no inverno",
 
     // growth stages
     "tree.stages.seed": "Semente",
