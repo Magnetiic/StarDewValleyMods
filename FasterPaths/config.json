@@ -1,7 +1,7 @@
 {
   "WalkSpeedBoost": 0,
   "RunSpeedBoost": 0,
-  "GravelPathBoost": 0,
+  "GravelPathBoost": 3,
   "WoodFloorBoost": 1,
   "WoodPathBoost": 1,
   "PlankFloorBoost": 1,

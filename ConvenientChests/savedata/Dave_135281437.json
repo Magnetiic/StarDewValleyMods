@@ -1,6 +1,55 @@
 {
-  "Version": "1.1",
+  "Version": "1.5.2-unofficial.2-borthain",
   "ChestEntries": [
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "24, 20"
+      },
+      "AcceptedItems": {
+        "Object": "24,188,190,192,248,250,256,259,262,264,266,270,272,274,276,278,280,284,300,304,2010,2011,2016,2039,2041,2043"
+      }
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Barn382008",
+        "Tile": "10, 12"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Shed36013",
+        "Tile": "7, 12"
+      },
+      "AcceptedItems": {
+        "Object": "88,90,252,254,268,282,400,414,454,613,636,637"
+      }
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "SlimeHutch22036",
+        "Tile": "9, 11"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Building",
+        "LocationName": "Farm",
+        "BuildingName": "Coop398009",
+        "Tile": "4, 8"
+      },
+      "AcceptedItems": {}
+    },
     {
       "Address": {
         "LocationType": "Normal",
@@ -243,55 +292,6 @@
         "LocationName": "FarmHouse",
         "BuildingName": null,
         "Tile": "0, 0"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Normal",
-        "LocationName": "Farm",
-        "BuildingName": "",
-        "Tile": "24, 20"
-      },
-      "AcceptedItems": {
-        "Object": "24,188,190,192,248,250,256,259,262,264,266,270,272,274,276,278,280,284,300,304,2010,2011,2016,2039,2041,2043"
-      }
-    },
-    {
-      "Address": {
-        "LocationType": "Building",
-        "LocationName": "Farm",
-        "BuildingName": "Barn382008",
-        "Tile": "10, 12"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Building",
-        "LocationName": "Farm",
-        "BuildingName": "Shed36013",
-        "Tile": "7, 12"
-      },
-      "AcceptedItems": {
-        "Object": "88,90,252,254,268,282,400,414,454,613,636,637"
-      }
-    },
-    {
-      "Address": {
-        "LocationType": "Building",
-        "LocationName": "Farm",
-        "BuildingName": "SlimeHutch22036",
-        "Tile": "9, 11"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Building",
-        "LocationName": "Farm",
-        "BuildingName": "Coop398009",
-        "Tile": "4, 8"
       },
       "AcceptedItems": {}
     },
