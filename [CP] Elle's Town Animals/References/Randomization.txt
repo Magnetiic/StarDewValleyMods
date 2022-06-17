@@ -1,0 +1,67 @@
+In addition to the options listed in the reference images, you can also set most options to "Random" in the config. This will randomize the texture of the creature each day (or each time you boot up the game, in the case of the Title Bird). The creatures that can be set to "Random"  in the config are as follows: 
+Spring Butterfly 1
+Spring Butterfly 2
+Spring Butterfly 3
+Spring Butterfly 4
+Spring Butterfly 5
+Spring Butterfly 6
+Summer Butterfly 1
+Summer Butterfly 2
+Summer Butterfly 3
+Summer Butterfly 4
+Summer Butterfly 5
+Summer Butterfly 6
+Spring Bird
+Summer Bird
+Fall Bird
+Winter Bird
+Purple Bird
+Red Bird
+Theatre Bird 1
+Theatre Bird 2
+Theatre Bird 3
+Theatre Bird 4
+Theatre Bird 5
+Theatre Bird 6
+Seagull
+Crow
+Owl
+Dove Children
+Title Bird
+Woodpecker
+Intro Bird
+Squirrel
+Frog 1
+Frog 2
+Spring Rabbit
+Summer Rabbit
+Fall Rabbit
+Winter Rabbit
+Island Butterfly 1
+Island Butterfly 2
+Island Butterfly 3
+Island Butterfly 4
+Island Turtle
+Crab
+Gem Bird
+Marsupial
+Caldera Monkey
+Small Bird
+Large Parrot 1
+Large Parrot 2
+Small Parrot 1
+Small Parrot 2
+
+
+
+The creatures that do not support the "Random" value/option are as follows:
+Intro Bird (this option still changes with the randomized Spring Bird)
+Pet Parrot
+Dusty
+Cart Pig
+Camel
+Trash Bear
+Secret Woods Bear
+Hat Mouse
+Goumand
+Gorilla

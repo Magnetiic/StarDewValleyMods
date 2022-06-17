@@ -1,0 +1,71 @@
+{
+   "Name": "Elle's Town Animals",
+   "Author": "Elle/Junimods",
+   "Version": "1.4.1",
+   "Description": "Replaces most animals throughout Stardew Valley!",
+   "UniqueID": "Elle.TownAnimals",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:1965" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+   {
+      "UniqueID": "Tanpoponoko.SeasonalOutfits",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "DSVTeam.DiverseSeasonalOutfits",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Poltergeister.CuteSprites",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Poltergeister.SeasonalCuteCharacters",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "sion9000.AnthroCharactersContinued",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "CHA0T1CxD3M0N.EnhancedEmily",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "AnataseTV.AnasTonedDownSprites",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "kaya.floralvalley",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "minervamaga.CP.eemieMapRecolour",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Lita.StarblueValley",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "stardewfoliageredone",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Acerbicon.Recolor",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "DaisyNiko.EarthyRecolour",
+      "IsRequired": false
+   },
+   
+],
+}

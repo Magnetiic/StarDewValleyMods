@@ -1,0 +1,21 @@
+{
+    "Name": "[CP] Better Junimos Config Wizard",
+    "Author": "ceruleandeep",
+    "Version": "1.0.3",
+    "Description": "Better Junimos Config Wizard",
+    "UniqueID": "ceruleandeep.BetterJunimos.CP",
+    "UpdateKeys": ["Nexus:???"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "misscoriel.eventrepeater",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "hawkfalcon.BetterJunimos",
+            "IsRequired": true
+        }
+    ]
+}

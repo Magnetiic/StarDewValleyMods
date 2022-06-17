@@ -1,0 +1,2091 @@
+{
+  "Format": "1.19.0",
+  
+  "ConfigSchema": {
+	
+    "Spring Butterfly 1": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Azure"},
+	
+    "Spring Butterfly 2": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Cabbage"},
+	
+    "Spring Butterfly 3": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Common"},
+	
+    "Spring Butterfly 4": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Zoe"},
+	
+    "Spring Butterfly 5": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Cloudless"},
+	
+    "Spring Butterfly 6": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Migrant"},
+	
+    "Summer Butterfly 1": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "MorphoA"},
+	
+    "Summer Butterfly 2": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Ulysses"},
+	
+    "Summer Butterfly 3": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Periander"},
+	
+    "Summer Butterfly 4": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Goliath"},
+	
+    "Summer Butterfly 5": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Janetta"},
+	
+    "Summer Butterfly 6": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Monarch"},
+	
+    "Spring Bird": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Random, False",
+	"Default": "Wren"},
+	
+    "Summer Bird": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Random, False",
+	"Default": "Bluebird"},
+	
+    "Fall Bird": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Random, False",
+	"Default": "Black"},
+	
+    "Winter Bird": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Random, False",
+	"Default": "Cardinal"},
+	
+    "Purple Bird": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Random, False",
+	"Default": "Jay"},
+	
+    "Red Bird": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Random, False",
+	"Default": "Sparrow"},
+	
+    "Theatre Bird 1": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl, Random, False",
+	"Default": "Wren"},
+	
+    "Theatre Bird 2": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl, Random, False",
+	"Default": "Jay"},
+	
+    "Theatre Bird 3": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl, Random, False",
+	"Default": "Sparrow"},
+	
+    "Theatre Bird 4": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl, Random, False",
+	"Default": "Cardinal"},
+	
+    "Theatre Bird 5": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl, Random, False",
+	"Default": "Crow"},
+	
+    "Theatre Bird 6": {"AllowValues": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl, Random, False",
+	"Default": "Owl"},
+	
+    "Seagull": {"AllowValues": "Seagull, Pelican, Random, False",
+	"Default": "Seagull"},
+	
+    "Crow": {"AllowValues": "Crow, Magpie, Random, False",
+	"Default": "Crow"},
+	
+    "Owl": {"AllowValues": "Horned, Barn, Random, False",
+	"Default": "Barn"},
+	
+    "Dove Children": {"AllowValues": "Black, Blonde, Brown, Cream, Grey, White, Random, False",
+	"Default": "Cream"},
+	
+    "Title Bird": {"AllowValues": "Gem, Seagull, Pelican, Crow, Crane, Random, False",
+	"Default": "Seagull"},
+	
+    "Woodpecker": {"AllowValues": "Crested, Spotted, Random, False",
+	"Default": "Crested"},
+	
+    "Intro Bird": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Pet Parrot": {"AllowValues": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow, False",
+	"Default": "Vanilla"},
+	
+    "Squirrel": {"AllowValues": "Black, Blonde, Brown, Cream, Grey, White, Random, False",
+	"Default": "Brown"},
+	
+    "Dusty": {"AllowValues": "Bully, German, Pitbull, False",
+	"Default": "Bully"},
+	
+    "Frog 1": {"AllowValues": "Blue, Green, Lime, Red, White, Yellow, Random, False",
+	"Default": "Green"},
+	
+    "Frog 2": {"AllowValues": "Blue, Green, Lime, Red, White, Yellow, Random, False",
+	"Default": "Lime"},
+	
+    "Spring Rabbit": {"AllowValues": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop, Random, False",
+	"Default": "Grey"},
+	
+    "Summer Rabbit": {"AllowValues": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop, Random, False",
+	"Default": "Grey"},
+	
+    "Fall Rabbit": {"AllowValues": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop, Random, False",
+	"Default": "Grey"},
+	
+    "Winter Rabbit": {"AllowValues": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop, Random, False",
+	"Default": "WhiteLop"},
+	
+    "Cart Pig": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Camel": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Trash Bear": {"AllowValues": "Raccoon, Panda, False",
+	"Default": "Raccoon"},
+	
+    "Secret Woods Bear": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Hat Mouse": {"AllowValues": "Black, Grey, White, Cream, Blonde, Brown, False",
+	"Default": "Grey"},
+	
+    "Island Butterfly 1": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Angel"},
+	
+    "Island Butterfly 2": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Hairstreak"},
+	
+    "Island Butterfly 3": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Crowned"},
+	
+    "Island Butterfly 4": {"AllowValues": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe, Random, False",
+	"Default": "Swallowtail"},
+	
+    "Gourmand": {"AllowValues": "Vanilla, Light, Dark, False",
+	"Default": "Dark"},
+	
+    "Island Turtle": {"AllowValues": "Vanilla, Yellow, Green, Random, False",
+	"Default": "Green"},
+	
+    "Crab": {"AllowValues": "Red, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown, Random, False",
+	"Default": "Orange"},
+	
+    "Gem Bird": {"AllowValues": "Crane, Gem, Random, False",
+	"Default": "Crane"},
+	
+    "Marsupial": {"AllowValues": "Vanilla, Kangaroo, Random, False",
+	"Default": "Kangaroo"},
+	
+    "Gorilla": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    "Caldera Monkey": {"AllowValues": "Vanilla, Lava, Brown, Random, False",
+	"Default": "Lava"},
+
+	"Small Bird": {"AllowValues": "Black, Blonde, Bluebird, Brown, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Junco, Sparrow, Starling, Strawberry, White, Wren, Random, False",
+	"Default": "Chickadee"},
+	
+    "Large Parrot 1": {"AllowValues": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow, Random, False",
+	"Default": "Vanilla"},
+	
+    "Large Parrot 2": {"AllowValues": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow, Random, False",
+	"Default": "Vanilla"},
+	
+    "Small Parrot 1": {"AllowValues": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow, Random, False",
+	"Default": "Red"},
+	
+    "Small Parrot 2": {"AllowValues": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow, Random, False",
+	"Default": "Red"},
+	
+	
+	
+    },
+	
+  "Changes": [
+
+       // Spring Butterflies	   
+	   {
+          "Logname": "Spring Butterfly 1",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Spring Butterfly 1}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 1": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   {
+          "Logname": "Spring Butterfly 1 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 128, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 1": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Spring Butterfly 2",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Spring Butterfly 2}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 48, "Y": 128, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 2": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Spring Butterfly 2 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 48, "Y": 128, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 2": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Spring Butterfly 3",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Spring Butterfly 3}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 96, "Y": 128, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 3": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Spring Butterfly 3 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 96, "Y": 128, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 3": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Spring Butterfly 4",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Spring Butterfly 4}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 144, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 4": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Spring Butterfly 4 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 144, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 4": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Spring Butterfly 5",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Spring Butterfly 5}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 48, "Y": 144, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 5": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Spring Butterfly 5 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 48, "Y": 144, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 5": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Spring Butterfly 6",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Spring Butterfly 6}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 96, "Y": 144, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 6": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Spring Butterfly 6 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 16 }, 
+          "ToArea": { "X": 96, "Y": 144, "Width": 48, "Height": 16 },
+		  "When": {
+		  "Spring Butterfly 6": "Random",
+		  }
+       },
+	   
+	   
+       // Summer Butterflies	   
+	   {
+          "Logname": "Summer Butterfly 1",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Summer Butterfly 1}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 96, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 1": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },	   
+	   {
+          "Logname": "Summer Butterfly 1 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 96, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 1": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Summer Butterfly 2",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Summer Butterfly 2}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 192, "Y": 96, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 2": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Summer Butterfly 2 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 192, "Y": 96, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 2": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Summer Butterfly 3",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Summer Butterfly 3}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 256, "Y": 96, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 3": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Summer Butterfly 3 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 256, "Y": 96, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 3": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Summer Butterfly 4",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Summer Butterfly 4}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 112, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 4": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Summer Butterfly 4 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 112, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 4": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Summer Butterfly 5",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Summer Butterfly 5}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 192, "Y": 112, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 5": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Summer Butterfly 5 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 192, "Y": 112, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 5": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Summer Butterfly 6",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Summer Butterfly 6}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 256, "Y": 112, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 6": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Summer Butterfly 6 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 256, "Y": 112, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Summer Butterfly 6": "Random",
+		  }
+       },
+	   
+	   
+       // Island Butterflies	   
+	   {
+          "Logname": "Island Butterfly 1",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Island Butterfly 1}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 64, "Y": 288, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Island Butterfly 1": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   {
+          "Logname": "Island Butterfly 1 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 64, "Y": 288, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Island Butterfly 1": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Island Butterfly 2",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Island Butterfly 2}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Island Butterfly 2": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Island Butterfly 2 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 128, "Y": 288, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Island Butterfly 2": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Island Butterfly 3",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Island Butterfly 3}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 192, "Y": 288, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Island Butterfly 3": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Island Butterfly 3 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 192, "Y": 288, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Island Butterfly 3": "Random",
+		  }
+       },
+	   
+	   {
+          "Logname": "Island Butterfly 4",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Island Butterfly 4}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 256, "Y": 288, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Island Butterfly 4": "Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe",
+		  }
+       },
+	   
+	   {
+          "Logname": "Island Butterfly 4 Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Butterfly/{{Random:Admiral, Angel, Anna, Arid, Azure, Birdwing, Cabbage, Cinnabar, Cloudless, Common, Crowned, Eggfly, Emerald, Emperor, Friar, Glasswing, Glider, Goliath, Hairstreak, Hesperis, Io, Janetta, Luna, Lyca, Migrant, Mimic, Monarch, MorphoA, MorphoB, Olivewing, Orangetip, Pansy, Peacock, Periander, Rosy, Sheepmoth, Silkmoth, Skipper, Swallowtail, Ulysses, Woodwhite, Zoe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 16 }, 
+          "ToArea": { "X": 256, "Y": 288, "Width": 64, "Height": 16 },
+		  "When": {
+		  "Island Butterfly 4": "Random",
+		  }
+       },
+
+       // Spring Bird	   
+	   {
+          "Logname": "Spring Bird",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Spring Bird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 64, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Spring Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  "Season": "spring",
+		  }
+       },
+	   {
+          "Logname": "Spring Bird cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Spring Bird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 96, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Spring Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  "Season": "spring",
+		  }
+       },
+	   {
+          "Logname": "Spring Bird Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=SpringBird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 64, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Spring Bird": "Random",
+		  "Season": "spring",
+		  }
+       },
+	   {
+          "Logname": "Spring Bird Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=SpringBird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 96, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Spring Bird": "Random",
+		  "Season": "spring",
+		  }
+       },
+
+       // Summer Bird	   
+	   {
+          "Logname": "Summer Bird",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Summer Bird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 64, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Summer Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  "Season": "summer",
+		  }
+       },
+	   {
+          "Logname": "Summer Bird cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Summer Bird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 96, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Summer Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  "Season": "summer",
+		  }
+       },
+	   {
+          "Logname": "Summer Bird Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=SummerBird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 64, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Summer Bird": "Random",
+		  "Season": "summer",
+		  }
+       },
+	   {
+          "Logname": "Summer Bird Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=SummerBird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 96, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Summer Bird": "Random",
+		  "Season": "summer",
+		  }
+       },
+
+       // Fall Bird	   
+	   {
+          "Logname": "Fall Bird",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Fall Bird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 128, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Fall Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  }
+       },
+	   {
+          "Logname": "Fall Bird cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Fall Bird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 160, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Fall Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  }
+       },
+	   {
+          "Logname": "Fall Bird Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=FallBird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 128, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Fall Bird": "Random",
+		  }
+       },
+	   {
+          "Logname": "Fall Bird Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=FallBird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 160, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Fall Bird": "Random",
+		  }
+       },
+
+       // Winter Bird	   
+	   {
+          "Logname": "Winter Bird",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Winter Bird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 64, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Winter Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  "Season": "winter",
+		  }
+       },
+	   {
+          "Logname": "Winter Bird cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Winter Bird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 96, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Winter Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  "Season": "winter",
+		  }
+       },
+	   {
+          "Logname": "Winter Bird Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=WinterBird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 64, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Winter Bird": "Random",
+		  "Season": "winter",
+		  }
+       },
+	   {
+          "Logname": "Winter Bird Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=WinterBird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 96, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Winter Bird": "Random",
+		  "Season": "winter",
+		  }
+       },
+	   
+
+       // Purple Bird	   
+	   {
+          "Logname": "Purple Bird",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Purple Bird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 384, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Purple Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  }
+       },
+	   {
+          "Logname": "Purple Bird cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Purple Bird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 416, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Purple Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  }
+       },
+	   {
+          "Logname": "Purple Bird Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=PurpleBird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 384, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Purple Bird": "Random",
+		  }
+       },
+	   {
+          "Logname": "Purple Bird Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=PurpleBird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 416, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Purple Bird": "Random",
+		  }
+       },
+
+       // Red Bird	   
+	   {
+          "Logname": "Red Bird",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Red Bird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 416, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Red Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  }
+       },
+	   {
+          "Logname": "Red Bird cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Red Bird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 448, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Red Bird": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren",
+		  }
+       },
+	   {
+          "Logname": "Red Bird Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=RedBird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 416, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Red Bird": "Random",
+		  }
+       },
+	   {
+          "Logname": "Red Bird Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=RedBird}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 448, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Red Bird": "Random",
+		  }
+       },
+
+       // Owl
+	   {
+          "Logname": "Owl",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Owl}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 96, "Y": 256, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Owl": "Horned, Barn",
+		  }
+       },
+	   {
+          "Logname": "Owl Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Horned, Barn}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 96, "Y": 256, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Owl": "Random",
+		  }
+       },
+
+       // Seagull  
+	   {
+          "Logname": "Seagull",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Seagull}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 320, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 0, "Width": 320, "Height": 32 },
+		  "When": {
+		  "Seagull": "Seagull, Pelican",
+		  }
+       },
+	   {
+          "Logname": "Seagull cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Seagull}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Seagull": "Seagull, Pelican",
+		  }
+       },
+	   {
+          "Logname": "Seagull Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Seagull, Pelican |key=Seagull}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 320, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 0, "Width": 320, "Height": 32 },
+		  "When": {
+		  "Seagull": "Random",
+		  }
+       },
+	   {
+          "Logname": "Seagull Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Seagull, Pelican |key=Seagull}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 32, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Seagull": "Random",
+		  }
+       },
+
+       // Crow  
+	   {
+          "Logname": "Crow",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Crow}}.png",
+          "FromArea": { "X": 128, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 32, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Crow": "Crow, Magpie",
+		  }
+       },
+	   {
+          "Logname": "Crow cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Crow}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 64, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Crow": "Crow, Magpie",
+		  }
+       },
+	   {
+          "Logname": "Crow cont 2",
+          "Action": "EditImage",
+          "Target": "Characters/KrobusRaven",
+          "FromFile": "assets/Bird/{{Crow}}2.png",
+          "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Crow": "Crow, Magpie",
+		  }
+       },
+	   {
+          "Logname": "Crow Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Crow, Magpie |key=Crow}}.png",
+          "FromArea": { "X": 128, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 32, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Crow": "Random",
+		  }
+       },
+	   {
+          "Logname": "Crow Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Crow, Magpie |key=Crow}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 64, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Crow": "Random",
+		  }
+       },
+	   {
+          "Logname": "Crow Random cont 2",
+          "Action": "EditImage",
+          "Target": "Characters/KrobusRaven",
+          "FromFile": "assets/Bird/{{Random:Crow, Magpie |key=Crow}}.png",
+          "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Crow": "Random",
+		  }
+       },
+
+       // Small Bird
+	   {
+          "Logname": "Small Bird",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Small Bird}}Small.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 60, "Height": 10 }, 
+          "ToArea": { "X": 47, "Y": 335, "Width": 60, "Height": 10 },
+		  "When": {
+		  "Small Bird": "Black, Blonde, Bluebird, Brown, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Junco, Sparrow, Starling, Strawberry, White, Wren",
+		  }
+       },
+	   {
+          "Logname": "Small Bird Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Black, Blonde, Bluebird, Brown, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Junco, Sparrow, Starling, Strawberry, White, Wren}}Small.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 60, "Height": 10 }, 
+          "ToArea": { "X": 47, "Y": 335, "Width": 60, "Height": 10 },
+		  "When": {
+		  "Small Bird": "Random",
+		  }
+       },
+
+       // Woodpecker
+	   {
+          "Logname": "Woodpecker",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Woodpecker}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 256, "Width": 80, "Height": 16 },
+		  "When": {
+		  "Woodpecker": "Crested, Spotted",
+		  }
+       },
+	   {
+          "Logname": "Woodpecker Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Bird/{{Random:Crested, Spotted}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 256, "Width": 80, "Height": 16 },
+		  "When": {
+		  "Woodpecker": "Random",
+		  }
+       },
+
+       // Green Frog
+	   {
+          "Logname": "Weed Frog",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Frog/{{Frog 1}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 112, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 224, "Width": 112, "Height": 16 },
+		  "When": {
+		  "Frog 1": "Blue, Green, Lime, Red, White, Yellow",
+		  }
+       },
+	   {
+          "Logname": "Weed Frog Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Frog/{{Random:Blue, Green, Lime, Red, White, Yellow}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 112, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 224, "Width": 112, "Height": 16 },
+		  "When": {
+		  "Frog 1": "Random",
+		  }
+       },
+
+       // Light Green Frog
+	   {
+          "Logname": "Lake Frog",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Frog/{{Frog 2}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 112, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 240, "Width": 112, "Height": 16 },
+		  "When": {
+		  "Frog 2": "Blue, Green, Lime, Red, White, Yellow",
+		  }
+       },
+	   {
+          "Logname": "Lake Frog Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Frog/{{Random:Blue, Green, Lime, Red, White, Yellow}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 112, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 240, "Width": 112, "Height": 16 },
+		  "When": {
+		  "Frog 2": "Random",
+		  }
+       },
+
+       // Spring Rabbit
+	   {
+          "Logname": "Spring Rabbit",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Spring Rabbit}}.png",
+          "FromArea": { "X": 32, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 160, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Spring Rabbit": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop",
+		  "Season": "spring",
+		  }
+       },
+	   {
+          "Logname": "Spring Rabbit cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Spring Rabbit}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+          "ToArea": { "X": 256, "Y": 192, "Width": 32, "Height": 32 },
+		  "When": {
+		  "Spring Rabbit": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop",
+		  "Season": "spring",
+		  }
+       },
+	   {
+          "Logname": "Spring Rabbit Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Random:Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop |key=SpringRabbit}}.png",
+          "FromArea": { "X": 32, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 160, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Spring Rabbit": "Random",
+		  "Season": "spring",
+		  }
+       },
+	   {
+          "Logname": "Spring Rabbit Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Random:Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop |key=SpringRabbit}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+          "ToArea": { "X": 256, "Y": 192, "Width": 32, "Height": 32 },
+		  "When": {
+		  "Spring Rabbit": "Random",
+		  "Season": "spring",
+		  }
+       },
+
+       // Summer Rabbit
+	   {
+          "Logname": "Summer Rabbit",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Summer Rabbit}}.png",
+          "FromArea": { "X": 32, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 160, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Summer Rabbit": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop",
+		  "Season": "summer",
+		  }
+       },
+	   {
+          "Logname": "Summer Rabbit cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Summer Rabbit}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+          "ToArea": { "X": 256, "Y": 192, "Width": 32, "Height": 32 },
+		  "When": {
+		  "Summer Rabbit": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop",
+		  "Season": "summer",
+		  }
+       },
+	   {
+          "Logname": "Summer Rabbit Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Random:Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop |key=SummerRabbit}}.png",
+          "FromArea": { "X": 32, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 160, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Summer Rabbit": "Random",
+		  "Season": "summer",
+		  }
+       },
+	   {
+          "Logname": "Summer Rabbit Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Random:Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop |key=SummerRabbit}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+          "ToArea": { "X": 256, "Y": 192, "Width": 32, "Height": 32 },
+		  "When": {
+		  "Summer Rabbit": "Random",
+		  "Season": "summer",
+		  }
+       },
+
+       // Fall Rabbit
+	   {
+          "Logname": "Fall Rabbit",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Fall Rabbit}}.png",
+          "FromArea": { "X": 32, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 160, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Fall Rabbit": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop",
+		  "Season": "fall",
+		  }
+       },
+	   {
+          "Logname": "Fall Rabbit Cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Fall Rabbit}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+          "ToArea": { "X": 256, "Y": 192, "Width": 32, "Height": 32 },
+		  "When": {
+		  "Fall Rabbit": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop",
+		  "Season": "fall",
+		  }
+       },
+	   {
+          "Logname": "Fall Rabbit Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Random:Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop |key=FallRabbit}}.png",
+          "FromArea": { "X": 32, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 160, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Fall Rabbit": "Random",
+		  "Season": "fall",
+		  }
+       },
+	   {
+          "Logname": "Fall Rabbit Random Cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Random:Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop |key=FallRabbit}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+          "ToArea": { "X": 256, "Y": 192, "Width": 32, "Height": 32 },
+		  "When": {
+		  "Fall Rabbit": "Random",
+		  "Season": "fall",
+		  }
+       },
+
+       // Winter Rabbit
+	   {
+          "Logname": "Winter Rabbit",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Winter Rabbit}}.png",
+          "FromArea": { "X": 32, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 224, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Winter Rabbit": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop",
+		  }
+       },
+	   {
+          "Logname": "Winter Rabbit cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Winter Rabbit}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+          "ToArea": { "X": 288, "Y": 192, "Width": 32, "Height": 32 },
+		  "When": {
+		  "Winter Rabbit": "Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop",
+		  }
+       },
+	   {
+          "Logname": "Winter Rabbit Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Random:Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop |key=WinterRabbit}}.png",
+          "FromArea": { "X": 32, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 224, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Winter Rabbit": "Random",
+		  }
+       },
+	   {
+          "Logname": "Winter Rabbit Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Rabbit/{{Random:Black, BlackLop, Blonde, BlondeLop, Brown, BrownLop, Cream, CreamLop, Grey, GreyLop, White, WhiteLop |key=WinterRabbit}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+          "ToArea": { "X": 288, "Y": 192, "Width": 32, "Height": 32 },
+		  "When": {
+		  "Winter Rabbit": "Random",
+		  }
+       },
+
+       // Squirrel
+	   {
+          "Logname": "Squirrel",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Squirrel/{{Squirrel}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 256, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 192, "Width": 256, "Height": 32 },
+		  "When": {
+		  "Squirrel": "Black, Blonde, Cream, Brown, Grey, White",
+		  }
+       },
+	   {
+          "Logname": "Squirrel Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Squirrel/{{Random:Black, Blonde, Cream, Brown, Grey, White}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 256, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 192, "Width": 256, "Height": 32 },
+		  "When": {
+		  "Squirrel": "Random",
+		  }
+       },
+
+       // Parrots
+	   {
+          "Logname": "Pet Parrot",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Parrot/{{Pet Parrot}}Emily.png",
+          "FromArea": { "X": 51, "Y": 7, "Width": 113, "Height": 17 }, 
+          "ToArea": { "X": 51, "Y": 148, "Width": 113, "Height": 17 },
+		  "When": {
+		  "Pet Parrot": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow",
+		  }
+       },
+	   {
+          "Logname": "Pet Parrot Scene",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Parrot/{{Pet Parrot}}Emily.png",
+          "FromArea": { "X": 0, "Y": 24, "Width": 192, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 165, "Width": 192, "Height": 24 },
+		  "When": {
+		  "Pet Parrot": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow",
+		  }
+       },
+	   {
+          "Logname": "Pet Parrot Emily",
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Characters/Emily",
+          "FromFile": "assets/Parrot/{{Pet Parrot}}Emily2.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 224, "Width": 64, "Height": 32 },
+		  "When": {
+		  "Pet Parrot": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow",
+		  },
+			"Update": "OnLocationChange, OnTimeChange",
+       },
+	   
+	   
+	   {
+          "Logname": "Large Parrot 1",
+          "Action": "EditImage",
+          "Target": "LooseSprites/parrots",
+          "FromFile": "assets/Parrot/{{Large Parrot 1}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 264, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 0, "Width": 264, "Height": 24 },
+		  "When": {
+		  "Large Parrot 1": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow",
+		  }
+       },
+	   {
+          "Logname": "Large Parrot 1 Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/parrots",
+          "FromFile": "assets/Parrot/{{Random:Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 264, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 0, "Width": 264, "Height": 24 },
+		  "When": {
+		  "Large Parrot 1": "Random",
+		  }
+       },
+	   {
+          "Logname": "Large Parrot 2",
+          "Action": "EditImage",
+          "Target": "LooseSprites/parrots",
+          "FromFile": "assets/Parrot/{{Large Parrot 2}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 264, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 48, "Width": 264, "Height": 24 },
+		  "When": {
+		  "Large Parrot 2": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow",
+		  }
+       },
+	   {
+          "Logname": "Large Parrot 2 Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/parrots",
+          "FromFile": "assets/Parrot/{{Random:Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow |key=LargeParrot2}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 264, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 48, "Width": 264, "Height": 24 },
+		  "When": {
+		  "Large Parrot 2": "Random",
+		  }
+       },
+	   {
+          "Logname": "Small Parrot 1",
+          "Action": "EditImage",
+          "Target": "LooseSprites/parrots",
+          "FromFile": "assets/Parrot/{{Small Parrot 1}}Small.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 264, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 24, "Width": 264, "Height": 24 },
+		  "When": {
+		  "Small Parrot 1": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow",
+		  }
+       },
+	   {
+          "Logname": "Small Parrot 1 Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/parrots",
+          "FromFile": "assets/Parrot/{{Random:Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow}}Small.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 264, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 24, "Width": 264, "Height": 24 },
+		  "When": {
+		  "Small Parrot 1": "Random",
+		  }
+       },
+	   {
+          "Logname": "Small Parrot 2",
+          "Action": "EditImage",
+          "Target": "LooseSprites/parrots",
+          "FromFile": "assets/Parrot/{{Small Parrot 2}}Small.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 264, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 72, "Width": 264, "Height": 24 },
+		  "When": {
+		  "Small Parrot 2": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow",
+		  }
+       },
+	   {
+          "Logname": "Small Parrot 2 Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/parrots",
+          "FromFile": "assets/Parrot/{{Random:Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow}}Small.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 264, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 72, "Width": 264, "Height": 24 },
+		  "When": {
+		  "Small Parrot 2": "Random",
+		  }
+       },
+	   {
+          "Logname": "Large Parrot 2 cont",
+          "Action": "EditImage",
+          "Target": "Characters/IslandParrot",
+          "FromFile": "assets/Parrot/{{Large Parrot 2}}Full.png",
+		  "When": {
+		  "Large Parrot 2": "Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow",
+		  }
+       },
+	   {
+          "Logname": "Large Parrot 2 Random cont",
+          "Action": "EditImage",
+          "Target": "Characters/IslandParrot",
+          "FromFile": "assets/Parrot/{{Random:Black, Blue, Green, Grey, Pink, Red, Teal, Vanilla, White, Yellow |key=LargeParrot2}}Full.png",
+		  "When": {
+		  "Large Parrot 2": "Random",
+		  }
+       },
+
+       // Doves
+	   {
+          "Logname": "Dove",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Bird/Dove{{Dove Children}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 144, "Height": 22 }, 
+          "ToArea": { "X": 388, "Y": 1894, "Width": 144, "Height": 22 },
+		  "When": {
+		  "Dove Children": "Black, Blonde, Cream, Brown, Grey, White",
+		  }
+       },
+	   {
+          "Logname": "Dove Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Bird/Dove{{Random:Black, Blonde, Cream, Brown, Grey, White}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 144, "Height": 22 }, 
+          "ToArea": { "X": 388, "Y": 1894, "Width": 144, "Height": 22 },
+		  "When": {
+		  "Dove Children": "Random",
+		  }
+       },
+
+       // Dusty
+	   {
+          "Logname": "Dusty",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Other/Dusty{{Dusty}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 72, "Height": 40 }, 
+          "ToArea": { "X": 324, "Y": 1916, "Width": 72, "Height": 40 },
+		  "When": {
+		  "Dusty": "Bully, German, Pitbull",
+		  }
+       },
+	   {
+          "Logname": "Dusty",
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+		  "Target": "Maps/{{season}}_town",
+          "FromFile": "assets/Other/Dusty{{Dusty}}SVE.png",
+          "ToArea": { "X": 306, "Y": 1010, "Width": 12, "Height": 22},
+		  "When": {
+		  "Dusty": "Bully, German, Pitbull",
+		  "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		  }
+       },
+
+       // Hat Mouse
+	   {
+          "Logname": "Hat Mouse",
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Other/HatMouse{{Hat Mouse}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 15, "Height": 14 }, 
+          "ToArea": { "X": 631, "Y": 1968, "Width": 15, "Height": 14 },
+		  "When": {
+		  "Hat Mouse": "Black, Grey, White, Cream, Blonde, Brown",
+		  }
+       },
+
+       // Cart Pig
+	   {
+          "Logname": "Pig Feet",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Other/CartPig.png",
+          "FromArea": { "X": 0, "Y": 21, "Width": 33, "Height": 5 }, 
+          "ToArea": { "X": 49, "Y": 1444, "Width": 33, "Height": 5 },
+		  "When": {
+		  "Cart Pig": "True",
+		  }
+       },
+	   {
+          "Logname": "Pig Face",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Other/CartPig.png",
+          "FromArea": { "X": 48, "Y": 0, "Width": 15, "Height": 19 }, 
+          "ToArea": { "X": 97, "Y": 1423, "Width": 15, "Height": 19 },
+		  "When": {
+		  "Cart Pig": "True",
+		  }
+       },
+	   {
+          "Logname": "Pig Main",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Other/CartPig.png",
+          "FromArea": { "X": 63, "Y": 0, "Width": 30, "Height": 26 }, 
+          "ToArea": { "X": 112, "Y": 1423, "Width": 30, "Height": 26 },
+		  "When": {
+		  "Cart Pig": "True",
+		  }
+       },
+	   {
+          "Logname": "Pig Market",
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Maps/night_market_tilesheet_objects",
+          "FromFile": "assets/Other/CartPig2.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 17, "Height": 23 }, 
+          "ToArea": { "X": 556, "Y": 62, "Width": 17, "Height": 23 },
+		  "When": {
+		  "Cart Pig": "True",
+		  }
+       },
+	   {
+          "Logname": "Pig Market 2",
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Maps/night_market_tilesheet_objects",
+          "FromFile": "assets/Other/CartPig2.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 17, "Height": 23 }, 
+          "ToArea": { "X": 716, "Y": 61, "Width": 17, "Height": 23 },
+		  "When": {
+		  "Cart Pig": "True",
+		  }
+       },
+	   {
+          "Logname": "Pig KrobusRaven",
+          "Action": "EditImage",
+          "Target": "Characters/KrobusRaven",
+          "FromFile": "assets/Other/CartPig3.png",
+          "ToArea": { "X": 125, "Y": 110, "Width": 35, "Height": 50 },
+		  "When": {
+		  "Cart Pig": "True",
+		  }
+       },
+	   {
+          "Logname": "Pig Festival",
+          "Action": "EditImage",
+          "Target": "Maps/Festivals",
+          "FromFile": "assets/Other/CartPig4.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }, 
+          "ToArea": { "X": 272, "Y": 480, "Width": 32, "Height": 32 },
+		  "When": {
+		  "Cart Pig": "True",
+		  }
+       },
+	   {
+          "Logname": "Pig Festival",
+          "Action": "EditImage",
+          "Target": "Maps/Festivals",
+          "FromFile": "assets/Other/CartPig4.png",
+          "FromArea": { "X": 48, "Y": 0, "Width": 32, "Height": 32 }, 
+          "ToArea": { "X": 320, "Y": 480, "Width": 32, "Height": 32 },
+		  "When": {
+		  "Cart Pig": "True",
+		  }
+       },
+	   {
+          "Logname": "Pig Festival",
+          "Action": "EditImage",
+          "Target": "Maps/Festivals",
+          "FromFile": "assets/Other/CartPig4.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 10 }, 
+          "ToArea": { "X": 266, "Y": 502, "Width": 6, "Height": 10 },
+		  "When": {
+		  "Cart Pig": "True",
+		  }
+       },
+	   {
+          "Logname": "Pig Festival",
+          "Action": "EditImage",
+          "Target": "Maps/Festivals",
+          "FromFile": "assets/Other/CartPig4.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 6, "Height": 10 }, 
+          "ToArea": { "X": 314, "Y": 502, "Width": 6, "Height": 10 },
+		  "When": {
+		  "Cart Pig": "True",
+		  }
+       },
+	   
+	   
+	   
+       // Camel
+	   {
+          "Logname": "Camel",
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "LooseSprites/temporary_sprites_1",
+          "FromFile": "assets/Other/Camel.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 274, "Height": 83 }, 
+          "ToArea": { "X": 0, "Y": 557, "Width": 274, "Height": 83 },
+		  "When": {
+		  "Camel": "True",
+		  }
+       },
+	   
+	    // Trash Bear
+			
+	  {
+          "Logname": "Trash Bear",
+          "Action": "EditImage",
+          "Target": "Characters/TrashBear",
+          "FromFile": "assets/Other/Trash{{Trash Bear}}.png",
+		  "When": {
+            "Trash Bear": "Raccoon, Panda",
+         }
+       },
+	  {
+          "Logname": "Trash Bear cont",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors2",
+          "FromFile": "assets/Other/Trash{{Trash Bear}}2.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 64 }, 
+          "ToArea": { "X": 0, "Y": 80, "Width": 96, "Height": 64 },
+		  "When": {
+            "Trash Bear": "Raccoon, Panda",
+         }
+       }, 
+	   
+	    // Gem Bird
+			
+	  {
+          "Logname": "Gem Bird",
+          "Action": "EditImage",
+          "Target": "LooseSprites/GemBird",
+          "FromFile": "assets/Bird/GemBird{{Gem Bird}}.png",
+		  "When": {
+            "Gem Bird": "Crane, Gem",
+         }
+       },
+	  {
+          "Logname": "Gem Bird Small",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors2",
+          "FromFile": "assets/Bird/GemBird{{Gem Bird}}2.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 208, "Height": 18 }, 
+          "ToArea": { "X": 0, "Y": 302, "Width": 208, "Height": 18 },
+		  "When": {
+            "Gem Bird": "Crane, Gem",
+         }
+       }, 
+			
+	  {
+          "Logname": "Gem Bird Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/GemBird",
+          "FromFile": "assets/Bird/GemBird{{Random:Crane, Gem |key=GemBird}}.png",
+		  "When": {
+            "Gem Bird": "Random",
+         }
+       },
+	  {
+          "Logname": "Gem Bird Small Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors2",
+          "FromFile": "assets/Bird/GemBird{{Random:Crane, Gem |key=GemBird}}2.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 208, "Height": 18 }, 
+          "ToArea": { "X": 0, "Y": 302, "Width": 208, "Height": 18 },
+		  "When": {
+            "Gem Bird": "Random",
+         }
+       }, 
+	   
+	    // Title Bird
+	  {
+          "Logname": "Title Bird",
+          "Action": "EditImage",
+          "Target": "Minigames/TitleButtons",
+          "FromFile": "assets/Bird/Title{{Title Bird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 104, "Height": 18 }, 
+          "ToArea": { "X": 296, "Y": 230, "Width": 104, "Height": 18 },
+		  "When": {
+            "Title Bird": "Gem, Crow, Seagull, Pelican, Crane",
+         }
+       }, 
+	  {
+          "Logname": "Title Bird Random",
+          "Action": "EditImage",
+          "Target": "Minigames/TitleButtons",
+          "FromFile": "assets/Bird/Title{{Random:Gem, Crow, Seagull, Pelican, Crane}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 104, "Height": 18 }, 
+          "ToArea": { "X": 296, "Y": 230, "Width": 104, "Height": 18 },
+		  "When": {
+            "Title Bird": "Random",
+         }
+       }, 
+	   
+	    // Intro Bird
+	  {
+          "Logname": "Intro Bird",
+          "Action": "EditImage",
+          "Target": "Minigames/Intro",
+          "FromFile": "assets/Bird/Intro{{Spring Bird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 16 }, 
+          "ToArea": { "X": 16, "Y": 64, "Width": 96, "Height": 16 },
+		  "When": {
+            "Intro Bird": "True",
+         }
+       },  
+	  {
+          "Logname": "Intro Bird Random",
+          "Action": "EditImage",
+          "Target": "Minigames/Intro",
+          "FromFile": "assets/Bird/Intro{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren |key=SpringBird}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 16 }, 
+          "ToArea": { "X": 16, "Y": 64, "Width": 96, "Height": 16 },
+		  "When": {
+            "Intro Bird": "True",
+			"Spring Bird": "Random",
+         }
+       },
+	   
+	    // Bear
+	  {
+          "Logname": "Bear",
+          "Action": "EditImage",
+          "Target": "Characters/Bear",
+          "FromFile": "assets/Other/Bear.png",
+		  "When": {
+            "Secret Woods Bear": "True",
+         }
+       },
+	  {
+          "Logname": "Bear Portrait",
+          "Action": "EditImage",
+          "Target": "Portraits/Bear",
+          "FromFile": "assets/Other/BearPortrait.png",
+		  "When": {
+            "Secret Woods Bear": "True",
+         }
+       },
+	   
+	    // Marsupial
+	  {
+          "Logname": "Marsupial",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Other/Marsupial{{Marsupial}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 22 }, 
+          "ToArea": { "X": 141, "Y": 311, "Width": 80, "Height": 22 },
+		  "When": {
+            "Marsupial": "Vanilla, Kangaroo",
+         }
+       }, 
+	  {
+          "Logname": "Marsupial Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Other/Marsupial{{Random:Vanilla, Kangaroo}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 22 }, 
+          "ToArea": { "X": 141, "Y": 311, "Width": 80, "Height": 22 },
+		  "When": {
+            "Marsupial": "Random",
+         }
+       },
+	   
+	    // Gorilla
+	  {
+          "Logname": "Gorilla",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Other/Gorilla.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 352, "Width": 224, "Height": 32 },
+		  "When": {
+            "Gorilla": "True",
+         }
+       },
+	   
+	   
+	    // Caldera Monkey
+	  {
+          "Logname": "Caldera",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Other/Caldera{{Caldera Monkey}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 140, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 309, "Width": 140, "Height": 24 },
+		  "When": {
+            "Caldera Monkey": "Vanilla, Lava, Brown",
+         }
+       },
+	  {
+          "Logname": "Caldera cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Other/Caldera{{Caldera Monkey}}.png",
+          "FromArea": { "X": 0, "Y": 24, "Width": 42, "Height": 12 }, 
+          "ToArea": { "X": 0, "Y": 333, "Width": 42, "Height": 12 },
+		  "When": {
+            "Caldera Monkey": "Vanilla, Lava, Brown",
+         }
+       },
+	  {
+          "Logname": "Caldera Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Other/Caldera{{Random:Vanilla, Lava, Brown |key=Caldera}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 140, "Height": 24 }, 
+          "ToArea": { "X": 0, "Y": 309, "Width": 140, "Height": 24 },
+		  "When": {
+            "Caldera Monkey": "Random",
+         }
+       },
+	  {
+          "Logname": "Caldera Random cont",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Other/Caldera{{Random:Vanilla, Lava, Brown |key=Caldera}}.png",
+          "FromArea": { "X": 0, "Y": 24, "Width": 42, "Height": 12 }, 
+          "ToArea": { "X": 0, "Y": 333, "Width": 42, "Height": 12 },
+		  "When": {
+            "Caldera Monkey": "Random",
+         }
+       },
+	   
+	    // Theatre Birds
+	  {
+          "Logname": "Theatre Bird 1",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Theatre Bird 1}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 1": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl",
+         }
+       }, 
+	  {
+          "Logname": "Theatre Bird 1 Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 1": "Random",
+         }
+       }, 
+	  {
+          "Logname": "Theatre Bird 2",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Theatre Bird 2}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 16, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 2": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl",
+         }
+       }, 
+	  {
+          "Logname": "Theatre Bird 2 Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 16, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 2": "Random",
+         }
+       }, 
+	  {
+          "Logname": "Theatre Bird 3",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Theatre Bird 3}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 32, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 3": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl",
+         }
+       }, 
+	  {
+          "Logname": "Theatre Bird 3 Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 32, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 3": "Random",
+         }
+       },
+	  {
+          "Logname": "Theatre Bird 4",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Theatre Bird 4}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 48, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 4": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl",
+         }
+       }, 
+	  {
+          "Logname": "Theatre Bird 4 Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 48, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 4": "Random",
+         }
+       }, 
+	  {
+          "Logname": "Theatre Bird 5",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Theatre Bird 5}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 160, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 5": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl",
+         }
+       }, 
+	  {
+          "Logname": "Theatre Bird 5 Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 160, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 5": "Random",
+         }
+       }, 
+	  {
+          "Logname": "Theatre Bird 6",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Theatre Bird 6}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 176, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 6": "Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl",
+         }
+       }, 
+	  {
+          "Logname": "Theatre Bird 6 Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/birds",
+          "FromFile": "assets/Bird/Theatre{{Random:Black, Blonde, Bluebird, Brown, Cardinal, Chickadee, Cream, Goldfinch, Grey, Honeycreeper, Jay, Junco, Sparrow, Starling, Strawberry, Titmouse, White, Wren, Crow, Owl}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 16 }, 
+          "ToArea": { "X": 0, "Y": 176, "Width": 160, "Height": 16 },
+		  "When": {
+            "Theatre Bird 6": "Random",
+         }
+       }, 
+	   
+	    // Island Turtle
+	  {
+          "Logname": "Turtle",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors2",
+          "FromFile": "assets/Other/Turtle{{Island Turtle}}.png",
+          "ToArea": { "X": 152, "Y": 94, "Width": 104, "Height": 53 },
+		  "When": {
+            "Island Turtle": "Vanilla, Yellow, Green",
+         }
+       }, 
+	  {
+          "Logname": "Turtle Random",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors2",
+          "FromFile": "assets/Other/Turtle{{Random:Vanilla, Yellow, Green}}.png",
+          "ToArea": { "X": 152, "Y": 94, "Width": 104, "Height": 53 },
+		  "When": {
+            "Island Turtle": "Random",
+         }
+       },
+
+       // Crab   
+	   {
+          "Logname": "Crab",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Other/Crab{{Crab}}.png",
+          "ToArea": { "X": 0, "Y": 272, "Width": 54, "Height": 36 },
+		  "When": {
+		  "Crab": "Red, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown",
+		  }
+       }, 
+	   {
+          "Logname": "Crab cont",
+          "Action": "EditImage",
+          "Target": "LooseSprites/temporary_sprites_1",
+          "FromFile": "assets/Other/Crab{{Crab}}.png",
+          "ToArea": { "X": 259, "Y": 127, "Width": 54, "Height": 36 },
+		  "When": {
+		  "Crab": "Red, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown",
+		  }
+       }, 
+	   {
+          "Logname": "Crab Random",
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/Other/Crab{{Random:Red, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown |key=Crab}}.png",
+          "ToArea": { "X": 0, "Y": 272, "Width": 54, "Height": 36 },
+		  "When": {
+		  "Crab": "Random",
+		  }
+       }, 
+	   {
+          "Logname": "Crab Random cont",
+          "Action": "EditImage",
+          "Target": "LooseSprites/temporary_sprites_1",
+          "FromFile": "assets/Other/Crab{{Random:Red, Orange, Yellow, Green, Teal, Blue, Purple, White, Black, Brown |key=Crab}}.png",
+          "ToArea": { "X": 259, "Y": 127, "Width": 54, "Height": 36 },
+		  "When": {
+		  "Crab": "Random",
+		  }
+       },
+
+       // Gourmand   
+	   {
+          "Logname": "Gourmand",
+          "Action": "EditImage",
+          "Target": "Characters/Gourmand",
+          "FromFile": "assets/Other/Gourmand{{Gourmand}}.png",
+		  "When": {
+		  "Gourmand": "Vanilla, Dark, Light",
+		  }
+       },
+	   
+	   
+	   
+    ]
+}

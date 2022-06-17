@@ -1,0 +1,13 @@
+{
+  "EnableMod": true,
+  "IgnoreHarvestCrops": "",
+  "LabelLatePlanting": true,
+  "PreventLatePlant": true,
+  "WarnAboutPlantsUnwateredBeforeSleep": true,
+  "WarnAboutPlantsUnharvestedBeforeSleep": true,
+  "WarnAboutAnimalsOutsideBeforeSleep": true,
+  "WarnAboutAnimalsHungryBeforeSleep": true,
+  "WarnAboutAnimalsUnharvestedBeforeSleep": true,
+  "WarnAboutAnimalsNotPetBeforeSleep": true,
+  "DaysPerMonth": 28
+}
