@@ -1,3 +1,7 @@
 {
-  "CustomSkillPage": true
+  "CustomSkillPage": true,
+  "WalletLegacyStyle": false,
+  "WalletOnRightOfSkillPage": false,
+  "SupportAllProfessionsMod": true,
+  "DisposeOldTextures": false
 }

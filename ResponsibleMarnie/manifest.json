@@ -1,13 +1,11 @@
 {
-   "Name": "ResponsibleMarnie",
-   "Author": "MustafaDemirel",
-   "Version": "2.0.0",
-   "Description": "Marnie Stands behind the counter of her shop.",
-   "UniqueID": "MustafaDemirel.ResponsibleMarnie",
-   "MinimumApiVersion": "2.5.2",
-   "UpdateKeys": [ "Nexus:2559" ],
-   "ContentPackFor": {
-      "UniqueID": "Pathoschild.ContentPatcher", 
-      "MinimumVersion": "1.1.0" 
-   }
+    "Name": "Responsible Marnie",
+    "Author": "MustDmrll",
+    "Version": "3.0",
+    "Description": "Marnie stands behind the counter of her shop.",
+    "UniqueID": "MustDmrll.ResponsibleMarnie",
+    "UpdateKeys": [ "Nexus:2559" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
 }

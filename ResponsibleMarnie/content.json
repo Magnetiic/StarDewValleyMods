@@ -1,11 +1,13 @@
 {
-  "Format": "1.0",
-  "Changes": [
-
-       {
-          "Action": "Load",
-          "Target": "Characters/schedules/Marnie",
-          "FromFile": "Marnie.xnb"
-       },
-	]
+    "Format": "1.27.0",
+    "Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Marnie",
+		"Entries": {
+	            "Tue": "GOTO Sat",
+                        "Mon": "GOTO Sat",
+			},
+		},
+    ]
 }

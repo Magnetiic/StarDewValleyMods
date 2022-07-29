@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Generic translations 기본 번역
     *********/
@@ -8,7 +8,7 @@
     "generic.yesterday": "어제",
 
     // generic values
-    "generic.unknown": "unknown", // TODO
+    "generic.unknown": "알 수 없음",
 
     // generic field values 기본적 필드 값들
     "generic.percent": "{{percent}}%",
@@ -72,7 +72,7 @@
     "shop.marnie": "마니의 목장",
     "shop.pierre": "피에르 잡화점",
     "shop.robin": "로빈 목공소",
-    "shop.volcano": "volcano shop", // TODO
+    "shop.volcano": "화산 상점",
     "shop.willy": "윌리의 낚시용품점",
 
     // recipe types
@@ -84,7 +84,7 @@
     "data.npc.pet.description": "당신의 믿음직한 반려동물이다.",
     "data.npc.horse.description": "당신의 충직한 애마이다.",
     "data.npc.junimo.description": "정령계로부터 건너온 숲의 정령. 그들에 대하여는 알려진 바가 거의 없다.",
-    "data.npc.trashbear.description": "쓰레기를 치우는 친절한 정신.",
+    "data.npc.trash-bear.description": "쓰레기를 치우는 친절한 정신.",
 
     // item types
     "data.type.debris": "잔해",
@@ -135,8 +135,8 @@
     "data.item.topaz-node.description": "부수면 토파즈를 얻을 수 있다.",
 
     // mine ores
-    "data.item.cinder-shard-node.name": "Cinder Shard Node", // TODO
-    "data.item.cinder-shard-node.description": "Break apart to obtain cinder shards.", // TODO
+    "data.item.cinder-shard-node.name": "잉걸불 노드",
+    "data.item.cinder-shard-node.description": "부스면 잉걸불 파편을 얻을 수 있다.",
     "data.item.copper-node.name": "구리 노드",
     "data.item.copper-node.description": "부수면 구리 광석을 얻을 수 있다.",
     "data.item.gold-node.name": "금 노드",
@@ -145,21 +145,20 @@
     "data.item.iridium-node.description": "부수면 이리듐 광석을 얻을 수 있다.",
     "data.item.iron-node.name": "철 노드",
     "data.item.iron-node.description": "부수면 철 광석을 얻을 수 있다.",
-    "data.item.omni-geode-node.name": "Omni Geode Node", // TODO
-    "data.item.omni-geode-node.description": "Break apart to obtain an omni geode.", // TODO
+    "data.item.omni-geode-node.name": "전 전동석 노드",
+    "data.item.omni-geode-node.description": "부수면 전 전동석을 얻을 수 있다.",
 
     // mine stones
     "data.item.colored-stone.name": "유색의 돌",
     "data.item.colored-stone.description": "평범한 돌이다. 돌, 광석 또는 정동석을 얻을 수 있을지도 모른다.",
     "data.item.mine-stone.name": "돌",
-    "data.item.mine-stone.description": "Break apart to obtain stone with a chance of coal.", // TODO
+    "data.item.mine-stone.description": "부수면 돌과 철광석을 얻을 수 있다.",
 
     // other stones
-    // TODO
-    "data.item.clay-stone.name": "Clay Stone",
-    "data.item.clay-stone.description": "Break apart to obtain clay.",
-    "data.item.fossil-stone.name": "Fossil Stone",
-    "data.item.fossil-stone.description": "Break apart to obtain fossils and bones.",
+    "data.item.clay-stone.name": "점토 노드",
+    "data.item.clay-stone.description": "부수면 점토를 얻을 수 있다.",
+    "data.item.fossil-stone.name": "화석 노드",
+    "data.item.fossil-stone.description": "부수면 화석과  얻을 수 있다.",
 
     // mine containers
     "data.item.barrel.name": "나무통",
@@ -168,7 +167,7 @@
     "data.item.box.description": "부수면 잡다한 물품들을 얻을 수 있다.",
 
     // location names
-    "location.backwoods": "오지",
+    "location.backwoods": "오솔길",
     "location.beach": "해변",
     "location.beach.east-pier": "오른쪽 해변",
     "location.bugLand": "버그랜드",
@@ -193,15 +192,15 @@
     "location.witchSwamp": "마녀의 늪",
     "location.woods": "비밀 숲",
 
-    "location.caldera": "Ginger Island caldera", // TODO
-    "location.islandEast": "Ginger Island east", // TODO
-    "location.islandNorth": "Ginger Island north", // TODO
-    "location.islandSouth": "Ginger Island south", // TODO
-    "location.islandSouthEast": "Ginger Island southeast", // TODO
-    "location.islandSouthEastCave": "Ginger Island southeast cave", // TODO
-    "location.islandWest": "Ginger Island west", // TODO
-    "location.islandWest.fish-area-1": "Ginger Island west (ocean)", // TODO
-    "location.islandWest.fish-area-2": "Ginger Island west (pond)", // TODO
+    "location.caldera": "진저섬 칼데라",
+    "location.islandEast": "진저섬 동쪽",
+    "location.islandNorth": "진저섬 북쪽",
+    "location.islandSouth": "진저섬 남쪽",
+    "location.islandSouthEast": "진저섬 남동쪽",
+    "location.islandSouthEastCave": "진저섬 남동쪽 동굴",
+    "location.islandWest": "진저섬 서쪽",
+    "location.islandWest.fish-area-1": "진저섬 서쪽 (바다)",
+    "location.islandWest.fish-area-2": "진저섬 서쪽 (연못)",
 
     "location.unknown-fish-area": "{{locationName}} (낚시 장소 {{id}})",
 
@@ -336,8 +335,8 @@
     // labels
     "crop.summary": "작물",
     "crop.harvest": "수확",
-    "crop.fertilized": "Fertilized", // TODO
-    "crop.watered": "Watered", // TODO
+    "crop.fertilized": "비료",
+    "crop.watered": "물 줌",
 
     // values
     "crop.summary.dead": "이 작물은 시들었다.",
@@ -383,6 +382,7 @@
     "item.needed-for.full-collection": "도전과제 '수집 완료' (박물관에 기증)",
     "item.needed-for.gourmet-chef": "도전과제 '미식가 요리사' ({{recipes}}을/를 요리하세요)",
     "item.needed-for.craft-master": "도전과제 '제작의 달인' ({{recipes}}을/를 제작하세요)",
+    "item.needed-for.quests": "current quests ({{quests}})", // TODO
     "item.sells-to.shipping-box": "출하 상자",
     "item.recipes-for-ingredient.entry": "{{name}} ({{count}}개 필요)",
     "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
@@ -453,6 +453,7 @@
     "item.movie-ticket.loves-movie": "사랑하는 영화",
     "item.movie-ticket.likes-movie": "좋아하는 영화",
     "item.movie-ticket.dislikes-movie": "싫어하는 영화",
+    "item.movie-ticket.rejects-movie": "Won't watch movie", // TODO
 
     // values
     "item.movie-snack-preference.love": "{{name}} 사랑함",
@@ -465,9 +466,8 @@
     ** Item > music block lookups
     *********/
     // labels
-    // TODO
-    "item.music-block.pitch": "Pitch",
-    "item.music-block.drum-type": "Drum type",
+    "item.music-block.pitch": "음 높이",
+    "item.music-block.drum-type": "드럼 타입",
 
 
     /*********
@@ -579,53 +579,46 @@
     ** Puzzles
     *********/
     // labels
-    // TODO
-    "puzzle.solution": "Solution",
+    "puzzle.solution": "해결책",
 
     // values
-    // TODO
-    "puzzle.solution.solved": "Puzzle solved!",
-    "puzzle.solution.hidden": "Puzzle solutions are hidden in progression mode.",
+    "puzzle.solution.solved": "퍼즐 해결!",
+    "puzzle.solution.hidden": "진행 모드에 퍼즐 정답이 숨겨져 있습니다.",
 
 
     /*********
     ** Puzzles > Fern Islands crystal cave
     *********/
     // labels
-    // TODO
-    "puzzle.island-crystal-cave.title": "Crystal Cave Puzzle",
-    "puzzle.island-crystal-cave.crystal-id": "Crystal ID",
+    "puzzle.island-crystal-cave.title": "크리스탈 동굴 퍼즐",
+    "puzzle.island-crystal-cave.crystal-id": "크리스탈 ID",
 
     // values
-    // TODO
-    "puzzle.island-crystal-cave.solution.not-activated": "Activate the statue to start the puzzle.",
-    "puzzle.island-crystal-cave.solution.waiting": "Waiting for game to generate sequence...",
-    "puzzle.island-crystal-cave.solution.activated": "Repeat the pattern of activated crystals:",
+    "puzzle.island-crystal-cave.solution.not-activated": "퍼즐을 시작하려면 조각상을 작동시키세요.",
+    "puzzle.island-crystal-cave.solution.waiting": "게임의 문제 생성을 기다리는 중...",
+    "puzzle.island-crystal-cave.solution.activated": "활성화 된 크리스탈 패턴 반복:",
 
 
     /*********
     ** Puzzles > Fern Islands mermaid puzzle
     *********/
     // labels
-    // TODO
-    "puzzle.island-mermaid.title": "Island Mermaid Puzzle",
-    "puzzle.island-mermaid.solution.intro": "Use flute blocks to play the Night Market mermaid song. Pitch values (you can lookup a flute block to see its pitch):",
+    "puzzle.island-mermaid.title": "진저섬 인어 퍼즐",
+    "puzzle.island-mermaid.solution.intro": "플루트 블록을 사용하여 야시장 인어 노래를 연주하십시오. 피치 값 (플루트 블록을 검색해서 피치를 볼 수 있음) :",
 
 
     /*********
     ** Puzzles > Fern Islands shrine puzzle
     *********/
     // labels
-    // TODO
-    "puzzle.island-shrine.title": "Island Shrine Puzzle",
-    "puzzle.island-shrine.description": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
+    "puzzle.island-shrine.title": "진저섬 사당 퍼즐",
 
     // values
-    // TODO
-    "puzzle.island-shrine.solution.east": "East: {{item}}",
-    "puzzle.island-shrine.solution.north": "North: {{item}}",
-    "puzzle.island-shrine.solution.south": "South: {{item}}",
-    "puzzle.island-shrine.solution.west": "West: {{item}}",
+    "puzzle.island-shrine.solution": "각 받침대마다 비가 올 때 보석 새가 떨어뜨린 아이템을 해당 섬 위치에 놓습니다. 개체는 저장할 때마다 무작위로 지정됩니다.",
+    "puzzle.island-shrine.solution.east": "동쪽: {{item}}",
+    "puzzle.island-shrine.solution.north": "북쪽: {{item}}",
+    "puzzle.island-shrine.solution.south": "남쪽: {{item}}",
+    "puzzle.island-shrine.solution.west": "서쪽: {{item}}",
 
 
     /*********
@@ -633,7 +626,7 @@
     *********/
     // labels
     "tile.description": "지도상의 타일 위치. 이는 당신이 '타일 찾아보기(tile lookup)'를 활성화 했기 때문에 표시됨.",
-    "tile.game-location": "Location", // TODO
+    "tile.game-location": "위치",
     "tile.map-name": "맵 이름",
     "tile.tile": "타일",
     "tile.tile-index": "{{layerName}}: 타일 인덱스",
@@ -665,7 +658,7 @@
 
     // values
     "tree.name.big-mushroom": "큰 버섯",
-    "tree.name.mahogany": "Mahogany Tree", // TODO
+    "tree.name.mahogany": "마호가니 나무",
     "tree.name.maple": "단풍나무",
     "tree.name.oak": "참나무",
     "tree.name.palm": "야자나무",
@@ -683,5 +676,50 @@
     "tree.stages.sapling": "묘목",
     "tree.stages.bush": "관목",
     "tree.stages.smallTree": "작은 나무",
-    "tree.stages.tree": "나무"
+    "tree.stages.tree": "나무",
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    "config.title.main-options": "메인 옵션",
+    "config.progression-mode.name": "진행 모드",
+    "config.progression-mode.desc": "게임 내에서 발견할 때까지 일부 콘텐츠(예: 선물 취향 및 퍼즐 솔루션)를 숨길지 여부.",
+    "config.highlight-unrevealed-gift-tastes.name": "미공개 선물 취향 강조",
+    "config.highlight-unrevealed-gift-tastes.desc": "NPC 프로필에 표시되지 않은 항목 선물 취향을 강조 표시할지 여부. 활성화하면 공개되지 않은 선물 취향이 굵게 표시되고 조회 시 싫어하거나/증오하는 선물도 표시됩니다.",
+    "config.show-all-gift-tastes.name": "모든 선물 취향 표시",
+    "config.show-all-gift-tastes.desc": "NPC 및 아이템 조회에 대한 모든 선물 취향을 표시할지 여부. 비활성화되면 가장 관련성이 높은 취향(예: 사랑하거나 좋아하는 선물)만 표시됩니다.",
+
+    // advanced options
+    "config.title.advanced-options": "고급 옵션",
+    "config.tile-lookups.name": "타일 조회",
+    "config.tile-lookups.desc": "지도 타일을 조회 대상으로 포함할지 여부",
+    "config.data-mining-fields.name": "데이터 마이닝 필드 표시",
+    "config.data-mining-fields.desc": "데이터 마이너에 유용한 원시 데이터를 표시할지 여부(검색 결과 하단에 별도의 필드로 표시). 이것은 대부분의 플레이어를 위한 것이 아닌 고급 기능입니다.",
+    "config.force-full-screen.name": "전체 화면 강제 표시",
+    "config.force-full-screen.desc": "메뉴가 창 중앙이 아닌 항상 전체 화면이어야 하는지 여부. 이 기능은 주로 데이터 마이닝 필드를 볼 때 유용합니다.",
+    "config.target-redirection.name": "대상 전환",
+    "config.target-redirection.desc": "어떤 경우에는 게임이 다른 개체를 나타내는 임시 개체를 생성합니다. 예를 들어 광산에 있는 아비게일은 실제로 '광산 아비게일'이라는 이름의 임시 NPC이기 때문에 그녀를 찾아보면 아비게일의 실제 정보가 표시되지 않습니다. 이 옵션을 활성화하면 Lookup Anything 모드에서 원래 아비게일을 대신 조회합니다.",
+    "config.scroll-amount.name": "스크롤 간격",
+    "config.scroll-amount.desc": "각 위/아래 스크롤에서 콘텐츠를 이동할 픽셀 수.",
+
+    // controls section
+    "config.title.controls": "단축키 설정",
+    "config.hide-on-key-up.name": "키를 올릴 때 숨기기",
+    "config.hide-on-key-up.desc": "조회 키를 놓을 때 조회 UI를 숨길지 여부",
+    "config.toggle-lookup.name": "조회 전환",
+    "config.toggle-lookup.desc": "커서 아래에 있는 항목에 대한 조회 UI를 전환하는 키.",
+    "config.toggle-search.name": "검색 전환",
+    "config.toggle-search.desc": "검색창 실행 전환하는 키",
+    "config.scroll-up.name": "위로 스크롤",
+    "config.scroll-up.desc": "긴 내용을 몇 줄씩 위로 스크롤하는 키",
+    "config.scroll-down.name": "아래로 스크롤",
+    "config.scroll-down.desc": "긴 내용을 몇 줄씩 아래로 스크롤하는 키",
+    "config.page-up.name": "페이지 위로",
+    "config.page-up.desc": "긴 내용을 전체 페이지만큼 위로 스크롤하는 키.",
+    "config.page-down.name": "페이지 아래로",
+    "config.page-down.desc": "긴 내용을 전체 페이지만큼 아래로 스크롤하는 키.",
+    "config.toggle-debug.name": "디버그 전환",
+    "config.toggle-debug.desc": "디버그 정보 표시를 전환하는 키."
 }
