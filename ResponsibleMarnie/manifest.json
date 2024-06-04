@@ -1,8 +1,8 @@
 {
     "Name": "Responsible Marnie",
     "Author": "MustDmrll",
-    "Version": "3.0",
-    "Description": "Marnie stands behind the counter of her shop.",
+    "Version": "3.1",
+    "Description": "Marnie is a much more responsible person now!",
     "UniqueID": "MustDmrll.ResponsibleMarnie",
     "UpdateKeys": [ "Nexus:2559" ],
     "ContentPackFor": {

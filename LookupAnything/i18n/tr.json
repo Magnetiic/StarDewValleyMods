@@ -9,6 +9,7 @@
 
     // generic values
     "generic.unknown": "bilinmiyor",
+    "generic.list-separator": ", ", // text between listed values (like ", " in "A, B, C")
 
     // generic field values
     "generic.percent": "{{percent}}%",
@@ -27,6 +28,7 @@
     "generic.price": "{{price}}g",
     "generic.price-for-quality": "{{price}}g ({{quality}})",
     "generic.price-for-stack": "{{count}} adet için {{price}}g",
+    "generic.show-x-results": "show {{count}} results", // TODO
 
     // types
     "type.building": "Bina",
@@ -87,110 +89,29 @@
     "data.npc.trash-bear.description": "Çöpleri temizleyen arkadaş canlısı bir ruh.",
 
     // item types
-    "data.type.debris": "Moloz",
-    "data.type.stone": "Taş",
     "data.type.container": "Konteyner",
 
-    // farm items
+    // override item text
     "data.item.egg-incubator.description": "Yumurtadan yavru tavuklar ve ördekler çıkarır.",
-    "data.item.broken-branch.name": "Kırık Dal",
-    "data.item.broken-branch.description": "Kırık bir dal. Odun elde etmek için balta ile kırın.",
-    "data.item.stone.name": "Taş",
-    "data.item.stone.description": "Sıradan bir gri taş. Taş elde etmek için kırın.",
-    "data.item.geode.name": "Jeot Cevheri",
-    "data.item.geode.description": "Jeot elde etmek için kırın.",
-    "data.item.frozen-geode.name": "Donmuş Jeot Cevheri",
-    "data.item.frozen-geode.description": "Donmuş jeot elde etmek için kırın.",
-    "data.item.magma-geode.name": "Yanık Jeot Cevheri",
-    "data.item.magma-geode.description": "Yanık jeot elde etmek için kırın.",
-
-    // weeds & crystals
-    "data.item.weed.name": "Yabani Ot",
-    "data.item.weed.description": "Sıradan bir ot. Lif veya karışık tohum içerebilir.",
-    "data.item.fertile-weed.name": "Verimli Yabani Ot",
-    "data.item.fertile-weed.description": "Karışık tohum düşürme garantili.",
-    "data.item.ice-crystal.name": "Buz Kristali",
-    "data.item.ice-crystal.description": "Sıradan bir buz kristali. Çok düşük şansla işlenmiş kuvars içerebilir.",
-
-    // mine gems
-    "data.item.amethyst-node.name": "Ametist Cevheri",
-    "data.item.amethyst-node.description": "Ametist elde etmek için kırın.",
-    "data.item.aquamarine-node.name": "Gök Zümrütü Cevheri",
-    "data.item.aquamarine-node.description": "Gök zümrütü elde etmek için kırın.",
-    "data.item.diamond-node.name": "Elmas Cevheri",
-    "data.item.diamond-node.description": "Elmas elde etmek için kırın.",
-    "data.item.emerald-node.name": "Zümrüt Cevheri",
-    "data.item.emerald-node.description": "Zümrüt elde etmek için kırın.",
-    "data.item.gem-node.name": "Değerli Taş Cevheri",
-    "data.item.gem-node.description": "Zümrüt, gök zümrütü, yakut, ametist, topaz, yeşim, yada elmas elde etmek için kırın.",
-    "data.item.jade-node.name": "Yeşim Cevheri",
-    "data.item.jade-node.description": "Yeşim elde etmek için kırın.",
-    "data.item.mystic-stone.name": "Mistik Taş",
-    "data.item.mystic-stone.description": "Ender mücevherler ve cevherler elde etmek için kırın, prizma parçasıda çıkabilir.",
-    "data.item.prismatic-node.name": "Prizma Cevheri",
-    "data.item.prismatic-node.description": "Prizma parçası elde etmek için kırın.",
-    "data.item.ruby-node.name": "Yakut Cevheri",
-    "data.item.ruby-node.description": "Yakut elde etmek için kırın.",
-    "data.item.topaz-node.name": "Topaz Cevheri",
-    "data.item.topaz-node.description": "Topaz elde etmek için kırın.",
-
-    // mine ores
-    "data.item.cinder-shard-node.name": "Yıldız Parçaçığı Cevheri",
-    "data.item.cinder-shard-node.description": "Yıldız parçaçığı elde etmek için kırın.",
-    "data.item.copper-node.name": "Bakır Cevheri",
-    "data.item.copper-node.description": "Bakır elde etmek için kırın.",
-    "data.item.gold-node.name": "Altın Cevheri",
-    "data.item.gold-node.description": "Altın elde etmek için kırın.",
-    "data.item.iridium-node.name": "İridyum Cevheri",
-    "data.item.iridium-node.description": " İridyum elde etmek için kırın.",
-    "data.item.iron-node.name": "Demir Cevheri",
-    "data.item.iron-node.description": "Demir elde etmek için kırın.",
-    "data.item.omni-geode-node.name": "Bütünjeot Cevheri",
-    "data.item.omni-geode-node.description": "Bütünjeot elde etmek için kırın.",
-
-    // mine stones
-    "data.item.colored-stone.name": "Renkli Taş",
-    "data.item.colored-stone.description": "Sıradan bir taş. İçinde taş, cevher ya da jeot olabilir.",
-    "data.item.mine-stone.name": "Taş",
-    "data.item.mine-stone.description": "Taş ve ufak bir şans ile kömür elde etmek için kırın.",
-
-    // other stones
-    "data.item.clay-stone.name": "Kil Taşı",
-    "data.item.clay-stone.description": "Kil elde etmek için kır.",
-    "data.item.fossil-stone.name": "Fosilleşmiş Taş",
-    "data.item.fossil-stone.description": "Fosil ve kemik elde etmek için kır.",
-
-    // mine containers
     "data.item.barrel.name": "Fıçı",
     "data.item.barrel.description": "Çeşitli eşyalar elde etmek için parçala.",
     "data.item.box.name": "Kutu",
     "data.item.box.description": "Çeşitli eşyalar elde etmek için parçala.",
 
     // location names
-    "location.backwoods": "Kömürözü Ormanı",
-    "location.beach": "Sahil",
     "location.beach.east-pier": "Sahil (doğu iskelesi)",
     "location.bugLand": "Mutant böcek yuvası",
-    "location.busStop": "Otobüs Durağı",
-    "location.desert": "Çöl",
-    "location.farm": "Çiftlik",
+    "location.desert.topPond": "desert (north pond)", // TODO
     "location.farmCave": "Çiftlik Mağarası",
     "location.farmHouse": "Çiftlik Evi",
-    "location.forest": "Orman",
-    "location.forest.fish-area-0": "Orman Nehri",
-    "location.forest.fish-area-1": "Orman Göleti",
     "location.forest.island-tip": "Orman Nehri (büyük adanın güney ucu)",
-    "location.mountain": "Dağ",
-    "location.railroad": "Demiryolu",
-    "location.sewer": "Kanalizasyon",
+    "location.forest.lake": "Orman Göleti",
+    "location.forest.river": "Orman Nehri",
     "location.submarine": "Akşam Pazarı Denizaltısı",
-    "location.town": "Kasaba",
     "location.town.northmost-bridge": "Kasaba (en kuzeydeki köprü)",
-    "location.tunnel": "Otobüs Tüneli",
     "location.undergroundMine": "Maden",
     "location.undergroundMine.level": "Maden seviyesi {{level}}",
     "location.witchSwamp": "Cadı'nın Bataklığı",
-    "location.woods": "Gizli Orman",
 
     "location.caldera": "Zencefil Adası krateri",
     "location.islandEast": "Zencefil Adası doğu",
@@ -199,10 +120,34 @@
     "location.islandSouthEast": "Zencefil Adası güneydoğu",
     "location.islandSouthEastCave": "Zencefil Adası güneydoğu mağarası",
     "location.islandWest": "Zencefil Adası batı",
-    "location.islandWest.fish-area-1": "Zencefil Adası batı (okyanus)",
-    "location.islandWest.fish-area-2": "Zencefil Adası batı (gölet)",
+    "location.islandWest.freshwater": "Zencefil Adası batı (gölet)",
+    "location.islandWest.ocean": "Zencefil Adası batı (okyanus)",
 
+    "location.fish-area": "{{locationName}} ({{areaName}})",
     "location.unknown-fish-area": "{{locationName}} (balıkçılık alanı {{id}})",
+
+
+    /*********
+    ** Conditions & context tags
+    *********/
+    // TODO
+    "condition-or-context-tag.negate": "not {{value}}",
+
+    "condition.item-type.input": "input item",
+    "condition.item-type.target": "target item",
+
+    "condition.item-context-tag": "{{item}} has context tag {{tags}}",
+    "condition.item-context-tags": "{{item}} has context tags {{tags}}",
+    "condition.item-context-tag.value": "'{{tag}}'", // the format of each context tag in the list (each context tag isn't translated)
+
+    "condition.item-edibility.edible": "{{item}} is edible",
+    "condition.item-edibility.min": "{{item}} has edibility of {{min}} or more",
+    "condition.item-edibility.range": "{{item}} has edibility of {{min}} to {{max}}",
+
+    "context-tag.bone": "any bone",
+    "context-tag.egg": "any egg",
+    "context-tag.large-egg": "any large egg",
+    "context-tag.preserved-item": "preserved {{name}}",
 
 
     /*********
@@ -252,8 +197,7 @@
     "building.output-processing": "Ürün işleniyor",
     "building.output-ready": "Ürün hazır",
     "building.slimes.summary": "şuan {{count}} balçıkca, maksimum {{max}} balçıkca",
-    "building.stored-hay.summary-one-silo": "{{hayCount}} saman (kapasite: {{maxHay}})",
-    "building.stored-hay.summary-multiple-silos": "{{siloCount}} siloda {{hayCount}} saman var (kapasite: {{maxHay}})",
+    "building.stored-hay.summary": "Bu konumda {{hayCount}}/{{maxHayInLocation}} saman (bu binadaki maksimum kapasite: {{maxHayInBuilding}})",
     "building.upgrades.barn.0": "4 hayvana kadar, inekler eklenebilir",
     "building.upgrades.barn.1": "8 hayvana kadar, hamilelik ve keçiler eklenebilir",
     "building.upgrades.barn.2": "12 hayvana kadar, oto yemleme, domuzlar, ve koyunlar eklenebilir",
@@ -353,6 +297,7 @@
     ** Item > generic lookups
     *********/
     // labels
+    "item.custom-item": "Özel eşya",
     "item.contents": "İçindekiler",
     "item.loves-this": "Bunu seviyor",
     "item.likes-this": "Bunu beğeniyor",
@@ -371,6 +316,7 @@
     "item.produces-dye": "Boya üretir",
 
     // values
+    "item.custom-item.summary": "{{modName}} tarafından eklendi",
     "item.contents.placed": "{{name}} yerleştirildi",
     "item.contents.ready": "{{name}} hazır",
     "item.contents.partial": "{{name}} içinde {{time}}",
@@ -383,9 +329,13 @@
     "item.needed-for.gourmet-chef": "gurme şef başarısı (pişir {{recipes}})",
     "item.needed-for.craft-master": "zanaat ustası başarısı (yap {{recipes}})",
     "item.needed-for.quests": "şuanki görevler ({{quests}})",
+    "item.unknown-recipes": "{{count}} unknown recipes", // TODO
     "item.sells-to.shipping-box": "gönderi kutusu",
     "item.recipes-for-ingredient.entry": "{{name}} (lazım {{count}})",
     "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
+    "item.recipes-for-machine.same-as-input": "[same as input]", // e.g. crystalarium produces same item that was put in // TODO
+    "item.recipes-for-machine.conditions": "[conditions: {{conditions}}]", // TODO
+    "item.recipes-for-machine.too-complex": "Some machine rules are too dynamic to display.", // TODO
     "item.number-owned.summary": "bundan {{count}} tane sahipsin",
     "item.number-crafted.summary": "bundan {{count}} tane yaptın",
 
@@ -445,6 +395,28 @@
 
 
     /*********
+    ** Item > melee weapon lookups
+    *********/
+    // labels
+    "item.melee-weapon.accuracy": "Kesinlik",
+    "item.melee-weapon.critical-chance": "Kritik şans",
+    "item.melee-weapon.critical-damage": "Kritik hasar",
+    "item.melee-weapon.damage": "Hasar",
+    "item.melee-weapon.defense": "Savunma",
+    "item.melee-weapon.knockback": "Geri tepme",
+    "item.melee-weapon.reach": "Menzil",
+    "item.melee-weapon.speed": "Atak hızı",
+
+    // values
+    "item.melee-weapon.critical-damage.label": "Normal hasarın {{multiplier}} katı (oyuncu bonuslarından önce)",
+    "item.melee-weapon.defense.label": "Donanımlıyken {{amount}}",
+    "item.melee-weapon.knockback.label": "{{amount}} (normal mesafenin {{multiplier}} katı)",
+    "item.melee-weapon.reach.label": "{{amount}} piksel",
+    "item.melee-weapon.speed.shown-vs-actual": "gösterilen: {{shownSpeed}}{{lineBreak}} gerçek: {{actualSpeed}}",
+    "item.melee-weapon.speed.summary": "{{hız}} (dönüş karesi başına {{milisaniye}} milisaniye, oyuncu hız bonuslarından önce)",
+
+
+    /*********
     ** Item > movie lookups
     *********/
     // labels
@@ -453,7 +425,7 @@
     "item.movie-ticket.loves-movie": "Filmi sevenler",
     "item.movie-ticket.likes-movie": "Filmi beğenenler",
     "item.movie-ticket.dislikes-movie": "Filmi beğenmeyenler",
-    "item.movie-ticket.rejects-movie": "Won't watch movie", // TODO
+    "item.movie-ticket.rejects-movie": "Film izlemeyeceğim",
 
     // values
     "item.movie-snack-preference.love": "{{name}} bunu seviyor",
@@ -512,7 +484,7 @@
     "npc.friendship.need-bouquet": "ilerlemek için buket gerekli",
     "npc.friendship.need-points": "{{count}} puana gelişir",
     "npc.undiscovered-gift-taste": "{{count}} gizli nesneler",
-    "npc.undiscovered-gift-taste-appended": ", ve {{count}} gizli nesneler",
+    "npc.unowned-gift-taste": "{{count}} sahipsiz öğe",
 
 
     /*********
@@ -583,7 +555,7 @@
 
     // values
     "puzzle.solution.solved": "Bulmaca çözüldü!",
-    "puzzle.solution.hidden": "Bulmaca çözümleri ilerleme modun gizlidir.",
+    "puzzle.solution.hidden": "Bulmaca çözümleri ayarlarınıza göre gizlidir.",
 
 
     /*********
@@ -628,12 +600,12 @@
     "tile.description": "Bir karonun haritadaki konumu. Bu gösteriliyor çünkü konfigürasyonda karo gösterimini etkinleştirdin.",
     "tile.game-location": "Konum",
     "tile.map-name": "Harita ismi",
-    "tile.tile": "Tile", // TODO
-    "tile.tile-index": "{{layerName}}: tile index", // TODO
-    "tile.tilesheet": "{{layerName}}: tilesheet", // TODO
-    "tile.blend-mode": "{{layerName}}: blend mode", // TODO
-    "tile.index-property": "{{layerName}}: ix props: {{propertyName}}", // TODO
-    "tile.tile-property": "{{layerName}}: props: {{propertyName}}", // TODO
+    "tile.tile": "Karo",
+    "tile.tile-index": "{{layerName}}: karo indeksi",
+    "tile.tilesheet": "{{layerName}}: karo seti",
+    "tile.blend-mode": "{{layerName}}: karışım modu",
+    "tile.index-property": "{{layerName}}: ix destekleri: {{propertyName}}",
+    "tile.tile-property": "{{layerName}}: destekler: {{propertyName}}",
 
     // values
     "tile.tile.none-here": "burada karo yok",
@@ -653,22 +625,27 @@
     // labels
     "tree.stage": "Büyüme durumu",
     "tree.next-growth": "Sonraki büyüme",
-    "tree.has-seed": "Tohum var",
+    "tree.seed": "Tohum var",
     "tree.is-fertilized": "Gübrelenmiş",
 
     // values
-    "tree.name.big-mushroom": "Mantar Ağaçı",
-    "tree.name.mahogany": "Maun Ağaçı",
+    "tree.name.big-mushroom": "Mantar Ağacı",
+    "tree.name.mahogany": "Maun Ağacı",
     "tree.name.maple": "Akçaağaç",
-    "tree.name.oak": "Meşe Ağaçı",
-    "tree.name.palm": "Palmiye Ağaçı",
-    "tree.name.pine": "Çam Ağaçı",
+    "tree.name.oak": "Meşe Ağacı",
+    "tree.name.palm": "Palmiye Ağacı",
+    "tree.name.pine": "Çam Ağacı",
+    "tree.name.mossy": "Yosun Ağacı",
+    "tree.name.mystic": "Mistik Ağaç",
     "tree.name.unknown": "Bilinmeyen Ağaç",
     "tree.stage.done": "Tamamen olgunlaşmış",
     "tree.stage.partial": "{{stageName}} ({{step}} of {{max}})",
     "tree.next-growth.winter": "gübrelenmediği sürece kışın sera dışında büyüyemez",
     "tree.next-growth.adjacent-trees": "büyüyemiyor çünkü diğer ağaçlar çok yakın",
     "tree.next-growth.chance": "{{chance}}% şansla yarın {{stage}} aşamasına olgunlaşacak",
+    "tree.seed.not-ready": "Hazır değil",
+    "tree.seed.probability-daily": "Her gün {{itemName}} şansının %{{chance}}.",
+    "tree.seed.probability-on-chop": "Kesildiğinde {{itemName}} düşürme şansı: %{{chance}}.",
 
     // growth stages
     "tree.stages.seed": "tohum",
@@ -684,12 +661,52 @@
     *********/
     // main options
     "config.title.main-options": "Ana seçenekler",
-    "config.progression-mode.name": "İlerleme modu",
-    "config.progression-mode.desc": "Oyunda keşfedene kadar bazı içeriklerin (örn. hediye zevkleri ve bulmaca çözümleri) gizlenip gizlenmeyeceği.",
+    "config.force-full-screen.name": "Tam ekranı zorla",
+    "config.force-full-screen.desc": "Menünün pencerede ortalanmak yerine her zaman tam ekran olup olmayacağı. Bu, özellikle veri madenciliği alanlarını görüntülerken kullanışlıdır.",
+
+    // progression mode
+    // TODO
+    "config.title.progression": "İlerleme modu",
+
+    "config.progression.show-unknown-gift-tastes.name": "Show unknown gift tastes",
+    "config.progression.show-unknown-gift-tastes.desc": "Whether to show gift tastes you haven't learned about in-game yet (e.g. from dialogue text or experimenting).",
+
+    "config.progression.show-unknown-recipes.name": "Show unknown recipes",
+    "config.progression.show-unknown-recipes.desc": "Whether to show recipes you haven't learned in-game yet.",
+
+    "config.progression.show-puzzle-solutions.name": "Show puzzle solutions",
+    "config.progression.show-puzzle-solutions.desc": "Whether to show puzzle solutions.",
+
+    // gift tastes
+    "config.title.gift-tastes": "Hediye Zevkleri",
+    "config.show-gift-tastes.loved.name": "En Sevilen hediyeleri göster",
+    "config.show-gift-tastes.loved.desc": "En Sevilen hediyelerin NPC'de ve eşya aramalarında gösterilip gösterilmeyeceği.",
+    "config.show-gift-tastes.liked.name": "Beğenilen hediyeleri göster",
+    "config.show-gift-tastes.liked.desc": "Beğenilen hediyelerin NPC'de ve eşya aramalarında gösterilip gösterilmeyeceği.",
+    "config.show-gift-tastes.neutral.name": "Tarafsız hediyeleri göster",
+    "config.show-gift-tastes.neutral.desc": "NPC'de ve eşya aramalarında tarafsız hediyelerin gösterilip gösterilmeyeceği.",
+    "config.show-gift-tastes.disliked.name": "Beğenilmeyen hediyeleri göster",
+    "config.show-gift-tastes.disliked.desc": "Beğenilmeyen hediyelerin NPC'de ve eşya aramalarında gösterilip gösterilmeyeceği.",
+    "config.show-gift-tastes.hated.name": "Nefret edilen hediyeleri göster",
+    "config.show-gift-tastes.hated.desc": "Nefret edilen hediyelerin NPC'de ve eşya aramalarında gösterilip gösterilmeyeceği.",
+
+    "config.show-unowned-gifts.name": "Sahip olunmayan hediye zevklerini göster",
+    "config.show-unowned-gifts.desc": "Oyuncunun, dünyanın herhangi bir yerinde sahip olmadığı hediye zevklerini gösterir.",
+
     "config.highlight-unrevealed-gift-tastes.name": "Açıklanmayan hediye zevklerini vurgulayın",
-    "config.highlight-unrevealed-gift-tastes.desc": "NPC profilinde açıklanmayan eşya hediye zevklerinin vurgulanıp vurgulanmayacağı. Etkinleştirildiğinde, açıklanmayan hediye zevkleri cesur olacak ve aramalarda ayrıca beğenilmeyen/nefret edilen hediyeler de gösterilecek.",
-    "config.show-all-gift-tastes.name": "Bütün hediye zevklerini göster",
-    "config.show-all-gift-tastes.desc": "NPC ve item aramaları için tüm hediye zevklerinin gösterilip gösterilmeyeceği; devre dışı bırakıldığında, yalnızca en alakalı lezzetler (örneğin sevilen veya sevilen hediyeler) gösterilir.",
+    "config.highlight-unrevealed-gift-tastes.desc": "NPC profilinde açıklanmayan eşya hediye zevklerinin vurgulanıp vurgulanmayacağı. Etkinleştirildiğinde, açıklanmayan hediye zevkleri gösterilecek.",
+
+    // collapse fields
+    // TODO
+    "config.title.collapse-fields": "Collapse large fields",
+
+    "config.collapse-fields.enabled.name": "Enabled",
+    "config.collapse-fields.enabled.desc": "Whether to collapse large fields, so the lookup menu will replace the list with a clickable 'show X values' link to expand it.",
+
+    "config.collapse-fields.building-recipes.name": "Building lookup: recipes",
+    "config.collapse-fields.item-recipes.name": "Item lookup: recipes",
+    "config.collapse-fields.npc-gift-tastes.name": "NPC lookup: gift tastes",
+    "config.collapse-fields.any.desc": "If the field contains this many values, the lookup menu will replace the list with a clickable 'show X values' link to expand it.",
 
     // advanced options
     "config.title.advanced-options": "Gelişmiş Seçenekler",
@@ -697,8 +714,6 @@
     "config.tile-lookups.desc": "Harita karolarının arama hedefleri olarak dahil edilip edilmeyeceği.",
     "config.data-mining-fields.name": "Veri madenciliği alanlarını göster",
     "config.data-mining-fields.desc": "Veri madencileri için yararlı olan ham verilerin gösterilip gösterilmeyeceği (arama sonuçlarının altında ayrı alanlar olarak). Bu, çoğu oyuncu için tasarlanmayan gelişmiş bir özelliktir.",
-    "config.force-full-screen.name": "Tam ekranı zorla",
-    "config.force-full-screen.desc": "Menünün pencerede ortalanmak yerine her zaman tam ekran olup olmayacağı. Bu, özellikle veri madenciliği alanlarını görüntülerken kullanışlıdır.",
     "config.target-redirection.name": "Hedef yönlendirme",
     "config.target-redirection.desc": "Bazı durumlarda oyun, bir başkasını temsil etmek için geçici bir varlık yaratır. Örneğin, madendeki Abigail aslında 'AbigailMine' adında geçici bir NPC'dir, bu yüzden ona orada bakmak Abigail'in gerçek bilgilerini göstermez. Bu seçenek etkinleştirildiğinde, Lookup Anything, bunun yerine orijinal Abigail'i arayacaktır.",
     "config.scroll-amount.name": "Kaydırma miktarı",
@@ -706,7 +721,7 @@
 
     // controls section
     "config.title.controls": "Kontroller",
-    "config.hide-on-key-up.name": "Hide on key up", // TODO
+    "config.hide-on-key-up.name": "Anahtar açıldığında gizlen",
     "config.hide-on-key-up.desc": "Arama anahtarını bıraktığınızda arama kullanıcı arabiriminin gizlenip gizlenmeyeceği.",
     "config.toggle-lookup.name": "Aramayı aç/kapat",
     "config.toggle-lookup.desc": "İmlecin altındaki bir şey için arama kullanıcı arayüzünü değiştiren tuşlar.",

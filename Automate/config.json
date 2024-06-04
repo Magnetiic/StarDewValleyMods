@@ -1,16 +1,17 @@
 {
   "Enabled": true,
-  "PullGemstonesFromJunimoHuts": false,
   "AutomationInterval": 60,
   "Controls": {
     "ToggleOverlay": "U"
   },
   "ConnectorNames": [
-    "Workbench"
+    "Gravel Path"
   ],
-  "ModCompatibility": {
-    "BetterJunimos": true,
-    "WarnForMissingBridgeMod": true
-  },
-  "MachineOverrides": {}
+  "JunimoHutBehaviorForGems": "AutoDetect",
+  "JunimoHutBehaviorForFertilizer": "AutoDetect",
+  "JunimoHutBehaviorForSeeds": "AutoDetect",
+  "CollectTreeMoss": true,
+  "WarnForMissingBridgeMod": true,
+  "MachineOverrides": {},
+  "MinMinutesForFairyDust": 20
 }

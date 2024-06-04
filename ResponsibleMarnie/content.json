@@ -1,5 +1,5 @@
 {
-    "Format": "1.27.0",
+    "Format": "1.29.0",
     "Changes": [
 	{
 		"Action": "EditData",
@@ -7,6 +7,14 @@
 		"Entries": {
 	            "Tue": "GOTO Sat",
                         "Mon": "GOTO Sat",
+			},
+		},	
+	{
+		"Action": "EditData",
+		"Target": "Characters/dialogue/Marnie",
+		"Entries": {
+	            "Tue": "I don't think I'm gonna go to the exercise for a while.#$b#I've been exhausting myself lately. It's nicer to stay behind the counter instead.",
+                     "AnimalShop_Mon": "I feel like I'm making more money since I stopped going to the exercise.#$b#Maybe I won't go for a while.",
 			},
 		},
     ]

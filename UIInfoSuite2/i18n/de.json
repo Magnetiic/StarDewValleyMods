@@ -1,4 +1,6 @@
 {
+  // GUI - Game Menu
+  "OptionsTabTooltip": "UI Info Suite 2 Optionen",
   //GUI - Billboard
   "Billboard": "Schwarzes Brett",
   "Calendar": "Kalender",
@@ -19,10 +21,15 @@
   "SnowNextDay": "Es wird morgen schneien",
   "IslandRainNextDay": "Es wird morgen regnen",
   "IslandThunderstormNextDay": "Es wird morgen ein Gewitter geben",
-  "DaysUntilToolIsUpgraded": "{0} Tage bis {1} fertig verbessert wurde",
+  "DaysUntilToolIsUpgraded": "{0} Tag(e) bis {1} fertig verbessert wurde",
   "ToolIsFinishedBeingUpgraded": "{0} ist fertig!",
   "NpcBirthday": "{0}'s Geburtstag",
   "RobinBuildingStatus": "Robin wird in {0} Tage(n) mit dem Bau fertig sein",
+  "RobinHouseUpgradeStatus": "Robin wird in {0} Tage(n) mit der Hauserweiterung fertig sein",
+  // Display icons - Foragables
+  "CanFindSalmonberry": "Du kannst heute Lachsbeeren finden",
+  "CanFindBlackberry": "Du kannst heute Brombeeren finden",
+  "CanFindHazelnut": "Du kannst heute Haselnüsse auf Bäumen finden",
   //Display icons - Luck
   "DailyLuckValue": "Dein heutiges Glück ist {0}",
   "FeelingLucky": "Heute ist dein absoluter Glückstag!",
@@ -62,6 +69,8 @@
   "ShowRobinBuildingStatusIcon": "Zeige Robins Bau-Status",
   "ShowLuckIcon": "Zeige Glücksymbol",
   "ShowExactValue": "Zeige exakten Wert",
+  "ShowSeasonalBerry": "Zeige saisonale Früchte",
+  "ShowSeasonalBerryHazelnut": "Zeige Haselnüsse auf Bäumen",
   //Others
   "LevelUp": "Level aufgestiegen"
 }

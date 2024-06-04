@@ -965,6 +965,7 @@
           "Action": "EditImage",
           "Target": "Characters/KrobusRaven",
           "FromFile": "assets/Bird/{{Crow}}2.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 },
           "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 },
 		  "When": {
 		  "Crow": "Crow, Magpie",
@@ -997,6 +998,7 @@
           "Action": "EditImage",
           "Target": "Characters/KrobusRaven",
           "FromFile": "assets/Bird/{{Random:Crow, Magpie |key=Crow}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 },
           "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 32 },
 		  "When": {
 		  "Crow": "Random",
@@ -1492,10 +1494,22 @@
 	   {
           "Logname": "Dusty",
           "Action": "EditImage",
+		  "Patchmode": "Overlay",
           "Target": "LooseSprites/Cursors",
           "FromFile": "assets/Other/Dusty{{Dusty}}.png",
-          "FromArea": { "X": 0, "Y": 0, "Width": 72, "Height": 40 }, 
-          "ToArea": { "X": 324, "Y": 1916, "Width": 72, "Height": 40 },
+          "FromArea": { "X": 0, "Y": 0, "Width": 72, "Height": 36 }, 
+          "ToArea": { "X": 324, "Y": 1916, "Width": 72, "Height": 36 },
+		  "When": {
+		  "Dusty": "Bully, German, Pitbull",
+		  }
+       },
+	   {
+          "Logname": "Dusty",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/Other/Dusty{{Dusty}}.png",
+          "FromArea": { "X": 0, "Y": 36, "Width": 72, "Height": 4 }, 
+          "ToArea": { "X": 324, "Y": 1952, "Width": 72, "Height": 4 },
 		  "When": {
 		  "Dusty": "Bully, German, Pitbull",
 		  }

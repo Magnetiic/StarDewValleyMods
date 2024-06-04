@@ -1,7 +1,7 @@
 {
    "Name": "Elle's Town Animals",
    "Author": "Elle/Junimods",
-   "Version": "1.4.1",
+   "Version": "1.4.2",
    "Description": "Replaces most animals throughout Stardew Valley!",
    "UniqueID": "Elle.TownAnimals",
    "MinimumApiVersion": "2.5",
@@ -10,6 +10,10 @@
       "UniqueID": "Pathoschild.ContentPatcher"
    },
    "Dependencies": [
+   {
+      "UniqueID": "Elle.TownBuildings",
+      "IsRequired": false
+   },
    {
       "UniqueID": "Tanpoponoko.SeasonalOutfits",
       "IsRequired": false
