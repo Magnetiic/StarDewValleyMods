@@ -136,6 +136,9 @@
     "condition.item-type.input": "input item",
     "condition.item-type.target": "target item",
 
+    "condition.raw-context-tag": "context tag \"{{tag}}\"",
+    "condition.raw-condition": "query \"{{tag}}\"",
+
     "condition.item-context-tag": "{{item}} has context tag {{tags}}",
     "condition.item-context-tags": "{{item}} has context tags {{tags}}",
     "condition.item-context-tag.value": "'{{tag}}'", // the format of each context tag in the list (each context tag isn't translated)
