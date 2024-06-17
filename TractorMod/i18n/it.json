@@ -48,9 +48,8 @@
     "config.build-price.name": "Prezzo di costruzione",
     "config.build-price.tooltip": "Il prezzo dell'oro per acquistare un garage per trattori. Predefinito {{defaultValue}}g.",
 
-    // TODO
-    "config.require-build-materials.name": "Require Build Materials",
-    "config.require-build-materials.tooltip": "Whether you need to provide materials to build a tractor garage, in addition to the gold price.",
+    "config.require-build-materials.name": "Richiede materiali da costruzione",
+    "config.require-build-materials.tooltip": "Scegli se è necessario fornire i materiali per costruire un garage per trattori, oltre al prezzo in oro.",
 
     "config.can-summon-without-garage.name": "Puoi evocarlo senza garage",
     "config.can-summon-without-garage.tooltip": "Scegli se sia possibile convocare un trattore temporaneo senza costruire prima un garage.",
